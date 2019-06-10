@@ -1,0 +1,30 @@
+
+*** Tests of modulo()
+
+p(x) = x^5 + 7 x^2 + 13
+q(x) = x^3 + 7 x + 3
+
+  p(x) mod q(x) = 4 x^2 + 49 x + 34
+  q(x) mod p(x) = x^3 + 7 x + 3
+
+r(x) = x^10 + 2 x^9 + 3 x^8
+s(x) = x^6 - 2 x^4 + 4 x^2 - 8
+
+  r(x) mod s(x) = 16 x^2 + 32 x + 48
+  s(x) mod r(x) = x^6 - 2 x^4 + 4 x^2 - 8
+
+t(x) = x^10 - 55 x^9 + 1320 x^8 - 18150 x^7 + 157773 x^6 - 902055 x^5 + 3416930 x^4 - 8409500 x^3 + 12753576 x^2 - 10628640 x + 3628800
+
+  t(x) mod x = 3628800
+  t(x) mod x - 1 = 0
+  t(x) mod x - 2 = 0
+  t(x) mod x - 3 = 0
+  t(x) mod x - 4 = 0
+  t(x) mod x - 5 = 0
+  t(x) mod x - 6 = 0
+  t(x) mod x - 7 = 0
+  t(x) mod x - 8 = 0
+  t(x) mod x - 9 = 0
+  t(x) mod x - 10 = 0
+
+

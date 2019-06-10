@@ -1,0 +1,19 @@
+################################
+9-10-18
+Dan Engbert
+end1@umbc.edu
+
+Help received for this file:
+https://notes.shichao.io/lkd/ch7/#procinterrupts
+################################
+
+1) Summary and a brief description of /proc/interrupts. This should be about 200 characters or so.
+/proc/interrupts is a virtual file that when read causes kernel functions to run that will simulate reading the file.  When "read" the file contains statistics about the usage of interrupts by system devices. For each device the file lists the number of times each associated interrupt occurred with each CPU (starting with 0 if the interrupt hasn't occurred yet), as well as the interrupt line associated with the device.
+
+2) Name of the new platform driver, as given in /proc/interrupts.
+CS421 HW1
+
+3) How this platform driver affected /proc/interrupts. This should also be about 100 characters.
+This driver caused the following line to be added to /proc/interrupts:
+3:          0          0   IO-APIC   3-edge      CS421 HW1
+This indicated that the device "CS421 HW1" has an interrupt setup on line 3, and the interrupt has not ran yet (on either CPU).  The device controller for this interrupt is IO-APIC.

@@ -1,0 +1,2206 @@
+In Room #0
+RedShirt #23
+RedShirt #22
+
+In Room #1
+RedShirt #25
+RedShirt #24
+
+In Room #2
+RedShirt #27
+RedShirt #26
+
+In Room #3
+
+In Room #4
+Human #9
+Human #8
+Human #7
+Human #6
+Zombie #5
+Zombie #4
+Zombie #3
+Zombie #2
+
+In Room #5
+
+In Room #6
+Doctor #13
+Doctor #12
+Doctor #11
+Doctor #10
+
+In Room #7
+
+In Room #8
+Vampire #21
+Vampire #20
+Vampire #19
+Vampire #18
+Buffy #17
+Buffy #16
+Buffy #15
+Buffy #14
+Ghost #1
+
+***********************************
+Begin Round #0:
+***********************************
+RedShirt #22 hits RedShirt #23
+RedShirt #23 hits RedShirt #22
+RedShirt #24 hits RedShirt #25
+RedShirt #25 hits RedShirt #24
+RedShirt #26 hits RedShirt #27
+RedShirt #27 hits RedShirt #26
+Zombie #2 bites Zombie #5
+Zombie #3 bites Human #8
+Zombie #4 bites Zombie #3
+Zombie #5 bites Zombie #3
+Human #6 does nothing
+Human #7 does nothing
+Human #8 does nothing
+Human #9 does nothing
+Doctor #10 cures Doctor #12
+Doctor #11 cures Doctor #10
+Doctor #12 cures Doctor #11
+Doctor #13 cures Doctor #10
+Boo! Vampire #19, I am Ghost #1.
+Buffy #14 hits Vampire #20
+Buffy #15 hits Vampire #21
+Buffy #16 hits Buffy #15
+Buffy #17 hits Vampire #20
+Vampire #18 bites Vampire #20
+Vampire #19 bites Vampire #21
+Vampire #20 bites Vampire #19
+Vampire #21 bites Vampire #20
+Moving Zombie #2 from Room #4 to Room #3
+Moving Zombie #3 from Room #4 to Room #1
+Moving Zombie #4 from Room #4 to Room #5
+Moving Zombie #5 from Room #4 to Room #1
+Moving Human #6 from Room #4 to Room #7
+Moving Human #7 from Room #4 to Room #1
+Moving Human #8 from Room #4 to Room #3
+Moving Human #9 from Room #4 to Room #7
+Moving Doctor #10 from Room #6 to Room #7
+Moving Doctor #11 from Room #6 to Room #3
+Moving Doctor #12 from Room #6 to Room #3
+Moving Doctor #13 from Room #6 to Room #7
+Moving Ghost #1 from Room #8 to Room #7
+Moving Buffy #14 from Room #8 to Room #5
+Moving Buffy #15 from Room #8 to Room #7
+Moving Buffy #16 from Room #8 to Room #7
+Moving Buffy #17 from Room #8 to Room #5
+Moving Vampire #18 from Room #8 to Room #7
+Moving Vampire #19 from Room #8 to Room #7
+Moving Vampire #20 from Room #8 to Room #5
+Moving Vampire #21 from Room #8 to Room #7
+We do not change into anything.
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+RedShirt #22
+RedShirt #23
+
+In Room #1
+RedShirt #24
+RedShirt #25
+Zombie #3
+Zombie #5
+Human #7
+
+In Room #2
+RedShirt #26
+RedShirt #27
+
+In Room #3
+Zombie #2
+Human #8
+Doctor #11
+Doctor #12
+
+In Room #4
+
+In Room #5
+Zombie #4
+Buffy #14
+Buffy #17
+Vampire #20
+
+In Room #6
+
+In Room #7
+Human #6
+Human #9
+Doctor #10
+Doctor #13
+Ghost #1
+Buffy #15
+Buffy #16
+Vampire #18
+Vampire #19
+Vampire #21
+
+In Room #8
+
+----------------------------------
+***********************************
+Begin Round #1:
+***********************************
+RedShirt #23 hits RedShirt #22
+RedShirt #22 hits RedShirt #23
+Human #7 does nothing
+Zombie #5 bites RedShirt #25
+Zombie #3 bites Zombie #5
+RedShirt #24 hits RedShirt #25
+RedShirt #27 hits RedShirt #26
+RedShirt #26 hits RedShirt #27
+Doctor #12 cures Human #8
+Doctor #11 cures Doctor #12
+Human #8 does nothing
+Zombie #2 bites Human #8
+Vampire #20 bites Buffy #17
+Missed me!
+Buffy #17 hits Vampire #20
+Buffy #14 hits Vampire #20
+Zombie #4 bites Buffy #17
+Missed me!
+Vampire #21 bites Vampire #18
+Vampire #19 bites Ghost #1
+We cannot be bitten.
+Vampire #18 bites Human #6
+Buffy #16 hits Ghost #1
+We cannot be hit.
+Buffy #15 hits Vampire #19
+Boo! Buffy #15, I am Ghost #1.
+Doctor #13 cures Vampire #19
+Doctor #10 cures Human #6
+Human #9 does nothing
+Human #6 does nothing
+Moving Human #7 from Room #1 to Room #4
+Moving Zombie #5 from Room #1 to Room #4
+Moving Zombie #3 from Room #1 to Room #4
+Moving Doctor #12 from Room #3 to Room #4
+Moving Doctor #11 from Room #3 to Room #0
+Moving Human #8 from Room #3 to Room #4
+Moving Zombie #2 from Room #3 to Room #6
+Moving Vampire #20 from Room #5 to Room #4
+Moving Buffy #17 from Room #5 to Room #8
+Moving Buffy #14 from Room #5 to Room #8
+Moving Zombie #4 from Room #5 to Room #8
+Moving Vampire #21 from Room #7 to Room #6
+Moving Vampire #19 from Room #7 to Room #6
+Moving Vampire #18 from Room #7 to Room #4
+Moving Buffy #16 from Room #7 to Room #4
+Moving Buffy #15 from Room #7 to Room #4
+Moving Ghost #1 from Room #7 to Room #6
+Moving Doctor #13 from Room #7 to Room #4
+Moving Doctor #10 from Room #7 to Room #4
+Moving Human #9 from Room #7 to Room #4
+Moving Human #6 from Room #7 to Room #4
+We do not change into anything.
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+RedShirt #23
+RedShirt #22
+Doctor #11
+
+In Room #1
+RedShirt #25
+RedShirt #24
+
+In Room #2
+RedShirt #27
+RedShirt #26
+
+In Room #3
+
+In Room #4
+Human #7
+Zombie #5
+Zombie #3
+Doctor #12
+Human #8
+Vampire #20
+Vampire #18
+Buffy #16
+Buffy #15
+Doctor #13
+Doctor #10
+Human #9
+Human #6
+
+In Room #5
+
+In Room #6
+Zombie #2
+Vampire #21
+Vampire #19
+Ghost #1
+
+In Room #7
+
+In Room #8
+Buffy #17
+Buffy #14
+Zombie #4
+
+----------------------------------
+***********************************
+Begin Round #2:
+***********************************
+Removing RedShirt #25 (dead)
+Removing Vampire #20 (dead)
+Doctor #11 cures RedShirt #22
+RedShirt #22 hits Doctor #11
+RedShirt #23 hits Doctor #11
+RedShirt #26 hits RedShirt #27
+RedShirt #27 hits RedShirt #26
+Human #6 does nothing
+Human #9 does nothing
+Doctor #10 cures Buffy #15
+Doctor #13 cures Zombie #5
+Buffy #15 hits Human #8
+Buffy #16 hits Zombie #3
+Vampire #18 bites Buffy #15
+Missed me!
+Human #8 does nothing
+Doctor #12 cures Human #6
+Zombie #3 bites Human #9
+Zombie #5 bites Doctor #13
+Human #7 does nothing
+Boo! Vampire #19, I am Ghost #1.
+Vampire #19 bites Ghost #1
+We cannot be bitten.
+Vampire #21 bites Zombie #2
+Zombie #2 bites Vampire #21
+Zombie #4 bites Buffy #17
+Missed me!
+Buffy #14 hits Buffy #17
+Buffy #17 hits Buffy #14
+Moving Doctor #11 from Room #0 to Room #1
+Moving Human #6 from Room #4 to Room #1
+Moving Human #9 from Room #4 to Room #7
+Moving Doctor #10 from Room #4 to Room #5
+Moving Doctor #13 from Room #4 to Room #3
+Moving Buffy #15 from Room #4 to Room #7
+Moving Buffy #16 from Room #4 to Room #3
+Moving Vampire #18 from Room #4 to Room #5
+Moving Human #8 from Room #4 to Room #3
+Moving Doctor #12 from Room #4 to Room #7
+Moving Zombie #3 from Room #4 to Room #5
+Moving Zombie #5 from Room #4 to Room #7
+Moving Human #7 from Room #4 to Room #1
+Moving Ghost #1 from Room #6 to Room #3
+Moving Vampire #19 from Room #6 to Room #3
+Moving Vampire #21 from Room #6 to Room #3
+Moving Zombie #2 from Room #6 to Room #7
+Moving Zombie #4 from Room #8 to Room #7
+Moving Buffy #14 from Room #8 to Room #5
+Moving Buffy #17 from Room #8 to Room #7
+We do not change into anything.
+Zombie #5 turns into Human #51
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+RedShirt #22
+RedShirt #23
+
+In Room #1
+Doctor #11
+RedShirt #24
+Human #6
+Human #7
+
+In Room #2
+RedShirt #26
+RedShirt #27
+
+In Room #3
+Doctor #13
+Buffy #16
+Human #8
+Ghost #1
+Vampire #19
+Vampire #21
+
+In Room #4
+
+In Room #5
+Doctor #10
+Vampire #18
+Zombie #3
+Buffy #14
+
+In Room #6
+
+In Room #7
+Human #9
+Buffy #15
+Doctor #12
+Human #51
+Zombie #2
+Zombie #4
+Buffy #17
+
+In Room #8
+
+----------------------------------
+***********************************
+Begin Round #3:
+***********************************
+RedShirt #23 hits RedShirt #22
+RedShirt #22 hits RedShirt #23
+Human #7 does nothing
+Human #6 does nothing
+RedShirt #24 hits Doctor #11
+Doctor #11 cures RedShirt #24
+RedShirt #27 hits RedShirt #26
+RedShirt #26 hits RedShirt #27
+Vampire #21 bites Human #8
+Vampire #19 bites Doctor #13
+Boo! Buffy #16, I am Ghost #1.
+Human #8 does nothing
+Buffy #16 hits Human #8
+Doctor #13 cures Ghost #1
+We do not get sick. No use for a cure.
+Buffy #14 hits Zombie #3
+Zombie #3 bites Buffy #14
+Missed me!
+Vampire #18 bites Zombie #3
+Doctor #10 cures Zombie #3
+Buffy #17 hits Human #9
+Zombie #4 bites Buffy #17
+Missed me!
+Zombie #2 bites Zombie #4
+Human #51 does nothing
+Doctor #12 cures Buffy #17
+Buffy #15 hits Zombie #4
+Human #9 does nothing
+Moving Human #7 from Room #1 to Room #4
+Moving Human #6 from Room #1 to Room #2
+Moving Doctor #11 from Room #1 to Room #0
+Moving Vampire #21 from Room #3 to Room #6
+Moving Vampire #19 from Room #3 to Room #4
+Moving Ghost #1 from Room #3 to Room #4
+Moving Human #8 from Room #3 to Room #6
+Moving Buffy #16 from Room #3 to Room #0
+Moving Doctor #13 from Room #3 to Room #0
+Moving Buffy #14 from Room #5 to Room #4
+Moving Zombie #3 from Room #5 to Room #8
+Moving Vampire #18 from Room #5 to Room #4
+Moving Doctor #10 from Room #5 to Room #2
+Moving Buffy #17 from Room #7 to Room #6
+Moving Zombie #4 from Room #7 to Room #4
+Moving Zombie #2 from Room #7 to Room #4
+Moving Human #51 from Room #7 to Room #6
+Moving Doctor #12 from Room #7 to Room #8
+Moving Buffy #15 from Room #7 to Room #6
+Moving Human #9 from Room #7 to Room #8
+We do not change into anything.
+Human #8 turns into Zombie #38
+Zombie #3 turns into Human #58
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+RedShirt #23
+RedShirt #22
+Doctor #11
+Buffy #16
+Doctor #13
+
+In Room #1
+RedShirt #24
+
+In Room #2
+Human #6
+RedShirt #27
+RedShirt #26
+Doctor #10
+
+In Room #3
+
+In Room #4
+Human #7
+Vampire #19
+Ghost #1
+Buffy #14
+Vampire #18
+Zombie #4
+Zombie #2
+
+In Room #5
+
+In Room #6
+Vampire #21
+Zombie #38
+Buffy #17
+Human #51
+Buffy #15
+
+In Room #7
+
+In Room #8
+Human #58
+Doctor #12
+Human #9
+
+----------------------------------
+***********************************
+Begin Round #4:
+***********************************
+Doctor #13 cures Buffy #16
+Buffy #16 hits Doctor #11
+Doctor #11 cures RedShirt #23
+RedShirt #22 hits Doctor #13
+RedShirt #23 hits RedShirt #22
+Doctor #10 cures RedShirt #27
+RedShirt #26 hits Human #6
+RedShirt #27 hits Human #6
+Human #6 does nothing
+Zombie #2 bites Vampire #19
+Zombie #4 bites Vampire #19
+Vampire #18 bites Human #7
+Buffy #14 hits Ghost #1
+We cannot be hit.
+Boo! Zombie #2, I am Ghost #1.
+Vampire #19 bites Zombie #4
+Human #7 does nothing
+Buffy #15 hits Human #51
+Human #51 does nothing
+Buffy #17 hits Vampire #21
+Zombie #38 bites Human #51
+Vampire #21 bites Human #51
+Human #9 does nothing
+Doctor #12 cures Human #58
+Human #58 does nothing
+Moving Doctor #13 from Room #0 to Room #1
+Moving Buffy #16 from Room #0 to Room #1
+Moving Doctor #11 from Room #0 to Room #3
+Moving Doctor #10 from Room #2 to Room #1
+Moving Human #6 from Room #2 to Room #1
+Moving Zombie #2 from Room #4 to Room #3
+Moving Zombie #4 from Room #4 to Room #5
+Moving Vampire #18 from Room #4 to Room #1
+Moving Buffy #14 from Room #4 to Room #5
+Moving Ghost #1 from Room #4 to Room #3
+Moving Vampire #19 from Room #4 to Room #1
+Moving Human #7 from Room #4 to Room #1
+Moving Buffy #15 from Room #6 to Room #3
+Moving Human #51 from Room #6 to Room #7
+Moving Buffy #17 from Room #6 to Room #3
+Moving Zombie #38 from Room #6 to Room #7
+Moving Vampire #21 from Room #6 to Room #3
+Moving Human #9 from Room #8 to Room #7
+Moving Doctor #12 from Room #8 to Room #5
+Moving Human #58 from Room #8 to Room #7
+Doctor #13 turns into Zombie #46
+We do not change into anything.
+Human #9 turns into Zombie #45
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+RedShirt #22
+RedShirt #23
+
+In Room #1
+Zombie #46
+Buffy #16
+RedShirt #24
+Doctor #10
+Human #6
+Vampire #18
+Vampire #19
+Human #7
+
+In Room #2
+RedShirt #26
+RedShirt #27
+
+In Room #3
+Doctor #11
+Zombie #2
+Ghost #1
+Buffy #15
+Buffy #17
+Vampire #21
+
+In Room #4
+
+In Room #5
+Zombie #4
+Buffy #14
+Doctor #12
+
+In Room #6
+
+In Room #7
+Human #51
+Zombie #38
+Zombie #45
+Human #58
+
+In Room #8
+
+----------------------------------
+***********************************
+Begin Round #5:
+***********************************
+RedShirt #23 hits RedShirt #22
+RedShirt #22 hits RedShirt #23
+Human #7 does nothing
+Vampire #19 bites Vampire #18
+Vampire #18 bites RedShirt #24
+Human #6 does nothing
+Doctor #10 cures Human #6
+Buffy #16 hits RedShirt #24
+Zombie #46 bites Human #6
+RedShirt #27 hits RedShirt #26
+RedShirt #26 hits RedShirt #27
+Vampire #21 bites Ghost #1
+We cannot be bitten.
+Buffy #17 hits Vampire #21
+Buffy #15 hits Ghost #1
+We cannot be hit.
+Boo! Doctor #11, I am Ghost #1.
+Zombie #2 bites Buffy #15
+Missed me!
+Doctor #11 cures Buffy #15
+Doctor #12 cures Zombie #4
+Buffy #14 hits Doctor #12
+Zombie #4 bites Doctor #12
+Human #58 does nothing
+Zombie #45 bites Human #51
+Zombie #38 bites Human #58
+Human #51 does nothing
+Moving Human #7 from Room #1 to Room #0
+Moving Vampire #19 from Room #1 to Room #4
+Moving Vampire #18 from Room #1 to Room #0
+Moving Human #6 from Room #1 to Room #4
+Moving Doctor #10 from Room #1 to Room #2
+Moving Buffy #16 from Room #1 to Room #4
+Moving Zombie #46 from Room #1 to Room #4
+Moving Vampire #21 from Room #3 to Room #0
+Moving Buffy #17 from Room #3 to Room #6
+Moving Buffy #15 from Room #3 to Room #0
+Moving Ghost #1 from Room #3 to Room #0
+Moving Zombie #2 from Room #3 to Room #6
+Moving Doctor #11 from Room #3 to Room #4
+Moving Doctor #12 from Room #5 to Room #8
+Moving Buffy #14 from Room #5 to Room #4
+Moving Zombie #4 from Room #5 to Room #2
+Moving Human #58 from Room #7 to Room #8
+Moving Zombie #45 from Room #7 to Room #4
+Moving Zombie #38 from Room #7 to Room #6
+Moving Human #51 from Room #7 to Room #6
+We do not change into anything.
+Zombie #4 turns into Human #73
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+RedShirt #23
+RedShirt #22
+Human #7
+Vampire #18
+Vampire #21
+Buffy #15
+Ghost #1
+
+In Room #1
+RedShirt #24
+
+In Room #2
+Doctor #10
+RedShirt #27
+RedShirt #26
+Human #73
+
+In Room #3
+
+In Room #4
+Vampire #19
+Human #6
+Buffy #16
+Zombie #46
+Doctor #11
+Buffy #14
+Zombie #45
+
+In Room #5
+
+In Room #6
+Buffy #17
+Zombie #2
+Zombie #38
+Human #51
+
+In Room #7
+
+In Room #8
+Doctor #12
+Human #58
+
+----------------------------------
+***********************************
+Begin Round #6:
+***********************************
+Removing Vampire #21 (dead)
+Removing RedShirt #24 (dead)
+Boo! Vampire #18, I am Ghost #1.
+Buffy #15 hits RedShirt #22
+Vampire #18 bites RedShirt #23
+Human #7 does nothing
+RedShirt #22 hits Human #7
+Human #73 does nothing
+RedShirt #26 hits Doctor #10
+RedShirt #27 hits RedShirt #26
+Doctor #10 cures Human #73
+Zombie #45 bites Vampire #19
+Buffy #14 hits Zombie #45
+Doctor #11 cures Zombie #46
+Zombie #46 bites Doctor #11
+Buffy #16 hits Buffy #14
+Human #6 does nothing
+Vampire #19 bites Human #6
+Human #51 does nothing
+Zombie #38 bites Zombie #2
+Zombie #2 bites Human #51
+Buffy #17 hits Zombie #2
+Human #58 does nothing
+Doctor #12 cures Human #58
+Moving Ghost #1 from Room #0 to Room #1
+Moving Buffy #15 from Room #0 to Room #1
+Moving Vampire #18 from Room #0 to Room #1
+Moving Human #7 from Room #0 to Room #1
+Moving Human #73 from Room #2 to Room #5
+Moving Doctor #10 from Room #2 to Room #1
+Moving Zombie #45 from Room #4 to Room #1
+Moving Buffy #14 from Room #4 to Room #1
+Moving Doctor #11 from Room #4 to Room #1
+Moving Zombie #46 from Room #4 to Room #5
+Moving Buffy #16 from Room #4 to Room #3
+Moving Human #6 from Room #4 to Room #7
+Moving Vampire #19 from Room #4 to Room #7
+Moving Human #51 from Room #6 to Room #7
+Moving Zombie #38 from Room #6 to Room #7
+Moving Zombie #2 from Room #6 to Room #3
+Moving Buffy #17 from Room #6 to Room #7
+Moving Human #58 from Room #8 to Room #7
+Moving Doctor #12 from Room #8 to Room #7
+Human #7 turns into Vampire #61
+We do not change into anything.
+Zombie #46 turns into Human #80
+Human #51 turns into Zombie #63
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+RedShirt #22
+RedShirt #23
+
+In Room #1
+Ghost #1
+Buffy #15
+Vampire #18
+Vampire #61
+Doctor #10
+Zombie #45
+Buffy #14
+Doctor #11
+
+In Room #2
+RedShirt #26
+RedShirt #27
+
+In Room #3
+Buffy #16
+Zombie #2
+
+In Room #4
+
+In Room #5
+Human #73
+Human #80
+
+In Room #6
+
+In Room #7
+Human #6
+Vampire #19
+Zombie #63
+Zombie #38
+Buffy #17
+Human #58
+Doctor #12
+
+In Room #8
+
+----------------------------------
+***********************************
+Begin Round #7:
+***********************************
+Removing RedShirt #23 (dead)
+Doctor #11 cures Vampire #61
+Buffy #14 hits Vampire #18
+Zombie #45 bites Doctor #11
+Doctor #10 cures Ghost #1
+We do not get sick. No use for a cure.
+Vampire #61 bites Ghost #1
+We cannot be bitten.
+Vampire #18 bites Zombie #45
+Buffy #15 hits Zombie #45
+Boo! Vampire #18, I am Ghost #1.
+RedShirt #27 hits RedShirt #26
+RedShirt #26 hits RedShirt #27
+Zombie #2 bites Buffy #16
+Missed me!
+Buffy #16 hits Zombie #2
+Human #80 does nothing
+Human #73 does nothing
+Doctor #12 cures Human #58
+Human #58 does nothing
+Buffy #17 hits Vampire #19
+Zombie #38 bites Human #6
+Zombie #63 bites Vampire #19
+Vampire #19 bites Zombie #63
+Human #6 does nothing
+Moving Doctor #11 from Room #1 to Room #0
+Moving Buffy #14 from Room #1 to Room #4
+Moving Zombie #45 from Room #1 to Room #0
+Moving Doctor #10 from Room #1 to Room #0
+Moving Vampire #61 from Room #1 to Room #0
+Moving Vampire #18 from Room #1 to Room #4
+Moving Buffy #15 from Room #1 to Room #2
+Moving Ghost #1 from Room #1 to Room #0
+Moving Zombie #2 from Room #3 to Room #6
+Moving Buffy #16 from Room #3 to Room #6
+Moving Human #80 from Room #5 to Room #8
+Moving Human #73 from Room #5 to Room #4
+Moving Doctor #12 from Room #7 to Room #8
+Moving Human #58 from Room #7 to Room #8
+Moving Buffy #17 from Room #7 to Room #8
+Moving Zombie #38 from Room #7 to Room #8
+Moving Zombie #63 from Room #7 to Room #6
+Moving Vampire #19 from Room #7 to Room #8
+Moving Human #6 from Room #7 to Room #6
+We do not change into anything.
+Human #6 turns into Zombie #67
+Doctor #12 turns into Zombie #70
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+RedShirt #22
+Doctor #11
+Zombie #45
+Doctor #10
+Vampire #61
+Ghost #1
+
+In Room #1
+
+In Room #2
+Buffy #15
+RedShirt #27
+RedShirt #26
+
+In Room #3
+
+In Room #4
+Buffy #14
+Vampire #18
+Human #73
+
+In Room #5
+
+In Room #6
+Zombie #2
+Buffy #16
+Zombie #63
+Zombie #67
+
+In Room #7
+
+In Room #8
+Human #80
+Zombie #70
+Human #58
+Buffy #17
+Zombie #38
+Vampire #19
+
+----------------------------------
+***********************************
+Begin Round #8:
+***********************************
+Boo! Doctor #10, I am Ghost #1.
+Vampire #61 bites Doctor #11
+Doctor #10 cures Zombie #45
+Zombie #45 bites Doctor #11
+Doctor #11 cures RedShirt #22
+RedShirt #22 hits Vampire #61
+RedShirt #26 hits RedShirt #27
+RedShirt #27 hits RedShirt #26
+Buffy #15 hits RedShirt #26
+Human #73 does nothing
+Vampire #18 bites Buffy #14
+Missed me!
+Buffy #14 hits Vampire #18
+Zombie #67 bites Buffy #16
+Missed me!
+Zombie #63 bites Zombie #2
+Buffy #16 hits Zombie #67
+Zombie #2 bites Buffy #16
+Missed me!
+Vampire #19 bites Zombie #70
+Zombie #38 bites Human #58
+Buffy #17 hits Human #58
+Human #58 does nothing
+Zombie #70 bites Buffy #17
+Missed me!
+Human #80 does nothing
+Moving Ghost #1 from Room #0 to Room #3
+Moving Vampire #61 from Room #0 to Room #3
+Moving Doctor #10 from Room #0 to Room #3
+Moving Zombie #45 from Room #0 to Room #1
+Moving Doctor #11 from Room #0 to Room #1
+Moving Buffy #15 from Room #2 to Room #5
+Moving Human #73 from Room #4 to Room #1
+Moving Vampire #18 from Room #4 to Room #5
+Moving Buffy #14 from Room #4 to Room #7
+Moving Zombie #67 from Room #6 to Room #7
+Moving Zombie #63 from Room #6 to Room #7
+Moving Buffy #16 from Room #6 to Room #7
+Moving Zombie #2 from Room #6 to Room #7
+Moving Vampire #19 from Room #8 to Room #5
+Moving Zombie #38 from Room #8 to Room #7
+Moving Buffy #17 from Room #8 to Room #7
+Moving Human #58 from Room #8 to Room #7
+Moving Zombie #70 from Room #8 to Room #7
+Moving Human #80 from Room #8 to Room #5
+Doctor #11 turns into Zombie #76
+Zombie #45 turns into Human #97
+We do not change into anything.
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+RedShirt #22
+
+In Room #1
+Human #97
+Zombie #76
+Human #73
+
+In Room #2
+RedShirt #26
+RedShirt #27
+
+In Room #3
+Ghost #1
+Vampire #61
+Doctor #10
+
+In Room #4
+
+In Room #5
+Buffy #15
+Vampire #18
+Vampire #19
+Human #80
+
+In Room #6
+
+In Room #7
+Buffy #14
+Zombie #67
+Zombie #63
+Buffy #16
+Zombie #2
+Zombie #38
+Buffy #17
+Human #58
+Zombie #70
+
+In Room #8
+
+----------------------------------
+***********************************
+Begin Round #9:
+***********************************
+Human #73 does nothing
+Zombie #76 bites Human #97
+Human #97 does nothing
+RedShirt #27 hits RedShirt #26
+RedShirt #26 hits RedShirt #27
+Doctor #10 cures Ghost #1
+We do not get sick. No use for a cure.
+Vampire #61 bites Doctor #10
+Boo! Vampire #61, I am Ghost #1.
+Human #80 does nothing
+Vampire #19 bites Human #80
+Vampire #18 bites Vampire #19
+Buffy #15 hits Vampire #19
+Zombie #70 bites Zombie #38
+Human #58 does nothing
+Buffy #17 hits Zombie #38
+Zombie #38 bites Human #58
+Zombie #2 bites Zombie #70
+Buffy #16 hits Zombie #2
+Zombie #63 bites Zombie #38
+Zombie #67 bites Zombie #63
+Buffy #14 hits Buffy #16
+Moving Human #73 from Room #1 to Room #4
+Moving Zombie #76 from Room #1 to Room #2
+Moving Human #97 from Room #1 to Room #4
+Moving Doctor #10 from Room #3 to Room #4
+Moving Vampire #61 from Room #3 to Room #0
+Moving Ghost #1 from Room #3 to Room #0
+Moving Human #80 from Room #5 to Room #2
+Moving Vampire #19 from Room #5 to Room #4
+Moving Vampire #18 from Room #5 to Room #2
+Moving Buffy #15 from Room #5 to Room #4
+Moving Zombie #70 from Room #7 to Room #8
+Moving Human #58 from Room #7 to Room #4
+Moving Buffy #17 from Room #7 to Room #6
+Moving Zombie #38 from Room #7 to Room #8
+Moving Zombie #2 from Room #7 to Room #6
+Moving Buffy #16 from Room #7 to Room #8
+Moving Zombie #63 from Room #7 to Room #6
+Moving Zombie #67 from Room #7 to Room #6
+Moving Buffy #14 from Room #7 to Room #8
+We do not change into anything.
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+RedShirt #22
+Vampire #61
+Ghost #1
+
+In Room #1
+
+In Room #2
+Zombie #76
+RedShirt #27
+RedShirt #26
+Human #80
+Vampire #18
+
+In Room #3
+
+In Room #4
+Human #73
+Human #97
+Doctor #10
+Vampire #19
+Buffy #15
+Human #58
+
+In Room #5
+
+In Room #6
+Buffy #17
+Zombie #2
+Zombie #63
+Zombie #67
+
+In Room #7
+
+In Room #8
+Zombie #70
+Zombie #38
+Buffy #16
+Buffy #14
+
+----------------------------------
+***********************************
+Begin Round #10:
+***********************************
+Removing Vampire #19 (dead)
+Removing Zombie #2 (dead)
+Boo! RedShirt #22, I am Ghost #1.
+Vampire #61 bites Ghost #1
+We cannot be bitten.
+RedShirt #22 hits Ghost #1
+We cannot be hit.
+Vampire #18 bites Zombie #76
+Human #80 does nothing
+RedShirt #26 hits RedShirt #27
+RedShirt #27 hits Human #80
+Zombie #76 bites Human #80
+Human #58 does nothing
+Buffy #15 hits Human #97
+Doctor #10 cures Human #58
+Human #97 does nothing
+Human #73 does nothing
+Zombie #67 bites Zombie #63
+Zombie #63 bites Buffy #17
+Missed me!
+Buffy #17 hits Zombie #67
+Buffy #14 hits Zombie #70
+Buffy #16 hits Zombie #38
+Zombie #38 bites Zombie #70
+Zombie #70 bites Zombie #38
+Moving Ghost #1 from Room #0 to Room #1
+Moving Vampire #61 from Room #0 to Room #3
+Moving Vampire #18 from Room #2 to Room #1
+Moving Human #80 from Room #2 to Room #1
+Moving Zombie #76 from Room #2 to Room #1
+Moving Human #58 from Room #4 to Room #1
+Moving Buffy #15 from Room #4 to Room #1
+Moving Doctor #10 from Room #4 to Room #7
+Moving Human #97 from Room #4 to Room #3
+Moving Human #73 from Room #4 to Room #5
+Moving Zombie #67 from Room #6 to Room #3
+Moving Zombie #63 from Room #6 to Room #7
+Moving Buffy #17 from Room #6 to Room #7
+Moving Buffy #14 from Room #8 to Room #7
+Moving Buffy #16 from Room #8 to Room #5
+Moving Zombie #38 from Room #8 to Room #7
+Moving Zombie #70 from Room #8 to Room #7
+We do not change into anything.
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+RedShirt #22
+
+In Room #1
+Ghost #1
+Vampire #18
+Human #80
+Zombie #76
+Human #58
+Buffy #15
+
+In Room #2
+RedShirt #26
+RedShirt #27
+
+In Room #3
+Vampire #61
+Human #97
+Zombie #67
+
+In Room #4
+
+In Room #5
+Human #73
+Buffy #16
+
+In Room #6
+
+In Room #7
+Doctor #10
+Zombie #63
+Buffy #17
+Buffy #14
+Zombie #38
+Zombie #70
+
+In Room #8
+
+----------------------------------
+***********************************
+Begin Round #11:
+***********************************
+Buffy #15 hits Human #80
+Human #58 does nothing
+Zombie #76 bites Ghost #1
+We cannot be bitten.
+Human #80 does nothing
+Vampire #18 bites Zombie #76
+Boo! Buffy #15, I am Ghost #1.
+RedShirt #27 hits RedShirt #26
+RedShirt #26 hits RedShirt #27
+Zombie #67 bites Human #97
+Human #97 does nothing
+Vampire #61 bites Zombie #67
+Buffy #16 hits Human #73
+Human #73 does nothing
+Zombie #70 bites Zombie #38
+Zombie #38 bites Doctor #10
+Buffy #14 hits Buffy #17
+Buffy #17 hits Zombie #38
+Zombie #63 bites Buffy #17
+Missed me!
+Doctor #10 cures Zombie #38
+Moving Buffy #15 from Room #1 to Room #0
+Moving Human #58 from Room #1 to Room #4
+Moving Zombie #76 from Room #1 to Room #0
+Moving Human #80 from Room #1 to Room #2
+Moving Vampire #18 from Room #1 to Room #0
+Moving Ghost #1 from Room #1 to Room #2
+Moving Zombie #67 from Room #3 to Room #4
+Moving Human #97 from Room #3 to Room #0
+Moving Vampire #61 from Room #3 to Room #6
+Moving Buffy #16 from Room #5 to Room #2
+Moving Human #73 from Room #5 to Room #4
+Moving Zombie #70 from Room #7 to Room #4
+Moving Zombie #38 from Room #7 to Room #8
+Moving Buffy #14 from Room #7 to Room #4
+Moving Buffy #17 from Room #7 to Room #6
+Moving Zombie #63 from Room #7 to Room #4
+Moving Doctor #10 from Room #7 to Room #4
+Human #97 turns into Zombie #98
+We do not change into anything.
+Human #80 turns into Vampire #100
+Doctor #10 turns into Vampire #99
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+RedShirt #22
+Buffy #15
+Zombie #76
+Vampire #18
+Zombie #98
+
+In Room #1
+
+In Room #2
+Vampire #100
+Ghost #1
+RedShirt #27
+RedShirt #26
+Buffy #16
+
+In Room #3
+
+In Room #4
+Human #58
+Zombie #67
+Human #73
+Zombie #70
+Buffy #14
+Zombie #63
+Vampire #99
+
+In Room #5
+
+In Room #6
+Vampire #61
+Buffy #17
+
+In Room #7
+
+In Room #8
+Zombie #38
+
+----------------------------------
+***********************************
+Begin Round #12:
+***********************************
+Removing Zombie #38 (dead)
+Zombie #98 bites Buffy #15
+Missed me!
+Vampire #18 bites Buffy #15
+Missed me!
+Zombie #76 bites Zombie #98
+Buffy #15 hits Zombie #98
+RedShirt #22 hits Zombie #98
+Buffy #16 hits Vampire #100
+RedShirt #26 hits Vampire #100
+RedShirt #27 hits Vampire #100
+Boo! Vampire #100, I am Ghost #1.
+Vampire #99 bites Zombie #67
+Zombie #63 bites Zombie #70
+Buffy #14 hits Vampire #99
+Zombie #70 bites Vampire #99
+Human #73 does nothing
+Zombie #67 bites Human #73
+Human #58 does nothing
+Buffy #17 hits Vampire #61
+Vampire #61 bites Buffy #17
+Missed me!
+Moving Zombie #98 from Room #0 to Room #3
+Moving Vampire #18 from Room #0 to Room #1
+Moving Zombie #76 from Room #0 to Room #3
+Moving Buffy #15 from Room #0 to Room #1
+Moving Buffy #16 from Room #2 to Room #1
+Moving Ghost #1 from Room #2 to Room #5
+Moving Vampire #100 from Room #2 to Room #1
+Moving Vampire #99 from Room #4 to Room #3
+Moving Zombie #63 from Room #4 to Room #3
+Moving Buffy #14 from Room #4 to Room #7
+Moving Zombie #70 from Room #4 to Room #5
+Moving Human #73 from Room #4 to Room #1
+Moving Zombie #67 from Room #4 to Room #5
+Moving Human #58 from Room #4 to Room #5
+Moving Buffy #17 from Room #6 to Room #3
+Moving Vampire #61 from Room #6 to Room #7
+We do not change into anything.
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+RedShirt #22
+
+In Room #1
+Vampire #18
+Buffy #15
+Buffy #16
+Vampire #100
+Human #73
+
+In Room #2
+RedShirt #26
+RedShirt #27
+
+In Room #3
+Zombie #98
+Zombie #76
+Vampire #99
+Zombie #63
+Buffy #17
+
+In Room #4
+
+In Room #5
+Ghost #1
+Zombie #70
+Zombie #67
+Human #58
+
+In Room #6
+
+In Room #7
+Buffy #14
+Vampire #61
+
+In Room #8
+
+----------------------------------
+***********************************
+Begin Round #13:
+***********************************
+Removing Vampire #100 (dead)
+Human #73 does nothing
+Buffy #16 hits Vampire #18
+Buffy #15 hits Human #73
+RedShirt #27 hits RedShirt #26
+RedShirt #26 hits RedShirt #27
+Buffy #17 hits Zombie #76
+Zombie #63 bites Buffy #17
+Missed me!
+Vampire #99 bites Buffy #17
+Missed me!
+Zombie #76 bites Zombie #63
+Zombie #98 bites Zombie #63
+Human #58 does nothing
+Zombie #67 bites Ghost #1
+We cannot be bitten.
+Zombie #70 bites Ghost #1
+We cannot be bitten.
+Boo! Human #58, I am Ghost #1.
+Vampire #61 bites Buffy #14
+Missed me!
+Buffy #14 hits Vampire #61
+Moving Human #73 from Room #1 to Room #2
+Moving Buffy #16 from Room #1 to Room #2
+Moving Buffy #15 from Room #1 to Room #2
+Moving Vampire #18 from Room #1 to Room #0
+Moving Buffy #17 from Room #3 to Room #0
+Moving Zombie #63 from Room #3 to Room #4
+Moving Vampire #99 from Room #3 to Room #6
+Moving Zombie #76 from Room #3 to Room #6
+Moving Zombie #98 from Room #3 to Room #4
+Moving Human #58 from Room #5 to Room #4
+Moving Zombie #67 from Room #5 to Room #2
+Moving Zombie #70 from Room #5 to Room #8
+Moving Ghost #1 from Room #5 to Room #4
+Moving Vampire #61 from Room #7 to Room #6
+Moving Buffy #14 from Room #7 to Room #8
+We do not change into anything.
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+RedShirt #22
+Vampire #18
+Buffy #17
+
+In Room #1
+
+In Room #2
+Human #73
+Buffy #16
+Buffy #15
+RedShirt #27
+RedShirt #26
+Zombie #67
+
+In Room #3
+
+In Room #4
+Zombie #63
+Zombie #98
+Human #58
+Ghost #1
+
+In Room #5
+
+In Room #6
+Vampire #99
+Zombie #76
+Vampire #61
+
+In Room #7
+
+In Room #8
+Zombie #70
+Buffy #14
+
+----------------------------------
+***********************************
+Begin Round #14:
+***********************************
+Removing Vampire #18 (dead)
+Removing Vampire #61 (dead)
+Buffy #17 hits RedShirt #22
+RedShirt #22 hits Buffy #17
+Zombie #67 bites Human #73
+RedShirt #26 hits Human #73
+RedShirt #27 hits Buffy #16
+Buffy #15 hits RedShirt #26
+Buffy #16 hits RedShirt #26
+Human #73 does nothing
+Boo! Human #58, I am Ghost #1.
+Human #58 does nothing
+Zombie #98 bites Ghost #1
+We cannot be bitten.
+Zombie #63 bites Human #58
+Zombie #76 bites Vampire #99
+Vampire #99 bites Zombie #76
+Buffy #14 hits Zombie #70
+Zombie #70 bites Buffy #14
+Missed me!
+Moving Buffy #17 from Room #0 to Room #1
+Moving Zombie #67 from Room #2 to Room #5
+Moving Buffy #15 from Room #2 to Room #1
+Moving Buffy #16 from Room #2 to Room #1
+Moving Human #73 from Room #2 to Room #5
+Moving Ghost #1 from Room #4 to Room #5
+Moving Human #58 from Room #4 to Room #3
+Moving Zombie #98 from Room #4 to Room #5
+Moving Zombie #63 from Room #4 to Room #3
+Moving Zombie #76 from Room #6 to Room #3
+Moving Vampire #99 from Room #6 to Room #7
+Moving Buffy #14 from Room #8 to Room #5
+Moving Zombie #70 from Room #8 to Room #7
+We do not change into anything.
+Human #73 turns into Zombie #127
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+RedShirt #22
+
+In Room #1
+Buffy #17
+Buffy #15
+Buffy #16
+
+In Room #2
+RedShirt #26
+RedShirt #27
+
+In Room #3
+Human #58
+Zombie #63
+Zombie #76
+
+In Room #4
+
+In Room #5
+Zombie #67
+Zombie #127
+Ghost #1
+Zombie #98
+Buffy #14
+
+In Room #6
+
+In Room #7
+Vampire #99
+Zombie #70
+
+In Room #8
+
+----------------------------------
+***********************************
+Begin Round #15:
+***********************************
+Buffy #16 hits Buffy #17
+Buffy #15 hits Buffy #16
+Buffy #17 hits Buffy #16
+RedShirt #27 hits RedShirt #26
+RedShirt #26 hits RedShirt #27
+Zombie #76 bites Zombie #63
+Zombie #63 bites Human #58
+Human #58 does nothing
+Buffy #14 hits Zombie #67
+Zombie #98 bites Zombie #67
+Boo! Buffy #14, I am Ghost #1.
+Zombie #127 bites Ghost #1
+We cannot be bitten.
+Zombie #70 bites Vampire #99
+Vampire #99 bites Zombie #70
+Moving Buffy #16 from Room #1 to Room #4
+Moving Buffy #15 from Room #1 to Room #2
+Moving Buffy #17 from Room #1 to Room #0
+Moving Zombie #76 from Room #3 to Room #4
+Moving Zombie #63 from Room #3 to Room #0
+Moving Human #58 from Room #3 to Room #4
+Moving Buffy #14 from Room #5 to Room #4
+Moving Zombie #98 from Room #5 to Room #4
+Moving Ghost #1 from Room #5 to Room #2
+Moving Zombie #127 from Room #5 to Room #8
+Moving Zombie #67 from Room #5 to Room #8
+Moving Zombie #70 from Room #7 to Room #4
+Moving Vampire #99 from Room #7 to Room #6
+We do not change into anything.
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+RedShirt #22
+Buffy #17
+Zombie #63
+
+In Room #1
+
+In Room #2
+Buffy #15
+RedShirt #27
+RedShirt #26
+Ghost #1
+
+In Room #3
+
+In Room #4
+Buffy #16
+Zombie #76
+Human #58
+Buffy #14
+Zombie #98
+Zombie #70
+
+In Room #5
+
+In Room #6
+Vampire #99
+
+In Room #7
+
+In Room #8
+Zombie #127
+Zombie #67
+
+----------------------------------
+***********************************
+Begin Round #16:
+***********************************
+Removing Zombie #67 (dead)
+Zombie #63 bites RedShirt #22
+Buffy #17 hits RedShirt #22
+Boo! RedShirt #26, I am Ghost #1.
+RedShirt #26 hits Buffy #15
+RedShirt #27 hits RedShirt #26
+Buffy #15 hits RedShirt #26
+Zombie #70 bites Buffy #16
+Missed me!
+Zombie #98 bites Zombie #76
+Buffy #14 hits Zombie #98
+Human #58 does nothing
+Zombie #76 bites Zombie #98
+Buffy #16 hits Zombie #70
+Moving Zombie #63 from Room #0 to Room #3
+Moving Buffy #17 from Room #0 to Room #3
+Moving Ghost #1 from Room #2 to Room #1
+Moving Buffy #15 from Room #2 to Room #1
+Moving Zombie #70 from Room #4 to Room #7
+Moving Zombie #98 from Room #4 to Room #1
+Moving Buffy #14 from Room #4 to Room #3
+Moving Human #58 from Room #4 to Room #7
+Moving Zombie #76 from Room #4 to Room #1
+Moving Buffy #16 from Room #4 to Room #5
+Moving Vampire #99 from Room #6 to Room #3
+Moving Zombie #127 from Room #8 to Room #5
+We do not change into anything.
+Human #58 turns into Zombie #138
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+RedShirt #22
+
+In Room #1
+Ghost #1
+Buffy #15
+Zombie #98
+Zombie #76
+
+In Room #2
+RedShirt #26
+RedShirt #27
+
+In Room #3
+Zombie #63
+Buffy #17
+Buffy #14
+Vampire #99
+
+In Room #4
+
+In Room #5
+Buffy #16
+Zombie #127
+
+In Room #6
+
+In Room #7
+Zombie #70
+Zombie #138
+
+In Room #8
+
+----------------------------------
+***********************************
+Begin Round #17:
+***********************************
+Removing RedShirt #22 (dead)
+Removing Zombie #98 (dead)
+Removing Zombie #70 (dead)
+Zombie #76 bites Ghost #1
+We cannot be bitten.
+Buffy #15 hits Ghost #1
+We cannot be hit.
+Boo! Zombie #76, I am Ghost #1.
+RedShirt #27 hits RedShirt #26
+RedShirt #26 hits RedShirt #27
+Vampire #99 bites Buffy #17
+Missed me!
+Buffy #14 hits Zombie #63
+Buffy #17 hits Buffy #14
+Zombie #63 bites Buffy #17
+Missed me!
+Zombie #127 bites Buffy #16
+Missed me!
+Buffy #16 hits Zombie #127
+Moving Zombie #76 from Room #1 to Room #4
+Moving Buffy #15 from Room #1 to Room #2
+Moving Ghost #1 from Room #1 to Room #0
+Moving Vampire #99 from Room #3 to Room #6
+Moving Buffy #14 from Room #3 to Room #4
+Moving Buffy #17 from Room #3 to Room #4
+Moving Zombie #63 from Room #3 to Room #4
+Moving Zombie #127 from Room #5 to Room #2
+Moving Buffy #16 from Room #5 to Room #2
+Moving Zombie #138 from Room #7 to Room #8
+We do not change into anything.
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+Ghost #1
+
+In Room #1
+
+In Room #2
+Buffy #15
+RedShirt #27
+RedShirt #26
+Zombie #127
+Buffy #16
+
+In Room #3
+
+In Room #4
+Zombie #76
+Buffy #14
+Buffy #17
+Zombie #63
+
+In Room #5
+
+In Room #6
+Vampire #99
+
+In Room #7
+
+In Room #8
+Zombie #138
+
+----------------------------------
+***********************************
+Begin Round #18:
+***********************************
+Buffy #16 hits RedShirt #27
+Zombie #127 bites RedShirt #27
+RedShirt #26 hits RedShirt #27
+Buffy #15 hits RedShirt #27
+Zombie #63 bites Buffy #17
+Missed me!
+Buffy #17 hits Buffy #14
+Buffy #14 hits Zombie #76
+Zombie #76 bites Zombie #63
+Moving Ghost #1 from Room #0 to Room #1
+Moving Buffy #16 from Room #2 to Room #5
+Moving Zombie #127 from Room #2 to Room #5
+Moving Buffy #15 from Room #2 to Room #5
+Moving Zombie #63 from Room #4 to Room #5
+Moving Buffy #17 from Room #4 to Room #7
+Moving Buffy #14 from Room #4 to Room #7
+Moving Zombie #76 from Room #4 to Room #7
+Moving Vampire #99 from Room #6 to Room #3
+Moving Zombie #138 from Room #8 to Room #5
+We do not change into anything.
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+
+In Room #1
+Ghost #1
+
+In Room #2
+RedShirt #26
+RedShirt #27
+
+In Room #3
+Vampire #99
+
+In Room #4
+
+In Room #5
+Buffy #16
+Zombie #127
+Buffy #15
+Zombie #63
+Zombie #138
+
+In Room #6
+
+In Room #7
+Buffy #17
+Buffy #14
+Zombie #76
+
+In Room #8
+
+----------------------------------
+***********************************
+Begin Round #19:
+***********************************
+Removing RedShirt #27 (dead)
+Zombie #138 bites Zombie #63
+Zombie #63 bites Buffy #16
+Missed me!
+Buffy #15 hits Zombie #127
+Zombie #127 bites Zombie #63
+Buffy #16 hits Buffy #15
+Zombie #76 bites Buffy #14
+Missed me!
+Buffy #14 hits Buffy #17
+Buffy #17 hits Zombie #76
+Moving Ghost #1 from Room #1 to Room #2
+Moving Vampire #99 from Room #3 to Room #0
+Moving Zombie #138 from Room #5 to Room #8
+Moving Zombie #63 from Room #5 to Room #2
+Moving Buffy #15 from Room #5 to Room #2
+Moving Zombie #127 from Room #5 to Room #8
+Moving Buffy #16 from Room #5 to Room #2
+Moving Zombie #76 from Room #7 to Room #4
+Moving Buffy #14 from Room #7 to Room #8
+Moving Buffy #17 from Room #7 to Room #4
+We do not change into anything.
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+Vampire #99
+
+In Room #1
+
+In Room #2
+Ghost #1
+RedShirt #26
+Zombie #63
+Buffy #15
+Buffy #16
+
+In Room #3
+
+In Room #4
+Zombie #76
+Buffy #17
+
+In Room #5
+
+In Room #6
+
+In Room #7
+
+In Room #8
+Zombie #138
+Zombie #127
+Buffy #14
+
+----------------------------------
+***********************************
+Begin Round #20:
+***********************************
+Removing Zombie #76 (dead)
+Buffy #16 hits Zombie #63
+Buffy #15 hits Buffy #16
+Zombie #63 bites Buffy #16
+Missed me!
+RedShirt #26 hits Zombie #63
+Boo! Zombie #63, I am Ghost #1.
+Buffy #14 hits Zombie #127
+Zombie #138 bites Zombie #127
+Moving Vampire #99 from Room #0 to Room #1
+Moving Buffy #16 from Room #2 to Room #5
+Moving Buffy #15 from Room #2 to Room #5
+Moving Zombie #63 from Room #2 to Room #1
+Moving Ghost #1 from Room #2 to Room #5
+Moving Buffy #17 from Room #4 to Room #7
+Moving Buffy #14 from Room #8 to Room #5
+Moving Zombie #127 from Room #8 to Room #7
+Moving Zombie #138 from Room #8 to Room #5
+We do not change into anything.
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+
+In Room #1
+Vampire #99
+Zombie #63
+
+In Room #2
+RedShirt #26
+
+In Room #3
+
+In Room #4
+
+In Room #5
+Buffy #16
+Buffy #15
+Ghost #1
+Buffy #14
+Zombie #138
+
+In Room #6
+
+In Room #7
+Buffy #17
+Zombie #127
+
+In Room #8
+
+----------------------------------
+***********************************
+Begin Round #21:
+***********************************
+Removing Zombie #63 (dead)
+Removing Zombie #127 (dead)
+Zombie #138 bites Buffy #15
+Missed me!
+Buffy #14 hits Ghost #1
+We cannot be hit.
+Boo! Buffy #15, I am Ghost #1.
+Buffy #15 hits Buffy #14
+Buffy #16 hits Zombie #138
+Moving Vampire #99 from Room #1 to Room #0
+Moving Zombie #138 from Room #5 to Room #2
+Moving Buffy #14 from Room #5 to Room #4
+Moving Ghost #1 from Room #5 to Room #2
+Moving Buffy #15 from Room #5 to Room #4
+Moving Buffy #16 from Room #5 to Room #8
+Moving Buffy #17 from Room #7 to Room #6
+We do not change into anything.
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+Vampire #99
+
+In Room #1
+
+In Room #2
+RedShirt #26
+Zombie #138
+Ghost #1
+
+In Room #3
+
+In Room #4
+Buffy #14
+Buffy #15
+
+In Room #5
+
+In Room #6
+Buffy #17
+
+In Room #7
+
+In Room #8
+Buffy #16
+
+----------------------------------
+***********************************
+Begin Round #22:
+***********************************
+Boo! Zombie #138, I am Ghost #1.
+Zombie #138 bites Ghost #1
+We cannot be bitten.
+RedShirt #26 hits Ghost #1
+We cannot be hit.
+Buffy #15 hits Buffy #14
+Buffy #14 hits Buffy #15
+Moving Vampire #99 from Room #0 to Room #3
+Moving Ghost #1 from Room #2 to Room #5
+Moving Zombie #138 from Room #2 to Room #5
+Moving Buffy #15 from Room #4 to Room #3
+Moving Buffy #14 from Room #4 to Room #3
+Moving Buffy #17 from Room #6 to Room #7
+Moving Buffy #16 from Room #8 to Room #7
+We do not change into anything.
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+
+In Room #1
+
+In Room #2
+RedShirt #26
+
+In Room #3
+Vampire #99
+Buffy #15
+Buffy #14
+
+In Room #4
+
+In Room #5
+Ghost #1
+Zombie #138
+
+In Room #6
+
+In Room #7
+Buffy #17
+Buffy #16
+
+In Room #8
+
+----------------------------------
+***********************************
+Begin Round #23:
+***********************************
+Buffy #14 hits Vampire #99
+Buffy #15 hits Buffy #14
+Vampire #99 bites Buffy #14
+Missed me!
+Zombie #138 bites Ghost #1
+We cannot be bitten.
+Boo! Zombie #138, I am Ghost #1.
+Buffy #16 hits Buffy #17
+Buffy #17 hits Buffy #16
+Moving Buffy #14 from Room #3 to Room #0
+Moving Buffy #15 from Room #3 to Room #4
+Moving Vampire #99 from Room #3 to Room #4
+Moving Zombie #138 from Room #5 to Room #2
+Moving Ghost #1 from Room #5 to Room #2
+Moving Buffy #16 from Room #7 to Room #6
+Moving Buffy #17 from Room #7 to Room #4
+We do not change into anything.
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+Buffy #14
+
+In Room #1
+
+In Room #2
+RedShirt #26
+Zombie #138
+Ghost #1
+
+In Room #3
+
+In Room #4
+Buffy #15
+Vampire #99
+Buffy #17
+
+In Room #5
+
+In Room #6
+Buffy #16
+
+In Room #7
+
+In Room #8
+
+----------------------------------
+***********************************
+Begin Round #24:
+***********************************
+Boo! Zombie #138, I am Ghost #1.
+Zombie #138 bites RedShirt #26
+Buffy #17 hits Vampire #99
+Buffy #15 hits Buffy #17
+Moving Buffy #14 from Room #0 to Room #3
+Moving Ghost #1 from Room #2 to Room #1
+Moving Zombie #138 from Room #2 to Room #5
+Moving Buffy #17 from Room #4 to Room #5
+Moving Vampire #99 from Room #4 to Room #3
+Moving Buffy #15 from Room #4 to Room #5
+Moving Buffy #16 from Room #6 to Room #3
+We do not change into anything.
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+
+In Room #1
+Ghost #1
+
+In Room #2
+RedShirt #26
+
+In Room #3
+Buffy #14
+Vampire #99
+Buffy #16
+
+In Room #4
+
+In Room #5
+Zombie #138
+Buffy #17
+Buffy #15
+
+In Room #6
+
+In Room #7
+
+In Room #8
+
+----------------------------------
+***********************************
+Begin Round #25:
+***********************************
+Removing RedShirt #26 (dead)
+Removing Vampire #99 (dead)
+Buffy #16 hits Buffy #14
+Buffy #14 hits Buffy #16
+Buffy #15 hits Zombie #138
+Buffy #17 hits Zombie #138
+Moving Ghost #1 from Room #1 to Room #2
+Moving Buffy #16 from Room #3 to Room #4
+Moving Buffy #14 from Room #3 to Room #6
+Moving Buffy #15 from Room #5 to Room #8
+Moving Buffy #17 from Room #5 to Room #4
+Moving Zombie #138 from Room #5 to Room #4
+We do not change into anything.
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+
+In Room #1
+
+In Room #2
+Ghost #1
+
+In Room #3
+
+In Room #4
+Buffy #16
+Buffy #17
+Zombie #138
+
+In Room #5
+
+In Room #6
+Buffy #14
+
+In Room #7
+
+In Room #8
+Buffy #15
+
+----------------------------------
+***********************************
+Begin Round #26:
+***********************************
+Removing Zombie #138 (dead)
+Buffy #17 hits Buffy #16
+Buffy #16 hits Buffy #17
+Moving Ghost #1 from Room #2 to Room #5
+Moving Buffy #17 from Room #4 to Room #3
+Moving Buffy #16 from Room #4 to Room #7
+Moving Buffy #14 from Room #6 to Room #7
+Moving Buffy #15 from Room #8 to Room #5
+We do not change into anything.
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+
+In Room #1
+
+In Room #2
+
+In Room #3
+Buffy #17
+
+In Room #4
+
+In Room #5
+Ghost #1
+Buffy #15
+
+In Room #6
+
+In Room #7
+Buffy #16
+Buffy #14
+
+In Room #8
+
+----------------------------------
+***********************************
+Begin Round #27:
+***********************************
+Buffy #15 hits Ghost #1
+We cannot be hit.
+Boo! Buffy #15, I am Ghost #1.
+Buffy #14 hits Buffy #16
+Buffy #16 hits Buffy #14
+Moving Buffy #17 from Room #3 to Room #4
+Moving Buffy #15 from Room #5 to Room #2
+Moving Ghost #1 from Room #5 to Room #8
+Moving Buffy #14 from Room #7 to Room #4
+Moving Buffy #16 from Room #7 to Room #6
+We do not change into anything.
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+
+In Room #1
+
+In Room #2
+Buffy #15
+
+In Room #3
+
+In Room #4
+Buffy #17
+Buffy #14
+
+In Room #5
+
+In Room #6
+Buffy #16
+
+In Room #7
+
+In Room #8
+Ghost #1
+
+----------------------------------
+***********************************
+Begin Round #28:
+***********************************
+Buffy #14 hits Buffy #17
+Buffy #17 hits Buffy #14
+Moving Buffy #15 from Room #2 to Room #1
+Moving Buffy #14 from Room #4 to Room #1
+Moving Buffy #17 from Room #4 to Room #3
+Moving Buffy #16 from Room #6 to Room #7
+Moving Ghost #1 from Room #8 to Room #5
+We do not change into anything.
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+
+In Room #1
+Buffy #15
+Buffy #14
+
+In Room #2
+
+In Room #3
+Buffy #17
+
+In Room #4
+
+In Room #5
+Ghost #1
+
+In Room #6
+
+In Room #7
+Buffy #16
+
+In Room #8
+
+----------------------------------
+***********************************
+Begin Round #29:
+***********************************
+Buffy #14 hits Buffy #15
+Buffy #15 hits Buffy #14
+Moving Buffy #14 from Room #1 to Room #0
+Moving Buffy #15 from Room #1 to Room #4
+Moving Buffy #17 from Room #3 to Room #4
+Moving Ghost #1 from Room #5 to Room #4
+Moving Buffy #16 from Room #7 to Room #6
+We do not change into anything.
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+Buffy #14
+
+In Room #1
+
+In Room #2
+
+In Room #3
+
+In Room #4
+Buffy #15
+Buffy #17
+Ghost #1
+
+In Room #5
+
+In Room #6
+Buffy #16
+
+In Room #7
+
+In Room #8
+
+----------------------------------
+Goodbye!
+

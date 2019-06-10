@@ -1,0 +1,21 @@
+
+
+=====================================================================
+p4test5.cpp:
+Check that Doctor turns into Vampire after being bitten by a Vampire
+=====================================================================
+Create: Vampire #1
+Create: Doctor #2
+*** Round 1
+Vampire #1 bites Doctor #2
+Doctor #2 cures Vampire #1
+*** Round 2
+*** Round 3
+Doctor #2 turns into Vampire #3
+Doctor morphed into: Vampire #3
+
+
+=====================================================================
+
+
+

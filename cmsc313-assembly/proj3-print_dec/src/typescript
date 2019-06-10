@@ -1,0 +1,36 @@
+Script started on Fri 17 Mar 2017 07:39:43 PM EDT
+]777;notify;Command completed;exit]0;dan@rhodium:~/projects/cmsc313/proj3/src]7;file://rhodium/home/dan/projects/cmsc313/proj3/src[dan@rhodium src]$ make
+nasm -g -f elf -l main3.lst main3.asm -o main3.o
+nasm -g -f elf -l prt_dec.lst prt_dec.asm -o prt_dec.o
+ld -g -melf_i386 main3.o prt_dec.o -o main3.out
+]777;notify;Command completed;make]0;dan@rhodium:~/projects/cmsc313/proj3/src]7;file://rhodium/home/dan/projects/cmsc313/proj3/src[dan@rhodium src]$ make run
+./main3.out
+0
+4294967295
+3413151
+17
+214123
+2223187809
+1555544444
+2 plus 3 equals 5
+7 minus 4 equals 3
+]777;notify;Command completed;make run]0;dan@rhodium:~/projects/cmsc313/proj3/src]7;file://rhodium/home/dan/projects/cmsc313/proj3/src[dan@rhodium src]$ git checkout -- Makefu[Kile
+]777;notify;Command completed;git checkout -- Makefile]0;dan@rhodium:~/projects/cmsc313/proj3/src]7;file://rhodium/home/dan/projects/cmsc313/proj3/src[dan@rhodium src]$ make
+nasm -g -f elf -l mytest3.lst mytest3.asm -o mytest3.o
+ld -g -melf_i386 mytest3.o prt_dec.o -o main3.out
+]777;notify;Command completed;make]0;dan@rhodium:~/projects/cmsc313/proj3/src]7;file://rhodium/home/dan/projects/cmsc313/proj3/src[dan@rhodium src]$ make run
+./main3.out
+11
+4289396480
+0
+9000000
+4294967295
+123456
+9999
+54321
+307030700
+97 plus 13 equals 110
+26 minus 7 equals 19
+]777;notify;Command completed;make run]0;dan@rhodium:~/projects/cmsc313/proj3/src]7;file://rhodium/home/dan/projects/cmsc313/proj3/src[dan@rhodium src]$ exit
+
+Script done on Fri 17 Mar 2017 07:40:11 PM EDT

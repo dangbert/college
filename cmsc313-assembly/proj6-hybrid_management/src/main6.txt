@@ -1,0 +1,27 @@
+Script started on Sun 01 Nov 2015 08:54:23 PM EST
+linux2[13]% make
+cc -m32 -g -ansi -Wall   -c -o main6.o main6.c
+cc -m32 -g -ansi -Wall   -c -o frac_heap.o frac_heap.c
+gcc -m32 main6.o frac_heap.o -o main6.out
+linux2[14]% main6.out
+called malloc(60): returned 0x9b41008
+-2/3 plus 1/4 = -5/12
+
+**** BEGIN HEAP DUMP ****
+
+  0x9b4102c
+  0x9b41038
+**** END HEAP DUMP ****
+called malloc(60): returned 0x9b41048
+
+**** BEGIN HEAP DUMP ****
+
+  0x9b41054
+  0x9b41060
+  0x9b4106c
+  0x9b41078
+**** END HEAP DUMP ****
+linux2[15]% exit
+exit
+
+Script done on Sun 01 Nov 2015 08:54:31 PM EST

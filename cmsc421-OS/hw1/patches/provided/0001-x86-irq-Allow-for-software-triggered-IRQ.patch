@@ -1,0 +1,312 @@
+From 4029d08562141d764258fd392ce63b20a7c64cd0 Mon Sep 17 00:00:00 2001
+From: Jason Tang <jtang@umbc.edu>
+Date: Wed, 15 Aug 2018 22:24:47 -0400
+Subject: [PATCH 1/3] x86,irq: Allow for software triggered IRQ
+
+This adds the new function trigger_irq() that allows a driver to simulate
+a hardware interrupt by calling the INT opcode associated with an IRQ. In
+this way, drivers can be tested even within a virtual environment.
+
+Signed-off-by: Jason Tang <jtang@umbc.edu>
+---
+ arch/x86/kernel/irq.c | 284 ++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 284 insertions(+)
+
+diff --git a/arch/x86/kernel/irq.c b/arch/x86/kernel/irq.c
+index 59b5f2ea7c2f..259966e949d7 100644
+--- a/arch/x86/kernel/irq.c
++++ b/arch/x86/kernel/irq.c
+@@ -261,6 +261,290 @@ __visible unsigned int __irq_entry do_IRQ(struct pt_regs *regs)
+ 	return 1;
+ }
+ 
++/**
++ * trigger_irq() - invoke interrupt associated with requested IRQ
++ * @irq: target IRQ
++ *
++ * Search the interrupt vector table for the requested IRQ. If found,
++ * invoke INT opcode for that vector number, so that the kernel will
++ * then call the IRQ handler within interrupt context.
++ *
++ * Return: 0 if @irq was found, negative on error
++ */
++int trigger_irq(unsigned irq) {
++	unsigned vector;
++	struct irq_desc *desc;
++	for (vector = FIRST_EXTERNAL_VECTOR; vector < NR_VECTORS; vector++) {
++		desc = __this_cpu_read(vector_irq[vector]);
++		if (!IS_ERR_OR_NULL(desc) && irq == irq_desc_get_irq(desc))
++			goto found;
++	}
++	return -1;
++ found:
++	switch (vector) {
++		case 0: { asm("int $0x00\n"); break; }
++		case 1: { asm("int $0x01\n"); break; }
++		case 2: { asm("int $0x02\n"); break; }
++		case 3: { asm("int $0x03\n"); break; }
++		case 4: { asm("int $0x04\n"); break; }
++		case 5: { asm("int $0x05\n"); break; }
++		case 6: { asm("int $0x06\n"); break; }
++		case 7: { asm("int $0x07\n"); break; }
++		case 8: { asm("int $0x08\n"); break; }
++		case 9: { asm("int $0x09\n"); break; }
++		case 10: { asm("int $0x0a\n"); break; }
++		case 11: { asm("int $0x0b\n"); break; }
++		case 12: { asm("int $0x0c\n"); break; }
++		case 13: { asm("int $0x0d\n"); break; }
++		case 14: { asm("int $0x0e\n"); break; }
++		case 15: { asm("int $0x0f\n"); break; }
++		case 16: { asm("int $0x10\n"); break; }
++		case 17: { asm("int $0x11\n"); break; }
++		case 18: { asm("int $0x12\n"); break; }
++		case 19: { asm("int $0x13\n"); break; }
++		case 20: { asm("int $0x14\n"); break; }
++		case 21: { asm("int $0x15\n"); break; }
++		case 22: { asm("int $0x16\n"); break; }
++		case 23: { asm("int $0x17\n"); break; }
++		case 24: { asm("int $0x18\n"); break; }
++		case 25: { asm("int $0x19\n"); break; }
++		case 26: { asm("int $0x1a\n"); break; }
++		case 27: { asm("int $0x1b\n"); break; }
++		case 28: { asm("int $0x1c\n"); break; }
++		case 29: { asm("int $0x1d\n"); break; }
++		case 30: { asm("int $0x1e\n"); break; }
++		case 31: { asm("int $0x1f\n"); break; }
++		case 32: { asm("int $0x20\n"); break; }
++		case 33: { asm("int $0x21\n"); break; }
++		case 34: { asm("int $0x22\n"); break; }
++		case 35: { asm("int $0x23\n"); break; }
++		case 36: { asm("int $0x24\n"); break; }
++		case 37: { asm("int $0x25\n"); break; }
++		case 38: { asm("int $0x26\n"); break; }
++		case 39: { asm("int $0x27\n"); break; }
++		case 40: { asm("int $0x28\n"); break; }
++		case 41: { asm("int $0x29\n"); break; }
++		case 42: { asm("int $0x2a\n"); break; }
++		case 43: { asm("int $0x2b\n"); break; }
++		case 44: { asm("int $0x2c\n"); break; }
++		case 45: { asm("int $0x2d\n"); break; }
++		case 46: { asm("int $0x2e\n"); break; }
++		case 47: { asm("int $0x2f\n"); break; }
++		case 48: { asm("int $0x30\n"); break; }
++		case 49: { asm("int $0x31\n"); break; }
++		case 50: { asm("int $0x32\n"); break; }
++		case 51: { asm("int $0x33\n"); break; }
++		case 52: { asm("int $0x34\n"); break; }
++		case 53: { asm("int $0x35\n"); break; }
++		case 54: { asm("int $0x36\n"); break; }
++		case 55: { asm("int $0x37\n"); break; }
++		case 56: { asm("int $0x38\n"); break; }
++		case 57: { asm("int $0x39\n"); break; }
++		case 58: { asm("int $0x3a\n"); break; }
++		case 59: { asm("int $0x3b\n"); break; }
++		case 60: { asm("int $0x3c\n"); break; }
++		case 61: { asm("int $0x3d\n"); break; }
++		case 62: { asm("int $0x3e\n"); break; }
++		case 63: { asm("int $0x3f\n"); break; }
++		case 64: { asm("int $0x40\n"); break; }
++		case 65: { asm("int $0x41\n"); break; }
++		case 66: { asm("int $0x42\n"); break; }
++		case 67: { asm("int $0x43\n"); break; }
++		case 68: { asm("int $0x44\n"); break; }
++		case 69: { asm("int $0x45\n"); break; }
++		case 70: { asm("int $0x46\n"); break; }
++		case 71: { asm("int $0x47\n"); break; }
++		case 72: { asm("int $0x48\n"); break; }
++		case 73: { asm("int $0x49\n"); break; }
++		case 74: { asm("int $0x4a\n"); break; }
++		case 75: { asm("int $0x4b\n"); break; }
++		case 76: { asm("int $0x4c\n"); break; }
++		case 77: { asm("int $0x4d\n"); break; }
++		case 78: { asm("int $0x4e\n"); break; }
++		case 79: { asm("int $0x4f\n"); break; }
++		case 80: { asm("int $0x50\n"); break; }
++		case 81: { asm("int $0x51\n"); break; }
++		case 82: { asm("int $0x52\n"); break; }
++		case 83: { asm("int $0x53\n"); break; }
++		case 84: { asm("int $0x54\n"); break; }
++		case 85: { asm("int $0x55\n"); break; }
++		case 86: { asm("int $0x56\n"); break; }
++		case 87: { asm("int $0x57\n"); break; }
++		case 88: { asm("int $0x58\n"); break; }
++		case 89: { asm("int $0x59\n"); break; }
++		case 90: { asm("int $0x5a\n"); break; }
++		case 91: { asm("int $0x5b\n"); break; }
++		case 92: { asm("int $0x5c\n"); break; }
++		case 93: { asm("int $0x5d\n"); break; }
++		case 94: { asm("int $0x5e\n"); break; }
++		case 95: { asm("int $0x5f\n"); break; }
++		case 96: { asm("int $0x60\n"); break; }
++		case 97: { asm("int $0x61\n"); break; }
++		case 98: { asm("int $0x62\n"); break; }
++		case 99: { asm("int $0x63\n"); break; }
++		case 100: { asm("int $0x64\n"); break; }
++		case 101: { asm("int $0x65\n"); break; }
++		case 102: { asm("int $0x66\n"); break; }
++		case 103: { asm("int $0x67\n"); break; }
++		case 104: { asm("int $0x68\n"); break; }
++		case 105: { asm("int $0x69\n"); break; }
++		case 106: { asm("int $0x6a\n"); break; }
++		case 107: { asm("int $0x6b\n"); break; }
++		case 108: { asm("int $0x6c\n"); break; }
++		case 109: { asm("int $0x6d\n"); break; }
++		case 110: { asm("int $0x6e\n"); break; }
++		case 111: { asm("int $0x6f\n"); break; }
++		case 112: { asm("int $0x70\n"); break; }
++		case 113: { asm("int $0x71\n"); break; }
++		case 114: { asm("int $0x72\n"); break; }
++		case 115: { asm("int $0x73\n"); break; }
++		case 116: { asm("int $0x74\n"); break; }
++		case 117: { asm("int $0x75\n"); break; }
++		case 118: { asm("int $0x76\n"); break; }
++		case 119: { asm("int $0x77\n"); break; }
++		case 120: { asm("int $0x78\n"); break; }
++		case 121: { asm("int $0x79\n"); break; }
++		case 122: { asm("int $0x7a\n"); break; }
++		case 123: { asm("int $0x7b\n"); break; }
++		case 124: { asm("int $0x7c\n"); break; }
++		case 125: { asm("int $0x7d\n"); break; }
++		case 126: { asm("int $0x7e\n"); break; }
++		case 127: { asm("int $0x7f\n"); break; }
++		case 128: { asm("int $0x80\n"); break; }
++		case 129: { asm("int $0x81\n"); break; }
++		case 130: { asm("int $0x82\n"); break; }
++		case 131: { asm("int $0x83\n"); break; }
++		case 132: { asm("int $0x84\n"); break; }
++		case 133: { asm("int $0x85\n"); break; }
++		case 134: { asm("int $0x86\n"); break; }
++		case 135: { asm("int $0x87\n"); break; }
++		case 136: { asm("int $0x88\n"); break; }
++		case 137: { asm("int $0x89\n"); break; }
++		case 138: { asm("int $0x8a\n"); break; }
++		case 139: { asm("int $0x8b\n"); break; }
++		case 140: { asm("int $0x8c\n"); break; }
++		case 141: { asm("int $0x8d\n"); break; }
++		case 142: { asm("int $0x8e\n"); break; }
++		case 143: { asm("int $0x8f\n"); break; }
++		case 144: { asm("int $0x90\n"); break; }
++		case 145: { asm("int $0x91\n"); break; }
++		case 146: { asm("int $0x92\n"); break; }
++		case 147: { asm("int $0x93\n"); break; }
++		case 148: { asm("int $0x94\n"); break; }
++		case 149: { asm("int $0x95\n"); break; }
++		case 150: { asm("int $0x96\n"); break; }
++		case 151: { asm("int $0x97\n"); break; }
++		case 152: { asm("int $0x98\n"); break; }
++		case 153: { asm("int $0x99\n"); break; }
++		case 154: { asm("int $0x9a\n"); break; }
++		case 155: { asm("int $0x9b\n"); break; }
++		case 156: { asm("int $0x9c\n"); break; }
++		case 157: { asm("int $0x9d\n"); break; }
++		case 158: { asm("int $0x9e\n"); break; }
++		case 159: { asm("int $0x9f\n"); break; }
++		case 160: { asm("int $0xa0\n"); break; }
++		case 161: { asm("int $0xa1\n"); break; }
++		case 162: { asm("int $0xa2\n"); break; }
++		case 163: { asm("int $0xa3\n"); break; }
++		case 164: { asm("int $0xa4\n"); break; }
++		case 165: { asm("int $0xa5\n"); break; }
++		case 166: { asm("int $0xa6\n"); break; }
++		case 167: { asm("int $0xa7\n"); break; }
++		case 168: { asm("int $0xa8\n"); break; }
++		case 169: { asm("int $0xa9\n"); break; }
++		case 170: { asm("int $0xaa\n"); break; }
++		case 171: { asm("int $0xab\n"); break; }
++		case 172: { asm("int $0xac\n"); break; }
++		case 173: { asm("int $0xad\n"); break; }
++		case 174: { asm("int $0xae\n"); break; }
++		case 175: { asm("int $0xaf\n"); break; }
++		case 176: { asm("int $0xb0\n"); break; }
++		case 177: { asm("int $0xb1\n"); break; }
++		case 178: { asm("int $0xb2\n"); break; }
++		case 179: { asm("int $0xb3\n"); break; }
++		case 180: { asm("int $0xb4\n"); break; }
++		case 181: { asm("int $0xb5\n"); break; }
++		case 182: { asm("int $0xb6\n"); break; }
++		case 183: { asm("int $0xb7\n"); break; }
++		case 184: { asm("int $0xb8\n"); break; }
++		case 185: { asm("int $0xb9\n"); break; }
++		case 186: { asm("int $0xba\n"); break; }
++		case 187: { asm("int $0xbb\n"); break; }
++		case 188: { asm("int $0xbc\n"); break; }
++		case 189: { asm("int $0xbd\n"); break; }
++		case 190: { asm("int $0xbe\n"); break; }
++		case 191: { asm("int $0xbf\n"); break; }
++		case 192: { asm("int $0xc0\n"); break; }
++		case 193: { asm("int $0xc1\n"); break; }
++		case 194: { asm("int $0xc2\n"); break; }
++		case 195: { asm("int $0xc3\n"); break; }
++		case 196: { asm("int $0xc4\n"); break; }
++		case 197: { asm("int $0xc5\n"); break; }
++		case 198: { asm("int $0xc6\n"); break; }
++		case 199: { asm("int $0xc7\n"); break; }
++		case 200: { asm("int $0xc8\n"); break; }
++		case 201: { asm("int $0xc9\n"); break; }
++		case 202: { asm("int $0xca\n"); break; }
++		case 203: { asm("int $0xcb\n"); break; }
++		case 204: { asm("int $0xcc\n"); break; }
++		case 205: { asm("int $0xcd\n"); break; }
++		case 206: { asm("int $0xce\n"); break; }
++		case 207: { asm("int $0xcf\n"); break; }
++		case 208: { asm("int $0xd0\n"); break; }
++		case 209: { asm("int $0xd1\n"); break; }
++		case 210: { asm("int $0xd2\n"); break; }
++		case 211: { asm("int $0xd3\n"); break; }
++		case 212: { asm("int $0xd4\n"); break; }
++		case 213: { asm("int $0xd5\n"); break; }
++		case 214: { asm("int $0xd6\n"); break; }
++		case 215: { asm("int $0xd7\n"); break; }
++		case 216: { asm("int $0xd8\n"); break; }
++		case 217: { asm("int $0xd9\n"); break; }
++		case 218: { asm("int $0xda\n"); break; }
++		case 219: { asm("int $0xdb\n"); break; }
++		case 220: { asm("int $0xdc\n"); break; }
++		case 221: { asm("int $0xdd\n"); break; }
++		case 222: { asm("int $0xde\n"); break; }
++		case 223: { asm("int $0xdf\n"); break; }
++		case 224: { asm("int $0xe0\n"); break; }
++		case 225: { asm("int $0xe1\n"); break; }
++		case 226: { asm("int $0xe2\n"); break; }
++		case 227: { asm("int $0xe3\n"); break; }
++		case 228: { asm("int $0xe4\n"); break; }
++		case 229: { asm("int $0xe5\n"); break; }
++		case 230: { asm("int $0xe6\n"); break; }
++		case 231: { asm("int $0xe7\n"); break; }
++		case 232: { asm("int $0xe8\n"); break; }
++		case 233: { asm("int $0xe9\n"); break; }
++		case 234: { asm("int $0xea\n"); break; }
++		case 235: { asm("int $0xeb\n"); break; }
++		case 236: { asm("int $0xec\n"); break; }
++		case 237: { asm("int $0xed\n"); break; }
++		case 238: { asm("int $0xee\n"); break; }
++		case 239: { asm("int $0xef\n"); break; }
++		case 240: { asm("int $0xf0\n"); break; }
++		case 241: { asm("int $0xf1\n"); break; }
++		case 242: { asm("int $0xf2\n"); break; }
++		case 243: { asm("int $0xf3\n"); break; }
++		case 244: { asm("int $0xf4\n"); break; }
++		case 245: { asm("int $0xf5\n"); break; }
++		case 246: { asm("int $0xf6\n"); break; }
++		case 247: { asm("int $0xf7\n"); break; }
++		case 248: { asm("int $0xf8\n"); break; }
++		case 249: { asm("int $0xf9\n"); break; }
++		case 250: { asm("int $0xfa\n"); break; }
++		case 251: { asm("int $0xfb\n"); break; }
++		case 252: { asm("int $0xfc\n"); break; }
++		case 253: { asm("int $0xfd\n"); break; }
++		case 254: { asm("int $0xfe\n"); break; }
++		case 255: { asm("int $0xff\n"); break; }
++	default:
++		return -1;
++	}
++	return 0;
++}
++EXPORT_SYMBOL_GPL(trigger_irq);
++
+ #ifdef CONFIG_X86_LOCAL_APIC
+ /* Function pointer for generic interrupt vector handling */
+ void (*x86_platform_ipi_callback)(void) = NULL;
+-- 
+2.17.1
+

@@ -1,0 +1,243 @@
+Script started on Wed 19 Apr 2017 01:40:34 AM EDT
+]0;end1@linux1:~/current/proj6/src[?1034h[end1@linux1 src]$ make MAIN=main6
+cc -m32 -g -ansi -Wall   -c -o main6.o main6.c
+cc -m32 -g -ansi -Wall   -c -o frac_heap.o frac_heap.c
+gcc -m32 main6.o frac_heap.o -o main6.out
+]0;end1@linux1:~/current/proj6/src[end1@linux1 src]$ make run
+./main6.out
+called malloc(60): returned 0x8c24008
+-2/3 plus 1/4 = -5/12
+
+**** BEGIN HEAP DUMP ****
+0x8c2402c
+0x8c24038
+**** END HEAP DUMP ****
+called malloc(60): returned 0x8c45008
+
+**** BEGIN HEAP DUMP ****
+0x8c45014
+0x8c45020
+0x8c4502c
+0x8c45038
+**** END HEAP DUMP ****
+]0;end1@linux1:~/current/proj6/src[end1@linux1 src]$ make runMAIN=main6[K[K[K[K[Ktest1; make run
+cc -m32 -g -ansi -Wall   -c -o test1.o test1.c
+gcc -m32 test1.o frac_heap.o -o main6.out
+./main6.out
+test1:
+called malloc(60): returned 0x99dd008
+1/5 + 1/5 = 2/5
+1/5 + 2/3 = 13/15
+
+-----After creating 4 fractions:-----
+
+**** BEGIN HEAP DUMP ****
+0x99dd038
+**** END HEAP DUMP ****
+
+------After deleting these fractions (in a different order):-----
+
+**** BEGIN HEAP DUMP ****
+0x99dd014
+0x99dd008
+0x99dd02c
+0x99dd020
+0x99dd038
+**** END HEAP DUMP ****
+
+----------------------------------------
+
+-----After creating 1 new fraction:-----
+
+**** BEGIN HEAP DUMP ****
+0x99dd008
+0x99dd02c
+0x99dd020
+0x99dd038
+**** END HEAP DUMP ****
+-12/2 + 2/9 = -52/9
+-52/9 + -1/3 = -55/9
+called malloc(60): returned 0x99fe008
+-52/9 + -55/9 = -107/9
+
+-----After creating 5 more fractions:-----
+
+**** BEGIN HEAP DUMP ****
+0x99fe014
+0x99fe020
+0x99fe02c
+0x99fe038
+**** END HEAP DUMP ****
+
+-----After deleting 3 fractions (in a different order):-----
+
+**** BEGIN HEAP DUMP ****
+0x99dd014
+0x99dd020
+0x99dd02c
+0x99fe014
+0x99fe020
+0x99fe02c
+0x99fe038
+**** END HEAP DUMP ****
+
+-----After deleting remaining fractions (in a different order):-----
+
+**** BEGIN HEAP DUMP ****
+0x99fe008
+0x99dd038
+0x99dd008
+0x99dd014
+0x99dd020
+0x99dd02c
+0x99fe014
+0x99fe020
+0x99fe02c
+0x99fe038
+**** END HEAP DUMP ****
+]0;end1@linux1:~/current/proj6/src[end1@linux1 src]$ make MAIN=test1; make runrun[KMAIN=test1; make run[1P[1@2
+cc -m32 -g -ansi -Wall   -c -o test2.o test2.c
+gcc -m32 test2.o frac_heap.o -o main6.out
+./main6.out
+test2:
+After init_heap() just called:
+
+**** BEGIN HEAP DUMP ****
+**** END HEAP DUMP ****
+
+called malloc(60): returned 0x91c2008
+called malloc(60): returned 0x91e3008
+called malloc(60): returned 0x9204008
+called malloc(60): returned 0x9225008
+
+-----After creating 20 fractions:-----
+
+**** BEGIN HEAP DUMP ****
+**** END HEAP DUMP ****
+
+-----After deleting the first 3 fractions:-----
+
+**** BEGIN HEAP DUMP ****
+0x91c2020
+0x91c2014
+0x91c2008
+**** END HEAP DUMP ****
+
+-----After deleting 4 more fractions:-----
+
+**** BEGIN HEAP DUMP ****
+0x91e3014
+0x91e3008
+0x91c2038
+0x91c202c
+0x91c2020
+0x91c2014
+0x91c2008
+**** END HEAP DUMP ****
+
+-----After creating 5 more fractions:-----
+
+**** BEGIN HEAP DUMP ****
+0x91c2014
+0x91c2008
+**** END HEAP DUMP ****
+called malloc(60): returned 0x9246008
+
+-----After creating 3 more fractions:-----
+
+**** BEGIN HEAP DUMP ****
+0x9246014
+0x9246020
+0x924602c
+0x9246038
+**** END HEAP DUMP ****
+
+-----After deleting all (21) fractions:-----
+
+**** BEGIN HEAP DUMP ****
+0x9246008
+0x9225038
+0x922502c
+0x9225020
+0x9225014
+0x9225008
+0x9204038
+0x920402c
+0x9204020
+0x9204014
+0x9204008
+0x91e3038
+0x91e302c
+0x91e3020
+0x91c2008
+0x91c2014
+0x91c2020
+0x91c202c
+0x91c2038
+0x91e3008
+0x91e3014
+0x9246014
+0x9246020
+0x924602c
+0x9246038
+**** END HEAP DUMP ****
+]0;end1@linux1:~/current/proj6/src[end1@linux1 src]$ make MAIN=test2; make run[1P[1@3
+cc -m32 -g -ansi -Wall   -c -o test3.o test3.c
+gcc -m32 test3.o frac_heap.o -o main6.out
+./main6.out
+test3:
+After init_heap() called:
+
+**** BEGIN HEAP DUMP ****
+**** END HEAP DUMP ****
+called malloc(60): returned 0x82bc008
+called malloc(60): returned 0x82dd008
+
+-----After creating 6 fractions:-----
+
+**** BEGIN HEAP DUMP ****
+0x82dd014
+0x82dd020
+0x82dd02c
+0x82dd038
+**** END HEAP DUMP ****
+
+-----After deleting 3 fractions:-----
+
+**** BEGIN HEAP DUMP ****
+0x82bc020
+0x82bc014
+0x82bc008
+0x82dd014
+0x82dd020
+0x82dd02c
+0x82dd038
+**** END HEAP DUMP ****
+
+-----After creating 2 more fractions:-----
+
+**** BEGIN HEAP DUMP ****
+0x82bc008
+0x82dd014
+0x82dd020
+0x82dd02c
+0x82dd038
+**** END HEAP DUMP ****
+
+-----After deleting all the fractions:-----
+
+**** BEGIN HEAP DUMP ****
+0x82dd008
+0x82bc038
+0x82bc02c
+0x82bc014
+0x82bc020
+0x82bc008
+0x82dd014
+0x82dd020
+0x82dd02c
+0x82dd038
+**** END HEAP DUMP ****
+]0;end1@linux1:~/current/proj6/src[end1@linux1 src]$ exit
+
+Script done on Wed 19 Apr 2017 01:42:15 AM EDT

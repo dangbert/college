@@ -1,0 +1,45 @@
+Random seed set to: 1479302151417
+
+Elapsed time = 3.158 milliseconds
+Hash statistics report: 
+   randomness level = pseudo-random
+   capacity = 5003 
+   size = 4000 
+   degree = 7 
+   ejection limit = 14 
+   number of primary slots  = 2740
+   average hits to primary slots = 1.459854
+   maximum hits to primary slots = 6
+   total number of ejections = 230
+   maximum number of ejections in a single insertion = 11
+
+
+*** Exception: Maximum ejections reached!
+Elapsed time = 3.982 milliseconds
+Hash statistics report: 
+   randomness level = pseudo-random
+   capacity = 10037 
+   size = 5981 
+   degree = 7 
+   ejection limit = 14 
+   number of primary slots  = 4546
+   average hits to primary slots = 1.315882
+   maximum hits to primary slots = 6
+   total number of ejections = 70
+   maximum number of ejections in a single insertion = 15
+
+
+Elapsed time = 8.854 milliseconds
+Hash statistics report: 
+   randomness level = pseudo-random
+   capacity = 20101 
+   size = 16000 
+   degree = 7 
+   ejection limit = 14 
+   number of primary slots  = 11044
+   average hits to primary slots = 1.448750
+   maximum hits to primary slots = 6
+   total number of ejections = 1099
+   maximum number of ejections in a single insertion = 9
+
+

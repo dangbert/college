@@ -1,0 +1,61 @@
+Project4 Statistics
+I've compiled a list of statistics for you guys so you don't get discouraged if the number of hacked accounts is low. If you would like to know how I got these numbers, after you've built your heap, you can remove the first 1008 PinHits (we only get this many guesses) and add up the number of hits. Hits (total) is our totalHits pointer, the probability is simply hits/totalHits, and I've also included my results for running each of the files with each type of heap, 10 times each. 
+
+----------
+Project 4
+Statistics
+----------
+
+Input1
+---
+Max: 
+
+Acts Hacked (10 runs): 1,0,0,0,0,0,1,0,0,0 
+Avg (accounts/run): 0.2
+Hits in 1008 Attempts: 305160 
+Hits (total): 1850001
+Probability of Hacking: 16.50%
+
+Min: 
+
+Acts Hacked (10 runs): 0,0,0,0,1,0,0,0,0,1 
+Avg (accounts/run): 0.2
+Hits in 1008 Attempts: 198165
+Hits (total): 1850001
+Probability of Hacking: 10.71%
+
+Input2
+---
+Max: 
+
+Acts Hacked (10 runs): 0,0,0,0,0,2,0,0,0,0 
+Avg (accounts/run): 0.2
+Hits in 1008 Attempts: 10541
+Hits (total): 50001
+Probability of Hacking: 21.08%
+
+Min: 
+
+Acts Hacked (10 runs): 1,0,0,0,0,0,0,0,0,0 
+Avg (accounts/run): 0.1
+Hits in 1008 Attempts: 5393
+Hits (total): 50001
+Probability of Hacking: 10.79%
+
+Input3
+---
+Max: 
+
+Hacks (10 runs): 0,0,0,0,0,1,0,0,0,0 
+Avg (accounts/run): 0.1 
+Hits in 1008 Attempts: 3173
+Hits (total): 10001
+Probability of Hacking: 31.73%
+
+Min: 
+
+Acts Hacked (10 runs): 0,0,1,0,0,0,0,0,1,0
+Avg (accounts/run): 0.2
+Hits in 1008 Attempts: 1621
+Hits (total): 10001
+Probability of Hacking: 16.21%

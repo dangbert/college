@@ -1,0 +1,19 @@
+
+
+=====================================================================
+p4test4.cpp:
+Check for memory leak if game ends with Human bitten by Zombie
+=====================================================================
+Create: Zombie #1
+Create: Human #2
+*** Round 1
+Zombie #1 bites Human #2
+Human #2 does nothing
+*** Round 2
+*** Game ends
+
+
+=====================================================================
+
+
+

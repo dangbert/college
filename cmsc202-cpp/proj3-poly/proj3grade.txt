@@ -1,0 +1,169 @@
+CMSC202 Project 3 Gradesheet 
+-----------------------------------------------------------------
+Student ID: end1
+
+Max grade: 100 
+Raw grade: 90
+Late penalty: 0
+Extra credit: 0
+Total grade: 90
+
+(Total grade = Raw grade - Late penalty + Extra credit)
+
+
+General comments:
+	Great Job!
+
+
+-----------------------------------------------------------------
+I. Critical Errors
+
+   None
+
+   No submission (skip rest) 0
+
+   Program does not compile or does not run, or runs but does not
+      produce output even after minor tweaks.  Grading based on effort
+      and on compiling with mytest.cpp.
+
+      Removing one or two major bugs will fix this project. (40-50)
+      Significant progress made, but major rewrite is necessary. (30-40)
+      Not much progress made. (10-30)
+      Barely started coding. (0-10)
+
+      Score = 
+
+      Rest of grade sheet is skipped.
+
+   Other: 
+
+
+
+-----------------------------------------------------------------
+II. Submission Errors
+
+   Did not submit mytest.cpp -2
+x  Additional tweaking required for compilation  -3
+
+   Other submission errors: (specify)
+   	 Files not named exactly as given in the project description.
+
+-----------------------------------------------------------------
+III. Correctness
+
+
+   A. Test #1. degree() and evaluate()
+x     No errors
+      Failed basic degree() tests            -2
+      Failed basic evaluate() tests          -2
+      Failed degree() or evalate() for       -2
+        constant function
+      Failed degree() or evalute() for       -2
+        zero function
+
+   B. Test #2. add() and subtract()
+      No errors
+      Failed basic add()                     -3
+      Failed basic subtract()                -3
+x     Failed add() or subtract() with        -3
+        zero polynomial
+      Failed timing test for add()           -2
+      Failed timing test for subtract()      -2
+
+   C. Test #3. multiply()
+x     No errors
+      Failed basic multiply()                -5
+      Failed multiply by constant            -2
+      Failed multiply by zero                -2
+      Failed degree-100 timing test          -2
+      Failed degree-500 timing test          -2
+
+   D. Output format (overloaded <<)
+      No errors
+      Terms not in decreasing order          -2
+x     Ugly negative coefficients             -2 
+        (e.g. x^2 + -3 x; should be x^2 - 3)
+x     Ugly degree zero terms                 -2
+        (e.g. 3 x^0; should be 3)
+x     Coefficient of 1                       -0		
+        (e.g. 1 x^2; should be x^2)    				      
+x     Degree one terms                       -0		
+        (e.g. 3 x^1; should be 3 x)			
+
+   Other errors (specify):
+
+
+
+-----------------------------------------------------------------
+
+IV. Program Design and Structure
+
+x   Program design and structure are reasonable 
+
+    Superfluous #includes  -1
+    
+    No function prototypes for helper functions  -1
+
+    Does not use dummy node in linked list  -1
+
+    Excessive nesting of member function calls. -0 
+       [Warning this time.]
+
+    Poor loop structure  -2
+       Comment:
+
+-----------------------------------------------------------------
+
+VI. Efficiency
+
+x  Program is reasonably efficient
+
+   More than one pass through linked list for  -3
+     add() or subtract()   
+
+   Code results in  excessive copying of objects.  -0 
+      [Warning this time.]
+
+   Inefficient looping structure  -1
+      Specify:
+   
+
+
+-----------------------------------------------------------------
+
+VI. Coding Standards
+
+x  Program has good indentation, comments and choice of variable names
+
+   Poor/inconsistent indentation scheme  -2
+
+   No/poor comments for additional member functions -3
+      (needs pre- and post-conditions) 
+
+   In-line comments are:
+      terse and not meaningful -3
+      non-existent -5
+
+   Poor choice of variable names -1
+      Comment:
+
+   Uses "magic numbers" -1
+
+
+-----------------------------------------------------------------
+
+VII. Extra Credit
+
+     Passes basic modulo p % q           +4
+       (deg p > deg q)
+     Passes basic modulo q % p           +2
+       (deg q <  deg p)
+     Passes modulo for non-overlapping   +2
+       polynomials (r and s)
+     Passes modulo for degree-10         +2
+       polnomial (t)
+
+                         Total:	0
+
+-----------------------------------------------------------------
+

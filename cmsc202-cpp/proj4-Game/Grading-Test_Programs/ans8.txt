@@ -1,0 +1,37 @@
+
+
+=====================================================================
+p4test8.cpp:
+Check that Zombies and Vampires die after getting hit 3 times.
+=====================================================================
+Create: Buffy #1
+Create: Buffy #2
+Create: Buffy #3
+Create: Buffy #4
+Create: Zombie #5
+Create: Vampire #6
+*** Round 1
+Buffy #1 hits Zombie #5
+Zombie #5 bites Buffy #1
+Missed me!
+Buffy #2 hits Vampire #6
+Vampire #6 bites Buffy #2
+Missed me!
+*** Round 2
+Buffy #1 hits Zombie #5
+Buffy #3 hits Zombie #5
+Zombie #5 bites Buffy #1
+Missed me!
+Buffy #2 hits Vampire #6
+Buffy #4 hits Vampire #6
+Vampire #6 bites Buffy #2
+Missed me!
+*** Round 3
+Zombie #5 is dead
+Vampire #6 is dead
+
+
+=====================================================================
+
+
+

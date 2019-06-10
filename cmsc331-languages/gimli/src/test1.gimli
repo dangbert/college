@@ -1,0 +1,42 @@
+start
+
+/* test printStmt */
+print 1;
+print 8 7 0 9;
+print 8 + 6;
+print "computer science";
+print "lexx and " "yacc";
+print 4 " five " 6;
+int i;
+
+
+/* test declaration */
+int num;
+float f, y, val;
+function foo;
+
+
+/* test assignmentStmt */
+y = 22;
+f = (5 + y);
+
+
+/* test callStmt */
+foo(y);
+foo("HI");
+foo("hello", 8);
+foo(5, (8-1), 9);
+
+
+/* test ifStmt */
+if y then {
+    print "y is " y;
+    y = y + 1;
+}
+else {
+    print 0;
+}
+
+print 6;
+
+end

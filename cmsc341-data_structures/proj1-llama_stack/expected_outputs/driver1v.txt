@@ -1,0 +1,160 @@
+==27576== Memcheck, a memory error detector
+==27576== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==27576== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==27576== Command: ./a.out
+==27576== 
+
+***** Llama Stack Dump ******
+LN_SIZE = 4
+# of items in the stack = 10
+# of nodes created = 3
+# of nodes destroyed = 0
+
+This stack does not have an extra node.
+
+Stack contents, top to bottom
+----- 0x4c40480 ----- 
+abc
+def
+----- 0x4c40290 ----- 
+ghi
+jkl
+mno
+pqr
+----- 0x4c40040 ----- 
+stu
+vwx
+yzab
+cdef
+----- bottom of stack ---- 
+
+*****************************
+
+***** Dump using peek *****
+size = 10
+0: abc
+1: def
+2: ghi
+3: jkl
+4: mno
+5: pqr
+6: stu
+7: vwx
+8: yzab
+9: cdef
+
+***** Pop Test *****
+popped abc
+popped def
+popped ghi
+
+***** Llama Stack Dump ******
+LN_SIZE = 4
+# of items in the stack = 7
+# of nodes created = 3
+# of nodes destroyed = 0
+
+This stack has an extra node: 0x4c40480.
+
+Stack contents, top to bottom
+----- 0x4c40290 ----- 
+jkl
+mno
+pqr
+----- 0x4c40040 ----- 
+stu
+vwx
+yzab
+cdef
+----- bottom of stack ---- 
+
+*****************************
+
+***** Push Test *****
+
+***** Llama Stack Dump ******
+LN_SIZE = 4
+# of items in the stack = 10
+# of nodes created = 3
+# of nodes destroyed = 0
+
+This stack does not have an extra node.
+
+Stack contents, top to bottom
+----- 0x4c40480 ----- 
+x123
+x456
+----- 0x4c40290 ----- 
+x789
+jkl
+mno
+pqr
+----- 0x4c40040 ----- 
+stu
+vwx
+yzab
+cdef
+----- bottom of stack ---- 
+
+*****************************
+
+***** Pop Test *****
+popped x123
+popped x456
+
+***** Llama Stack Dump ******
+LN_SIZE = 4
+# of items in the stack = 8
+# of nodes created = 3
+# of nodes destroyed = 0
+
+This stack has an extra node: 0x4c40480.
+
+Stack contents, top to bottom
+----- 0x4c40290 ----- 
+x789
+jkl
+mno
+pqr
+----- 0x4c40040 ----- 
+stu
+vwx
+yzab
+cdef
+----- bottom of stack ---- 
+
+*****************************
+
+***** Pop Test *****
+popped x789
+popped jkl
+
+***** Llama Stack Dump ******
+LN_SIZE = 4
+# of items in the stack = 6
+# of nodes created = 3
+# of nodes destroyed = 1
+
+This stack does not have an extra node.
+
+Stack contents, top to bottom
+----- 0x4c40290 ----- 
+mno
+pqr
+----- 0x4c40040 ----- 
+stu
+vwx
+yzab
+cdef
+----- bottom of stack ---- 
+
+*****************************
+==27576== 
+==27576== HEAP SUMMARY:
+==27576==     in use at exit: 0 bytes in 0 blocks
+==27576==   total heap usage: 16 allocs, 16 frees, 489 bytes allocated
+==27576== 
+==27576== All heap blocks were freed -- no leaks are possible
+==27576== 
+==27576== For counts of detected and suppressed errors, rerun with: -v
+==27576== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 6 from 6)

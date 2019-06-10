@@ -1,0 +1,32 @@
+Insert some words
+
+
+Hash statistics report: 
+   randomness level = pseudo-random
+   capacity = 13 
+   size = 10 
+   degree = 5 
+   ejection limit = 14 
+   number of primary slots  = 6
+   average hits to primary slots = 1.666667
+   maximum hits to primary slots = 3
+   total number of ejections = 1
+   maximum number of ejections in a single insertion = 1
+
+
+Look for inserted words...
+
+
+Look for words not inserted (should fail)...
+
+
+Removing outbursts
+Removing reggae
+
+
+Look for inserted words...
+Inserted word not found: outbursts
+Inserted word not found: reggae
+
+
+Look for words not inserted (should fail)...

@@ -1,0 +1,146 @@
+
+***** Llama Stack Dump ******
+LN_SIZE = 4
+# of items in the stack = 10
+# of nodes created = 3
+# of nodes destroyed = 0
+
+This stack does not have an extra node.
+
+Stack contents, top to bottom
+----- 0x7f9f9b403400 ----- 
+abc
+def
+----- 0x7f9f9b403370 ----- 
+ghi
+jkl
+mno
+pqr
+----- 0x7f9f9b403300 ----- 
+stu
+vwx
+yzab
+cdef
+----- bottom of stack ---- 
+
+*****************************
+
+***** Dump using peek *****
+size = 10
+0: abc
+1: def
+2: ghi
+3: jkl
+4: mno
+5: pqr
+6: stu
+7: vwx
+8: yzab
+9: cdef
+
+***** Pop Test *****
+popped abc
+popped def
+popped ghi
+
+***** Llama Stack Dump ******
+LN_SIZE = 4
+# of items in the stack = 7
+# of nodes created = 3
+# of nodes destroyed = 0
+
+This stack has an extra node: 0x7f9f9b403400.
+
+Stack contents, top to bottom
+----- 0x7f9f9b403370 ----- 
+jkl
+mno
+pqr
+----- 0x7f9f9b403300 ----- 
+stu
+vwx
+yzab
+cdef
+----- bottom of stack ---- 
+
+*****************************
+
+***** Push Test *****
+
+***** Llama Stack Dump ******
+LN_SIZE = 4
+# of items in the stack = 10
+# of nodes created = 3
+# of nodes destroyed = 0
+
+This stack does not have an extra node.
+
+Stack contents, top to bottom
+----- 0x7f9f9b403400 ----- 
+x123
+x456
+----- 0x7f9f9b403370 ----- 
+x789
+jkl
+mno
+pqr
+----- 0x7f9f9b403300 ----- 
+stu
+vwx
+yzab
+cdef
+----- bottom of stack ---- 
+
+*****************************
+
+***** Pop Test *****
+popped x123
+popped x456
+
+***** Llama Stack Dump ******
+LN_SIZE = 4
+# of items in the stack = 8
+# of nodes created = 3
+# of nodes destroyed = 0
+
+This stack has an extra node: 0x7f9f9b403400.
+
+Stack contents, top to bottom
+----- 0x7f9f9b403370 ----- 
+x789
+jkl
+mno
+pqr
+----- 0x7f9f9b403300 ----- 
+stu
+vwx
+yzab
+cdef
+----- bottom of stack ---- 
+
+*****************************
+
+***** Pop Test *****
+popped x789
+popped jkl
+
+***** Llama Stack Dump ******
+LN_SIZE = 4
+# of items in the stack = 6
+# of nodes created = 3
+# of nodes destroyed = 1
+
+This stack does not have an extra node.
+
+Stack contents, top to bottom
+----- 0x7f9f9b403370 ----- 
+mno
+pqr
+----- 0x7f9f9b403300 ----- 
+stu
+vwx
+yzab
+cdef
+----- bottom of stack ---- 
+
+*****************************

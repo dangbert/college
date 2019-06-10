@@ -1,0 +1,57 @@
+My Toys are:
+Legos
+Xbox
+My Little Pony
+Pokemon Cards
+iPhone
+iPad
+iWatch
+iWantIt
+BMW
+Porsche
+Tesla
+Horse
+
+I have my wish!
+You can't always get what you want
+
+*** Dump Tests: ***
+
+Dump kidsToys
+A[0] = Legos
+A[1] = My Little Pony
+A[2] = Pokemon Cards
+A[3] = Xbox
+
+Dump iToys
+A[0] = iPad
+A[1] = iPhone
+A[2] = iWantIt
+A[3] = iWatch
+
+Dump bigKidsToys
+A[0] = BMW
+A[1] = Horse
+A[2] = Porsche
+A[3] = Tesla
+
+Dump myToys
+A[0] = BMW
+A[1] = Horse
+A[2] = Legos
+A[3] = My Little Pony
+A[4] = Pokemon Cards
+A[5] = Porsche
+A[6] = Tesla
+A[7] = Xbox
+A[8] = iPad
+A[9] = iPhone
+A[10] = iWantIt
+A[11] = iWatch
+
+Dump wishList
+A[0] = Bentley
+A[1] = Horse
+A[2] = Legos
+
+

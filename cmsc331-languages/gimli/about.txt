@@ -1,0 +1,13 @@
+Programming Project: Due by 11:59pm, Tueday , October 25.
+
+Consider the files skeleton.lex and skeleton.y. Add rules to them as needed to
+implement a syntax checker for the Gimli language designed last week. Your
+grammar may vary slightly from what we talked about last time.
+
+You should place comments in your code to explain this.
+But the grammar you use should not be ambiguous (which happens when YACC reports
+"reduce/reduce" conflicts.)
+
+There is a makefile available too. Submit your Lex and YACC files as attachments
+to an email. Also attach a typescript file that demonstrates the features of the
+program. Send that email to the TA, Sriraj, and cc me. 

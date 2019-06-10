@@ -1,0 +1,8 @@
+test1.c, test2.c, and test3.c are drivers to chose from when testing out the frac_heap.
+Each file contains a main() method so alternate compiling with each test file.
+
+for example, to compile using test3:
+
+gcc -m32 -g -ansi -Wall   -c -o frac_heap.o frac_heap.c
+gcc -m32 -g -ansi -Wall   -c -o test3.o test3.c
+gcc -m32 -g -ansi -Wall frac_heap.o test3.o -o a.out

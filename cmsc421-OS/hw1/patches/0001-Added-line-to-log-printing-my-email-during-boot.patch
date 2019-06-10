@@ -1,0 +1,24 @@
+From fa8a08745d2eb3fd7c4750f7b0b1907447e078c1 Mon Sep 17 00:00:00 2001
+From: Daniel Engbert <end1@umbc.edu>
+Date: Mon, 10 Sep 2018 17:48:52 -0400
+Subject: [PATCH] Added line to log printing my email during boot.
+
+---
+ arch/x86/kernel/setup.c | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/arch/x86/kernel/setup.c b/arch/x86/kernel/setup.c
+index 89fd35349412..0a386d34649e 100644
+--- a/arch/x86/kernel/setup.c
++++ b/arch/x86/kernel/setup.c
+@@ -860,6 +860,7 @@ void __init setup_arch(char **cmdline_p)
+ 	 */
+ 	__flush_tlb_all();
+ #else
++	printk(KERN_INFO "This is end1@umbc.edu kernel!\n");
+ 	printk(KERN_INFO "Command line: %s\n", boot_command_line);
+ 	boot_cpu_data.x86_phys_bits = MAX_PHYSMEM_BITS;
+ #endif
+-- 
+2.17.1
+

@@ -1,0 +1,6 @@
+Time for 1000000 addFront() calls took 56507 microseconds elapsed
+Time for 2000000 addFront() calls took 101924 microseconds elapsed
+Time for 4000000 addFront() calls took 199850 microseconds elapsed
+Time for 8000000 addFront() calls took 396328 microseconds elapsed
+Done!
+

@@ -1,0 +1,76 @@
+
+Set #1
+COMPLEMENT OF:
+BMW
+Porsche
+Tesla
+Horse
+
+Set #2
+COMPLEMENT OF:
+iPhone
+iPad
+iWatch
+iWantIt
+
+Set #3
+COMPLEMENT OF:
+Legos
+Xbox
+My Little Pony
+Pokemon Cards
+
+Set #4
+Legos
+Xbox
+My Little Pony
+Pokemon Cards
+iPhone
+iPad
+iWatch
+iWantIt
+BMW
+Porsche
+Tesla
+Horse
+
+Set #5
+COMPLEMENT OF:
+Legos
+Xbox
+My Little Pony
+Pokemon Cards
+
+Set #6
+COMPLEMENT OF:
+iPhone
+iPad
+iWatch
+iWantIt
+
+Set #7
+COMPLEMENT OF:
+BMW
+Porsche
+Tesla
+Horse
+
+Set #8
+BMW
+Porsche
+Tesla
+Horse
+iPhone
+iPad
+iWatch
+iWantIt
+Legos
+Xbox
+My Little Pony
+Pokemon Cards
+
+Everything:
+COMPLEMENT OF:
+
+Nothing:
+

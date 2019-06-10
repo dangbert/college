@@ -1,0 +1,82 @@
+Removing multiples of 2
+Removing multiples of 3
+Removing multiples of 5
+Removing multiples of 7
+Removing multiples of 11
+Removing multiples of 13
+Removing multiples of 17
+Removing multiples of 19
+Removing multiples of 23
+Removing multiples of 29
+Removing multiples of 31
+Removing multiples of 37
+Removing multiples of 41
+Removing multiples of 43
+Removing multiples of 47
+Removing multiples of 53
+Removing multiples of 59
+Removing multiples of 61
+Removing multiples of 67
+Removing multiples of 71
+Removing multiples of 73
+Removing multiples of 79
+Removing multiples of 83
+Removing multiples of 89
+Removing multiples of 97
+
+The prime numbers less than 100
+2
+3
+5
+7
+11
+13
+17
+19
+23
+29
+31
+37
+41
+43
+47
+53
+59
+61
+67
+71
+73
+79
+83
+89
+97
+
+Check list sizes:
+
+Final item by item check
+Check item # 0
+Check item # 1
+Check item # 2
+Check item # 3
+Check item # 4
+Check item # 5
+Check item # 6
+Check item # 7
+Check item # 8
+Check item # 9
+Check item # 10
+Check item # 11
+Check item # 12
+Check item # 13
+Check item # 14
+Check item # 15
+Check item # 16
+Check item # 17
+Check item # 18
+Check item # 19
+Check item # 20
+Check item # 21
+Check item # 22
+Check item # 23
+Check item # 24
+

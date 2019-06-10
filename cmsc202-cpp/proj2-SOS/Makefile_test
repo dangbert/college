@@ -1,0 +1,10 @@
+CPPFLAGS = -ansi -Wall
+
+proj2test: test4.o sos.o
+	g++ test4.o sos.o -o proj2test
+
+test4.o: test4.cpp sos.h
+	g++ -c test4.cpp -o test4.o
+
+sos.o: sos.cpp sos.h
+	g++ -c sos.cpp -o sos.o

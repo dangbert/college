@@ -1,0 +1,18 @@
+Write Lisp functions to:
+(1) compute the volume of a sphere, given its radius
+(2) compute the real AND COMPLEX roots of a quadratic equation
+(3) take a simple list of numbers and return a list consisting of the smallest
+    and largest numbers in the input list
+(4) implement the quicksort algorithm which takes a simple list of integers and
+    sorts them. 
+
+(5) And write a Lisp function that takes three arguments: a list of integers
+called aList, an integer called min, and an integer called max.  The function
+returns the number of elements in aList that fall in the range min <= x <=max,
+where x is an element of aList.  If aList is empty, the function should return
+0.  You can define additional “helper” functions if you like.
+
+Extra credit: Demonstrate the array functions in Common Lisp by taking two
+matrices of your choice, m x n and n by p for values of m, n, and p greater than
+or equal to one, and perform matrix multiplication.. No fair using "canned"
+matrix multiply functions that may come with Common Lisp!

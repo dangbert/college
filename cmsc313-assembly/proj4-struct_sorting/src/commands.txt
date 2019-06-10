@@ -1,0 +1,27 @@
+to find the offsets between fields:
+
+make
+gdb sort_books.out
+break 45
+run
+
+::::Commands/Output::::
+
+(gdb) print book1
+$4 = {author = "J.K. Rowling\000\000\000\000\000\000\000\000", title = "Harry Potter!", '\000' <repeats 19 times>,
+  subject = "Fantasy\000\000\000", year = 2003}
+
+(gdb) print &book1
+$5 = (struct book *) 0x8049840
+
+(gdb) print &book1.author
+$6 = (char (*)[21]) 0x8049840
+
+(gdb) print &book1.title
+$7 = (char (*)[33]) 0x8049855
+
+(gdb) print &book1.subject
+$8 = (char (*)[11]) 0x8049876
+
+(gdb) print &book1.year
+$9 = (unsigned int *) 0x8049884

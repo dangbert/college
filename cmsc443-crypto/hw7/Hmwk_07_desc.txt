@@ -1,0 +1,74 @@
+
+Chapter 7 homework.
+
+Due dates.
+Questions 1-3 on paper due Tuesday April 24. 
+Keys sent to me by April 26. I will encrypt and send back shortly after getting them.
+Plaintext back to me by Tuesday May 2.
+
+
+Bellow are the named Elliptic curve parameters for Secp256k1 used in Bitcoin.
+p = 115792089237316195423570985008687907853269984665640564039457584007908834671663
+a = 0
+b = 7
+Gx = 55066263022277343669578718895168534326250603453777594175500187360389116729240
+Gy = 32670510020758816978083085130507043184471273380659243275938904335757337482424
+
+Use the above curve to answer the following questions.
+
+1) Is p = 3 mod 4? Here = means congruent.
+If so, why is this important.
+
+2) Verify that P = (Gx, Gy) is on the curve?
+Explain how you did it
+
+3) Let x = 1957. Show that x is on the curve and find y.
+Explain how you did it.
+
+4) Programming part.
+First program a function to add two points on the curve, R = addPoints(P,Q,E) using the proceedure on page 258. I used a list
+to specify a point, i.e., P = (x, y) and the point at infinity as O = (-1, -1). E is the elliptic curve.
+
+Then you need the doubleAndAdd(P,m,E) function to perform Q = mP on the curve E. This can be done by starting
+with Algorithm 5.5 square and multiply that you did from the last chapter and replace squaring with doubling
+and adding with multiplying.
+For example:
+Z = O  #point at infinity
+for i  = L - 1 down to 0 
+	Z = addPoints(Z,Z)
+	if ci == 1
+		Z = addPoints(Z,P)
+return Z
+
+5) Encryption.
+a) We will use Crypto System 6.2 Simplified ECIES but will not bother with the Point-Compress() function.
+First you need to generate your random private key m where 1 < m < p-1. Make sure to remember it. Then generate
+your public key Q = mP, where Q = (x, y) and P = (Gx, Gy).   
+b) E-mail the public key to me as a text file using the following Python:
+Note xxxxx is your last name 
+keyFid = open('xxxxxx_keys.txt','w');
+keyFid.write(str(x)) #x coordinate of Q
+keyFid.write('\n')   
+keyFid.write(str(y)) #y coordinate of Q
+keyFid.close()
+
+As in the RSA assignment, I will convert text to an integer using int2str() and encrypt.
+I will email back to you the ciphertext as:
+keyFid = open('xxxxxx_cipher.txt','w');
+keyFid.write(str(xc)) #x coordinate of kP
+keyFid.write('\n')   
+keyFid.write(str(yc)) #y coordinate of kP
+keyFid.write('\n')   
+keyFid.write(str(z)) #z = xx0 mod p  where x0 is the x corrdinate of kQ
+keyFid.close()
+
+To decrypt, do the following
+X = (xc,yc)  #Convert the ciphertext coordinates from the file to a point X
+Y = mX       #Multiply by your private key
+x = z(Y.x)^-1 mod p  #Calculate the plaintext where Y.x is the x coordinate of Y
+xs = int2str(x)  #Convert to a string
+Email xs back to me in a file named   xxxxxx_text.txt.
+
+
+
+

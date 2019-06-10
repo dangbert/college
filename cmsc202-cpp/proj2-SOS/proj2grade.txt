@@ -1,0 +1,158 @@
+CMSC202 Project 2 Gradesheet 
+-----------------------------------------------------------------
+Student ID: end1
+
+Max grade: 100 
+Raw grade: 86
+Late penalty: 0
+Total grade: 86
+
+(Total grade = Raw grade - Late penalty)
+
+
+General comments:
+
+isSubset should have checked if an element in the host is anywhere
+in B rather than checking if the i'th element in the host matched
+the i'th element in B.
+
+You dont want to always make the intersection SoS the opposite
+type as the host SoS
+
+-----------------------------------------------------------------
+I. Critical Errors
+
+   None
+
+   No submission (skip rest) 0
+
+   Program does not compile or does not run, or runs but does not
+      produce output even after minor tweaks.  Grading based on effort
+      and on compiling with mytest.cpp.
+
+      Removing one or two major bugs will fix this project. (40-50)
+      Significant progress made, but major rewrite is necessary. (30-40)
+      Not much progress made. (10-30)
+      Barely started coding. (0-10)
+
+      Score = 
+
+      Rest of grade sheet is skipped.
+
+   Other: 
+
+
+
+-----------------------------------------------------------------
+II. Submission Errors
+
+   Did not submit mytest.cpp -2
+   Additional tweaking required for compilation  -3
+
+   Other submission errors: (specify)
+
+
+-----------------------------------------------------------------
+III. Correctness
+
+
+   A. Test #1. Basic insertion and membership tests
+x      No errors
+      Failed basic insertion test       -2
+      Falied basic membership test #1   -2
+      Falied basic membership test #2   -2
+      Failed duplicate insertion test   -2
+
+
+   B. Test #2. Complement and membership tests
+ x     No errors
+      Failed make complement test            -2
+      Failed complement membership test #1   -2
+      Failed complement membership test #2   -2
+      Failed complement of empty set test    -2
+
+
+   C. Test #3. Subset tests.
+      No errors
+ x     Failed subset finite-finite test       -2
+ x     Failed subset finite-cofinite test     -2
+      Failed subset cofinite-finite test     -2
+ x     Failed subset cofinite-cofinite test   -2
+ x     Failed empty set/universe subset test  -1
+
+
+   D. Test #4. Union tests.
+ x     No errors
+      Failed union of finite & finite test       -2
+      Failed union of finite & cofinite test     -2
+      Failed union of cofinite & finite test     -2
+      Failed union of cofinite & cofinite test   -2
+      Failed empty set/universe union test       -1
+
+
+   E. Test #5. Intersection tests.
+      No errors
+ x     Failed intersection of finite & finite test       -2
+ x     Failed intersection of finite & cofinite test     -2
+ x     Failed intersection of cofinite & finite test     -2
+      Failed intersection of cofinite & cofinite test   -2
+ x     Failed empty set/universe intersection test       -1
+
+
+   Other errors (specify):
+
+
+
+-----------------------------------------------------------------
+
+IV. Program Design and Structure
+
+x   Program design and structure are reasonable 
+
+    Superfluous #includes  -1
+    
+    No function prototypes for helper functions  -1
+
+    Excessive nesting of member function calls. -0 
+       [Warning this time.]
+
+    Poor loop structure  -1 to -3
+       Comment:
+
+-----------------------------------------------------------------
+
+VI. Efficiency
+
+x   Program is reasonably efficient
+
+   Code results in  excessive copying of objects. -0 
+      [Warning this time.]
+
+   Inefficient looping structure -1
+      Specify:
+
+
+-----------------------------------------------------------------
+
+VI. Coding Standards
+
+ x  Program has good indentation, comments and choice of variable names
+
+   Poor/inconsistent indentation scheme  -2
+
+   No/poor comments for additional member functions -3
+      (needs pre- and post-conditions) 
+
+   In-line comments are:
+      terse and not meaningful -3
+      non-existent -5
+
+   Poor choice of variable names -1
+      Comment:
+
+   Uses "magic numbers" -1
+
+
+-----------------------------------------------------------------
+
+

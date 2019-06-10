@@ -1,0 +1,51 @@
+Random seed set to: 1480451209772
+
+Insert some words
+*** Exception: Maximum ejections reached!
+   iteration = 293
+   words[6898] = campaigner
+
+
+Hash statistics report: 
+   randomness level = pseudo-random
+   capacity = 1019 
+   size = 286 
+   degree = 3 
+   ejection limit = 14 
+   number of primary slots  = 250
+   average hits to primary slots = 1.148000
+   maximum hits to primary slots = 4
+   total number of ejections = 17
+   maximum number of ejections in a single insertion = 15
+
+
+Look for inserted words...
+Inserted word not found: ammo
+
+
+Look for words not inserted (should fail)...
+
+
+Remove some words ...
+Removing canonic
+Removing channel
+Removing anti
+Removing arguer
+Removing aliening
+Removing bode
+Removing confessionals
+
+
+Look for inserted words...
+Inserted word not found: bode
+Inserted word not found: canonic
+Inserted word not found: arguer
+Inserted word not found: anti
+Inserted word not found: aliening
+Inserted word not found: channel
+Inserted word not found: ammo
+Inserted word not found: confessionals
+
+
+Look for words not inserted (should fail)...
+

@@ -1,0 +1,20 @@
+start
+
+int num;
+num = 20;
+num = num + 1;
+print "num is " num;
+
+if num then {
+    print "true";
+}
+else {
+    print "false";
+}
+
+int x;
+read num;
+read num x;
+
+
+end

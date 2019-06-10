@@ -1,0 +1,22 @@
+start
+/* this file is an example of a gimli program with a syntax error */
+/* the error is a missing semicolon after the first printStmt*/
+
+function turn;
+int y;
+y = 1;
+
+
+if y then {
+    /* missing semicolon on next line: */
+    print "y is true"
+    print turn(y);
+}
+else {
+    read x;
+}
+
+int year;
+year = 2016;
+
+end

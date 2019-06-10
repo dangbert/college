@@ -1,0 +1,173 @@
+Script started on Tue 15 Nov 2016 06:52:08 PM EST
+]777;notify;Command completed;vim ../../proj3/src/Makefile ]0;dan@rhodium:~/Desktop/projects/WebCrawl/src]7;file://rhodium/home/dan/Desktop/projects/WebCrawl/src[dan@rhodium src]$ cat -n WebCrawl.java 
+     1	import java.net.*;
+     2	import java.io.*;
+     3	import java.util.*;
+     4	import java.util.regex.Pattern;
+     5	import java.util.regex.Matcher;
+     6	
+     7	
+     8	/*
+     9	 * Daniel Engbert CMSC 331 Fall 2016
+    10	 * This is a simple and limited web crawler.
+    11	 *
+    12	 * Takes in a command line argument of a url to visit
+    13	 * Finds the length of the HTML file corresponding to that URL
+    14	 * Finds other links on that page and adds them to a list of URLs to visit
+    15	 *
+    16	 * stops when it runs out of URLs
+    17	 * or 1,000,000 chars have been read
+    18	 * or 30 sites have been visited
+    19	 *
+    20	 * run with either of the following commands:
+    21	 * java WebCrawl https://example.com
+    22	 * make run url=https://example.com
+    23	 */
+    24	public class WebCrawl {
+    25	    static ArrayList<String> urls; // ArrayList of URLs to visit
+    26	    static ArrayList<String> visited; // ArrayList of URLs already visited
+    27	    static int totalLength = 0;
+    28	    static int limit = 1000000; // max number of character to read in
+    29	
+    30	
+    31	    // once there's 15 (or some number) of sites on the list, don't add anything else to it
+    32	    public static void main(String[] args) {
+    33	        urls = new ArrayList<String>();
+    34	        visited = new ArrayList<String>();
+    35	
+    36	        if (args.length == 0) {
+    37	            System.out.println("Command line argument required.");
+    38	            return;
+    39	        }
+    40	        urls.add(args[0]); // add url from the command line to urls to visit
+    41	
+    42	        // read from urls while limiting conditions are met
+    43	        while (urls.size() != 0 && totalLength < limit && visited.size() < 30) {
+    44	            String page = urls.get(0);
+    45	            // remove extra slash at end of url (for comparison purposes later)
+    46	            if (page.endsWith("/")) {
+    47	                page = page.substring(0, page.length()-1);
+    48	            }
+    49	
+    50	            if (notVisited(page)) { // when the url hasn't already been visited
+    51	                totalLength += getLength(page); // get length of HTML file
+    52	                visited.add(page); // store visited url
+    53	            }
+    54	            urls.remove(0); // remove the url from list of urls to visit
+    55	        }
+    56	
+    57	        if (totalLength >= limit)
+    58	            System.out.println("\nstopped because: total length (" + totalLength + ") exceeds limit of " + limit + " chars.");
+    59	
+    60	        if (urls.size() == 0)
+    61	            System.out.println("\nstopped because: ran out of urls to visit.");
+    62	
+    63	        if (visited.size() >= 30)
+    64	            System.out.println("\nstopped because: 30 urls were visited");
+    65	    }
+    66	
+    67	
+    68	    /*
+    69	     * returns the length (in characters) of the HTML file at the specified web page
+    70	     * also checks for <a> tag and if it exists add it to urls
+    71	     * returns 0 if the url is invalid
+    72	     */
+    73	    private static int getLength(String page) {
+    74	        String html = "";
+    75	        int length = 0;
+    76	
+    77	        try {
+    78	            URL url = new URL(page);
+    79	            BufferedReader reader = new BufferedReader(new InputStreamReader(url.openStream()));
+    80	
+    81	            String line;
+    82	            while ((line = reader.readLine()) != null) {
+    83	                html += line; // append the line just read to the string of html
+    84	            }
+    85	
+    86	            html = html.toLowerCase(); // make html all lowercase
+    87	            length = html.length(); // get length of html (number of chars)
+    88	
+    89	            System.out.println("\n" + length + " chars\tfrom " + page);
+    90	
+    91	            // look for urls in anchor tags in the html
+    92	            Pattern pattern = Pattern.compile("<a\\s(?=href)href=\"(http[^\"]+)");
+    93	            Matcher matcher = pattern.matcher(html);
+    94	
+    95	            while (matcher.find()) {
+    96	                urls.add(matcher.group(1)); // append the found url to the list
+    97	            }
+    98	
+    99	        } catch (Exception e) {
+   100	            // url is invalid (even if the url redirects from http to https)
+   101	            System.out.println("\ninvalid url:\t" + page);
+   102	            //e.printStackTrace();
+   103	            return 0;
+   104	        }
+   105	
+   106	        return length;
+   107	    }
+   108	
+   109	    /*
+   110	     * returns true if the url has not been visited yet
+   111	     * the slash characters at end of some urls were already removed to make it
+   112	     * easier to compare them
+   113	     */
+   114	    private static boolean notVisited(String url) {
+   115	        for (int i=0; i<visited.size(); i++) {
+   116	            if (visited.get(i).equals(url)) { // must use equals() to compare
+   117	                return false;
+   118	            }
+   119	        }
+   120	        return true;
+   121	    }
+   122	}
+]777;notify;Command completed;cat -n WebCrawl.java ]0;dan@rhodium:~/Desktop/projects/WebCrawl/src]7;file://rhodium/home/dan/Desktop/projects/WebCrawl/src[dan@rhodium src]$ make
+javac  WebCrawl.java
+]777;notify;Command completed;make]0;dan@rhodium:~/Desktop/projects/WebCrawl/src]7;file://rhodium/home/dan/Desktop/projects/WebCrawl/src[dan@rhodium src]$ make test[K[K[K[Krun url="[Khttps://github.com
+java WebCrawl https://github.com
+
+24944 chars	from https://github.com
+
+22438 chars	from https://github.com/contact
+
+17500 chars	from https://developer.github.com
+
+24920 chars	from https://training.github.com
+
+34741 chars	from https://shop.github.com
+
+107676 chars	from https://github.com/blog
+
+21988 chars	from https://github.com/about
+
+22754 chars	from https://github.com/site/terms
+
+404 chars	from https://github.com/site/privacy
+
+13664 chars	from https://github.com/security
+
+81430 chars	from https://status.github.com
+
+102759 chars	from https://help.github.com
+
+164 chars	from https://help.github.com/articles/responsible-disclosure-of-security-vulnerabilities
+
+282470 chars	from https://twitter.com/githubstatus
+
+28000 chars	from https://try.github.io/levels/1/challenges/1
+
+24951 chars	from https://www.github.com
+
+58172 chars	from https://cloud.githubusercontent.com/assets/18125109/20274537/8ce7d316-aa5a-11e6-86a9-39fe0a0aa9fe.png
+
+23370 chars	from https://education.github.com/pack
+
+27106 chars	from https://operationcode.org
+
+155863 chars	from http://benefits.va.gov/gibill
+
+stopped because: total length (1075314) exceeds limit of 1000000 chars.
+]777;notify;Command completed;make run url=https://github.com]0;dan@rhodium:~/Desktop/projects/WebCrawl/src]7;file://rhodium/home/dan/Desktop/projects/WebCrawl/src[dan@rhodium src]$ exit
+
+Script done on Tue 15 Nov 2016 06:53:11 PM EST

@@ -1,0 +1,73 @@
+Random seed set to: 1479302652725
+
+Insert some words
+
+
+Hash statistics report: 
+   randomness level = pseudo-random
+   capacity = 1019 
+   size = 717 
+   degree = 7 
+   ejection limit = 14 
+   number of primary slots  = 498
+   average hits to primary slots = 1.439759
+   maximum hits to primary slots = 6
+   total number of ejections = 19
+   maximum number of ejections in a single insertion = 3
+
+
+Look for inserted words...
+
+
+Look for words not inserted (should fail)...
+
+
+Remove some words ...
+Removing arguing
+Removing bestow
+Removing acrobat
+Removing brunts
+Removing bicarb
+Removing abstinent
+Removing chopping
+Removing climbed
+Removing bourgeoisie
+Removing burbled
+Removing adages
+Removing calculate
+Removing appraisal
+Removing anon
+Removing clinics
+Removing arranging
+Removing camel
+Removing appeared
+Removing aliquots
+Removing conditioned
+
+
+Look for inserted words...
+Inserted word not found: bourgeoisie
+Inserted word not found: anon
+Inserted word not found: abstinent
+Inserted word not found: aliquots
+Inserted word not found: conditioned
+Inserted word not found: arranging
+Inserted word not found: chopping
+Inserted word not found: appraisal
+Inserted word not found: arguing
+Inserted word not found: camel
+Inserted word not found: bicarb
+Inserted word not found: appeared
+Inserted word not found: burbled
+Inserted word not found: bestow
+Inserted word not found: arranging
+Inserted word not found: calculate
+Inserted word not found: adages
+Inserted word not found: acrobat
+Inserted word not found: brunts
+Inserted word not found: clinics
+Inserted word not found: climbed
+
+
+Look for words not inserted (should fail)...
+

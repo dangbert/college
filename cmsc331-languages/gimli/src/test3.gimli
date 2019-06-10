@@ -1,0 +1,42 @@
+start
+
+function foo;
+int y;
+y = 8 * 9 - 5;
+float boat;
+boat = 8/9;
+print "boat is " boat;
+
+/* testing nested ifStmt's */
+/* also testing "<", ">", "==", "and", "or", "not" */
+
+if y==1 then {
+    print "y equals 1";
+    print foo(y);
+}
+else {
+    print 0;
+    int ax;
+    ax = (y+1);
+
+    if (not (ax)) then {
+        print y+1;
+    }
+    else {
+        print "y plus 1 is false";
+
+        if y>0 and y<5 then {
+            print "y is between 0 and 5";
+            print ((y+2));
+        }
+        else {
+            print "y plus 2 is false";
+        }
+    }
+}
+
+/* testing comments */
+/**/
+
+/* */
+end

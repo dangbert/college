@@ -1,0 +1,182 @@
+*****
+Llama Stack error: popping empty stack
+*****
+
+***** Llama Stack Dump ******
+LN_SIZE = 8
+# of items in the stack = 9
+# of nodes created = 2
+# of nodes destroyed = 0
+
+This stack does not have an extra node.
+
+Stack contents, top to bottom
+----- 0x1a6a040 ----- 
+8.901
+----- 0x1a6a010 ----- 
+9.012
+7.89
+6.789
+5.678
+4.567
+3.456
+2.345
+1.234
+----- bottom of stack ---- 
+
+*****************************
+
+***** Llama Stack Dump ******
+LN_SIZE = 8
+# of items in the stack = 10
+# of nodes created = 2
+# of nodes destroyed = 0
+
+This stack does not have an extra node.
+
+Stack contents, top to bottom
+----- 0x1a6a040 ----- 
+9.012
+10.123
+----- 0x1a6a010 ----- 
+8.901
+7.89
+6.789
+5.678
+4.567
+3.456
+2.345
+1.234
+----- bottom of stack ---- 
+
+*****************************
+
+***** Llama Stack Dump ******
+LN_SIZE = 8
+# of items in the stack = 10
+# of nodes created = 2
+# of nodes destroyed = 0
+
+This stack does not have an extra node.
+
+Stack contents, top to bottom
+----- 0x1a6a040 ----- 
+10.123
+9.012
+----- 0x1a6a010 ----- 
+8.901
+7.89
+6.789
+5.678
+4.567
+3.456
+2.345
+1.234
+----- bottom of stack ---- 
+
+*****************************
+============================
+Copied stack T has: 
+
+***** Llama Stack Dump ******
+LN_SIZE = 8
+# of items in the stack = 8
+# of nodes created = 4
+# of nodes destroyed = 0
+
+This stack has an extra node: 0x1a6a070.
+
+Stack contents, top to bottom
+----- 0x1a6a0a0 ----- 
+8.901
+7.89
+6.789
+5.678
+4.567
+3.456
+2.345
+1.234
+----- bottom of stack ---- 
+
+*****************************
+============================
+Orginal stack S has: 
+
+***** Llama Stack Dump ******
+LN_SIZE = 8
+# of items in the stack = 10
+# of nodes created = 4
+# of nodes destroyed = 0
+
+This stack does not have an extra node.
+
+Stack contents, top to bottom
+----- 0x1a6a040 ----- 
+10.123
+9.012
+----- 0x1a6a010 ----- 
+8.901
+7.89
+6.789
+5.678
+4.567
+3.456
+2.345
+1.234
+----- bottom of stack ---- 
+
+*****************************
+============================
+Copied stack U has: 
+
+***** Llama Stack Dump ******
+LN_SIZE = 8
+# of items in the stack = 10
+# of nodes created = 7
+# of nodes destroyed = 1
+
+This stack does not have an extra node.
+
+Stack contents, top to bottom
+----- 0x1a6a0d0 ----- 
+11.234
+9.012
+----- 0x1a6a100 ----- 
+8.901
+7.89
+6.789
+5.678
+4.567
+3.456
+2.345
+1.234
+----- bottom of stack ---- 
+
+*****************************
+============================
+Orginal stack S has: 
+
+***** Llama Stack Dump ******
+LN_SIZE = 8
+# of items in the stack = 10
+# of nodes created = 7
+# of nodes destroyed = 1
+
+This stack does not have an extra node.
+
+Stack contents, top to bottom
+----- 0x1a6a040 ----- 
+10.123
+9.012
+----- 0x1a6a010 ----- 
+8.901
+7.89
+6.789
+5.678
+4.567
+3.456
+2.345
+1.234
+----- bottom of stack ---- 
+
+*****************************

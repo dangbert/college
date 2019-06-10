@@ -1,0 +1,8 @@
+Script started on Mon 13 Feb 2017 09:21:17 PM EST
+]0;end1@linux1:~/proj0/src[?1034h[end1@linux1 src]$ nasm -g -f elf =[K-l hello.lst hello.asm -o hello.o
+]0;end1@linux1:~/proj0/src[end1@linux1 src]$ ls [K[Kd -g -melf_i386 hello.o -o hello.out
+]0;end1@linux1:~/proj0/src[end1@linux1 src]$ ./hello.out
+Luke I am your father.
+]0;end1@linux1:~/proj0/src[end1@linux1 src]$ e[Kexit
+
+Script done on Mon 13 Feb 2017 09:21:58 PM EST

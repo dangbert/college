@@ -1,0 +1,33 @@
+
+
+=====================================================================
+p4test9.cpp:
+Check Redshirts vs Zombies behavior
+=====================================================================
+Create: RedShirt #1
+Create: RedShirt #2
+Create: RedShirt #3
+Create: RedShirt #4
+Create: RedShirt #5
+Create: Zombie #6
+*** Round 1
+Zombie #6 bites RedShirt #1
+RedShirt #2 hits Zombie #6
+RedShirt #3 hits Zombie #6
+RedShirt #4 hits RedShirt #5
+RedShirt #5 hits RedShirt #4
+*** Round 2
+RedShirt #1 is dead
+Zombie #6 bites RedShirt #4
+RedShirt #5 hits Zombie #6
+RedShirt #2 hits RedShirt #3
+RedShirt #3 hits RedShirt #2
+*** Round 3
+RedShirt #4 is dead
+Zombie #6 is dead
+
+
+=====================================================================
+
+
+

@@ -1,0 +1,21 @@
+
+
+=====================================================================
+p4test1.cpp:
+Check that Human turns into Zombie after being bitten by a Zombie
+=====================================================================
+Create: Zombie #1
+Create: Human #2
+*** Round 1
+Zombie #1 bites Human #2
+Human #2 does nothing
+*** Round 2
+*** Round 3
+Human #2 turns into Zombie #3
+Human morphed into: Zombie #3
+
+
+=====================================================================
+
+
+

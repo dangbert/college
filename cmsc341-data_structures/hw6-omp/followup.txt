@@ -1,0 +1,48 @@
+Here's something that might not be clear from the openmp Example 2:
+
+      #pragma omp for schedule(static,5) reduction(+:sum)
+      for (long int i=0; i < reps; i++) {
+         sum += A[i] ;
+      }
+
+In this loop, each thread is given several iterations of the for loop. Each
+thread adds up the values of A[i] given to it. That's why the body of the for
+loop is:
+
+   sum += A[i] ;
+
+and not just
+
+   sum = A[i] ;
+
+
+
+The "schedule(static,5)" asks OpenMP to give each thread "chunks" of 5 items in
+A[i]. If we had 4 threads running, we might have
+
+  Thread #0 gets i=0,1,2,3,4
+  Thread #1 gets i=5,6,7,8,9
+  Thread #2 gets i=10,11,12,13,14
+  Thread #3 gets i=15,16,17,18,19
+
+When Thread #0 finishes its "chunk", it gets assigned i=20,21,22,23,24.
+When Thread #1 finishes its "chunk", it gets i=25,26,27,28,29.
+...
+
+until the for loop is done.
+
+The reduction(+,sum) says when the for loop is done, you want to add the 4
+copies of sum (one for each thread) together and place the result of the
+addition into the shared sum variable.
+
+For the twin primes part, if you have a flag variable called "flag", then you
+have to say
+
+     flag = flag || ( isPrime(i) && isPrime(i+2) ) ;
+
+You can't just say
+
+     flag = isPrime(i) && isPrime(i+2) ;
+
+because then flag would store whether the last i checked in a thread is part of
+a twin prime.

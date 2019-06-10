@@ -1,0 +1,13 @@
+Terminal commands to make a typescript file:
+
+script
+cat -n WebCrawl.java
+make
+make run
+
+then press ctrl-d (to end the script command)
+
+
+
+note to copy a file to clipboard:
+xclip -sel clip < file.txt

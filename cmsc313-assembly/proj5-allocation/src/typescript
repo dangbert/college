@@ -1,0 +1,407 @@
+Script started on Wed 12 Apr 2017 10:13:00 PM EDT
+]0;end1@linux1:~/current/proj5/src[?1034h[end1@linux1 src]$ make
+cc -m32 -g -ansi -Wall   -c -o frac_heap.o frac_heap.c
+cc -m32 -g -ansi -Wall   -c -o test1.o test1.c
+cc -m32 -g -ansi -Wall frac_heap.o test1.o -o a.out
+]0;end1@linux1:~/current/proj5/src[end1@linux1 src]$ ./a.out 
+1/5 + 1/5 = 2/5
+1/5 + 2/3 = 13/15
+
+-----After creating 4 fractions:-----
+
+**** BEGIN HEAP DUMP ****
+first_free = 4
+
+  0: 1  1  5
+  1: 1  2  3
+  2: 1  2  5
+  3: 1  13  15
+  4: 0  0  5
+  5: 0  0  6
+  6: 0  0  7
+  7: 0  0  8
+  8: 0  0  9
+  9: 0  0  10
+  10: 0  0  11
+  11: 0  0  12
+  12: 0  0  13
+  13: 0  0  14
+  14: 0  0  15
+  15: 0  0  16
+  16: 0  0  17
+  17: 0  0  18
+  18: 0  0  19
+  19: 0  0  20
+**** END HEAP DUMP ****
+
+------After deleting these fractions (in a different order):-----
+
+**** BEGIN HEAP DUMP ****
+first_free = 1
+
+  0: 0  0  3
+  1: 0  0  0
+  2: 0  0  4
+  3: 0  0  2
+  4: 0  0  5
+  5: 0  0  6
+  6: 0  0  7
+  7: 0  0  8
+  8: 0  0  9
+  9: 0  0  10
+  10: 0  0  11
+  11: 0  0  12
+  12: 0  0  13
+  13: 0  0  14
+  14: 0  0  15
+  15: 0  0  16
+  16: 0  0  17
+  17: 0  0  18
+  18: 0  0  19
+  19: 0  0  20
+**** END HEAP DUMP ****
+
+----------------------------------------
+
+-----After creating 1 new fraction:-----
+
+**** BEGIN HEAP DUMP ****
+first_free = 0
+
+  0: 0  0  3
+  1: -1  1  3
+  2: 0  0  4
+  3: 0  0  2
+  4: 0  0  5
+  5: 0  0  6
+  6: 0  0  7
+  7: 0  0  8
+  8: 0  0  9
+  9: 0  0  10
+  10: 0  0  11
+  11: 0  0  12
+  12: 0  0  13
+  13: 0  0  14
+  14: 0  0  15
+  15: 0  0  16
+  16: 0  0  17
+  17: 0  0  18
+  18: 0  0  19
+  19: 0  0  20
+**** END HEAP DUMP ****
+-12/2 + 2/9 = -52/9
+-52/9 + -1/3 = -55/9
+-52/9 + -55/9 = -107/9
+
+-----After creating 5 more fractions:-----
+
+**** BEGIN HEAP DUMP ****
+first_free = 6
+
+  0: 1  2  9
+  1: -1  1  3
+  2: -1  52  9
+  3: -1  12  2
+  4: -1  55  9
+  5: -1  107  9
+  6: 0  0  7
+  7: 0  0  8
+  8: 0  0  9
+  9: 0  0  10
+  10: 0  0  11
+  11: 0  0  12
+  12: 0  0  13
+  13: 0  0  14
+  14: 0  0  15
+  15: 0  0  16
+  16: 0  0  17
+  17: 0  0  18
+  18: 0  0  19
+  19: 0  0  20
+**** END HEAP DUMP ****
+
+-----After deleting 3 fractions (in a different order):-----
+
+**** BEGIN HEAP DUMP ****
+first_free = 1
+
+  0: 1  2  9
+  1: 0  0  2
+  2: 0  0  3
+  3: 0  0  6
+  4: -1  55  9
+  5: -1  107  9
+  6: 0  0  7
+  7: 0  0  8
+  8: 0  0  9
+  9: 0  0  10
+  10: 0  0  11
+  11: 0  0  12
+  12: 0  0  13
+  13: 0  0  14
+  14: 0  0  15
+  15: 0  0  16
+  16: 0  0  17
+  17: 0  0  18
+  18: 0  0  19
+  19: 0  0  20
+**** END HEAP DUMP ****
+
+-----After deleting remaining fractions (in a different order):-----
+
+**** BEGIN HEAP DUMP ****
+first_free = 5
+
+  0: 0  0  1
+  1: 0  0  2
+  2: 0  0  3
+  3: 0  0  6
+  4: 0  0  0
+  5: 0  0  4
+  6: 0  0  7
+  7: 0  0  8
+  8: 0  0  9
+  9: 0  0  10
+  10: 0  0  11
+  11: 0  0  12
+  12: 0  0  13
+  13: 0  0  14
+  14: 0  0  15
+  15: 0  0  16
+  16: 0  0  17
+  17: 0  0  18
+  18: 0  0  19
+  19: 0  0  20
+**** END HEAP DUMP ****
+]0;end1@linux1:~/current/proj5/src[end1@linux1 src]$ gcc -m32 -g -ansi -Wall   -c -o test2.o test2.c
+]0;end1@linux1:~/current/proj5/src[end1@linux1 src]$ gcc -m32 -g -ansi -Wall frac_heap.o test2.o -o a.out
+]0;end1@linux1:~/current/proj5/src[end1@linux1 src]$ ./a.out 
+After init_heap() called:
+
+**** BEGIN HEAP DUMP ****
+first_free = 0
+
+  0: 0  0  1
+  1: 0  0  2
+  2: 0  0  3
+  3: 0  0  4
+  4: 0  0  5
+  5: 0  0  6
+  6: 0  0  7
+  7: 0  0  8
+  8: 0  0  9
+  9: 0  0  10
+  10: 0  0  11
+  11: 0  0  12
+  12: 0  0  13
+  13: 0  0  14
+  14: 0  0  15
+  15: 0  0  16
+  16: 0  0  17
+  17: 0  0  18
+  18: 0  0  19
+  19: 0  0  20
+**** END HEAP DUMP ****
+
+-----After creating 20 fractions:-----
+
+**** BEGIN HEAP DUMP ****
+first_free = 20
+
+  0: -1  1  0
+  1: -1  3  3
+  2: -1  5  6
+  3: -1  7  9
+  4: -1  9  12
+  5: -1  11  15
+  6: -1  13  18
+  7: -1  15  21
+  8: -1  17  24
+  9: -1  19  27
+  10: -1  21  30
+  11: -1  23  33
+  12: -1  25  36
+  13: -1  27  39
+  14: -1  29  42
+  15: -1  31  45
+  16: -1  33  48
+  17: -1  35  51
+  18: -1  37  54
+  19: -1  39  57
+**** END HEAP DUMP ****
+
+-----Attempting to create a 21st fraction:-----
+No more memory available!
+new_frac() returned NULL
+
+
+**** BEGIN HEAP DUMP ****
+first_free = 20
+
+  0: -1  1  0
+  1: -1  3  3
+  2: -1  5  6
+  3: -1  7  9
+  4: -1  9  12
+  5: -1  11  15
+  6: -1  13  18
+  7: -1  15  21
+  8: -1  17  24
+  9: -1  19  27
+  10: -1  21  30
+  11: -1  23  33
+  12: -1  25  36
+  13: -1  27  39
+  14: -1  29  42
+  15: -1  31  45
+  16: -1  33  48
+  17: -1  35  51
+  18: -1  37  54
+  19: -1  39  57
+**** END HEAP DUMP ****
+
+-----After deleting the first 5 fractions:-----
+
+**** BEGIN HEAP DUMP ****
+first_free = 4
+
+  0: 0  0  20
+  1: 0  0  0
+  2: 0  0  1
+  3: 0  0  2
+  4: 0  0  3
+  5: -1  11  15
+  6: -1  13  18
+  7: -1  15  21
+  8: -1  17  24
+  9: -1  19  27
+  10: -1  21  30
+  11: -1  23  33
+  12: -1  25  36
+  13: -1  27  39
+  14: -1  29  42
+  15: -1  31  45
+  16: -1  33  48
+  17: -1  35  51
+  18: -1  37  54
+  19: -1  39  57
+**** END HEAP DUMP ****
+
+-----After creating 5 more fractions:-----
+
+**** BEGIN HEAP DUMP ****
+first_free = 20
+
+  0: 1  4  4
+  1: 1  3  3
+  2: 1  2  2
+  3: 1  1  1
+  4: 1  0  0
+  5: -1  11  15
+  6: -1  13  18
+  7: -1  15  21
+  8: -1  17  24
+  9: -1  19  27
+  10: -1  21  30
+  11: -1  23  33
+  12: -1  25  36
+  13: -1  27  39
+  14: -1  29  42
+  15: -1  31  45
+  16: -1  33  48
+  17: -1  35  51
+  18: -1  37  54
+  19: -1  39  57
+**** END HEAP DUMP ****
+
+-----Attempting to create a 21st fraction:-----
+No more memory available!
+new_frac() returned NULL
+
+
+**** BEGIN HEAP DUMP ****
+first_free = 20
+
+  0: 1  4  4
+  1: 1  3  3
+  2: 1  2  2
+  3: 1  1  1
+  4: 1  0  0
+  5: -1  11  15
+  6: -1  13  18
+  7: -1  15  21
+  8: -1  17  24
+  9: -1  19  27
+  10: -1  21  30
+  11: -1  23  33
+  12: -1  25  36
+  13: -1  27  39
+  14: -1  29  42
+  15: -1  31  45
+  16: -1  33  48
+  17: -1  35  51
+  18: -1  37  54
+  19: -1  39  57
+**** END HEAP DUMP ****
+]0;end1@linux1:~/current/proj5/src[end1@linux1 src]$ gcc -m32 -g -ansi -Wall   -c -o test3.o test3.c
+]0;end1@linux1:~/current/proj5/src[end1@linux1 src]$ gcc -m32 -g -ansi -Wall frac_heap.o test3.o -o a.out
+]0;end1@linux1:~/current/proj5/src[end1@linux1 src]$ ./a/[K.out 
+After init_heap() called:
+
+**** BEGIN HEAP DUMP ****
+first_free = 0
+
+  0: 0  0  1
+  1: 0  0  2
+  2: 0  0  3
+  3: 0  0  4
+  4: 0  0  5
+  5: 0  0  6
+  6: 0  0  7
+  7: 0  0  8
+  8: 0  0  9
+  9: 0  0  10
+  10: 0  0  11
+  11: 0  0  12
+  12: 0  0  13
+  13: 0  0  14
+  14: 0  0  15
+  15: 0  0  16
+  16: 0  0  17
+  17: 0  0  18
+  18: 0  0  19
+  19: 0  0  20
+**** END HEAP DUMP ****
+
+-----After creating 2 fractions:-----
+
+**** BEGIN HEAP DUMP ****
+first_free = 2
+
+  0: 1  3  7
+  1: -1  14  29
+  2: 0  0  3
+  3: 0  0  4
+  4: 0  0  5
+  5: 0  0  6
+  6: 0  0  7
+  7: 0  0  8
+  8: 0  0  9
+  9: 0  0  10
+  10: 0  0  11
+  11: 0  0  12
+  12: 0  0  13
+  13: 0  0  14
+  14: 0  0  15
+  15: 0  0  16
+  16: 0  0  17
+  17: 0  0  18
+  18: 0  0  19
+  19: 0  0  20
+**** END HEAP DUMP ****
+
+-----About to intentionally call del_frac() on an invalid pointer:-----
+Invalid pointer in del_frac(), exiting program.
+]0;end1@linux1:~/current/proj5/src[end1@linux1 src]$ exit
+
+Script done on Wed 12 Apr 2017 10:13:54 PM EDT

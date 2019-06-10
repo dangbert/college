@@ -1,0 +1,8 @@
+First check if the char after the slash is "a-z"
+Have a table of 26 bytes mapping each escape character to its escape sequence
+
+for:
+    // You can do following with MUL, or something easier
+    total_value = (total_value * 8) + digit_value;
+    (we're multiplying by a power of 2 so do something easier
+    like a binary shift)

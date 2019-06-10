@@ -1,0 +1,18 @@
+Dear Student,
+
+Here are your individually assigned parameters for your implementation
+of Project 5 for CMSC 341.  (Yes, you are getting this from me
+even if you are not in my section.)
+
+The project description is available here:
+
+  http://www.csee.umbc.edu/~chang/cs341/projects/proj5.shtml
+
+Your parameters are:
+
+   degree: 5
+   ejection limit: 20
+   randomness level: Option #3 not very random
+
+Make sure that you implement your project using these parameters.
+We want to have a good distribution of data for this experiment.

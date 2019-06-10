@@ -1,0 +1,20 @@
+when max allowed defectives =  2  and sample size =  10 
+p =  0.01 	P(batch accepted) =  0.9998862 
+p =  0.05 	P(batch accepted) =  0.9884964 
+p =  0.1 	P(batch accepted) =  0.9298092 
+p =  0.2 	P(batch accepted) =  0.6777995 
+p =  0.25 	P(batch accepted) =  0.5255928 
+
+when max allowed defectives =  1  and sample size =  10 
+p =  0.01 	P(batch accepted) =  0.9957338 
+p =  0.05 	P(batch accepted) =  0.9138616 
+p =  0.1 	P(batch accepted) =  0.7360989 
+p =  0.2 	P(batch accepted) =  0.3758096 
+p =  0.25 	P(batch accepted) =  0.2440252 
+
+when max allowed defectives =  2  and sample size =  15 
+p =  0.01 	P(batch accepted) =  0.9995842 
+p =  0.05 	P(batch accepted) =  0.9637998 
+p =  0.1 	P(batch accepted) =  0.8159389 
+p =  0.2 	P(batch accepted) =  0.3980232 
+p =  0.25 	P(batch accepted) =  0.2360878 

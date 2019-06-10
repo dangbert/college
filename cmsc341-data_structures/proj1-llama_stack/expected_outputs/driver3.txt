@@ -1,0 +1,341 @@
+
+***** Llama Stack Dump ******
+LN_SIZE = 9
+# of items in the stack = 9
+# of nodes created = 1
+# of nodes destroyed = 0
+
+This stack does not have an extra node.
+
+Stack contents, top to bottom
+----- 0x194a010 ----- 
+8
+9
+7
+6
+5
+4
+3
+2
+1
+----- bottom of stack ---- 
+
+*****************************
+
+***** Llama Stack Dump ******
+LN_SIZE = 9
+# of items in the stack = 10
+# of nodes created = 2
+# of nodes destroyed = 0
+
+This stack does not have an extra node.
+
+Stack contents, top to bottom
+----- 0x194a1d0 ----- 
+9
+----- 0x194a010 ----- 
+10
+8
+7
+6
+5
+4
+3
+2
+1
+----- bottom of stack ---- 
+
+*****************************
+
+***** Llama Stack Dump ******
+LN_SIZE = 9
+# of items in the stack = 10
+# of nodes created = 2
+# of nodes destroyed = 0
+
+This stack does not have an extra node.
+
+Stack contents, top to bottom
+----- 0x194a1d0 ----- 
+10
+----- 0x194a010 ----- 
+9
+8
+7
+6
+5
+4
+3
+2
+1
+----- bottom of stack ---- 
+
+*****************************
+
+Creating new Llama Stack of OvCoInt T using S
+||||| OvCoInt constructor called, data = 0
+||||| OvCoInt constructor called, data = 0
+||||| OvCoInt constructor called, data = 0
+||||| OvCoInt constructor called, data = 0
+||||| OvCoInt constructor called, data = 0
+||||| OvCoInt constructor called, data = 0
+||||| OvCoInt constructor called, data = 0
+||||| OvCoInt constructor called, data = 0
+||||| OvCoInt constructor called, data = 0
+||||| OvCoInt assignment operator called, rhs = 10
+||||| OvCoInt assignment operator called, rhs = 0
+||||| OvCoInt assignment operator called, rhs = 0
+||||| OvCoInt assignment operator called, rhs = 0
+||||| OvCoInt assignment operator called, rhs = 0
+||||| OvCoInt assignment operator called, rhs = 0
+||||| OvCoInt assignment operator called, rhs = 0
+||||| OvCoInt assignment operator called, rhs = 0
+||||| OvCoInt assignment operator called, rhs = 0
+||||| OvCoInt constructor called, data = 0
+||||| OvCoInt constructor called, data = 0
+||||| OvCoInt constructor called, data = 0
+||||| OvCoInt constructor called, data = 0
+||||| OvCoInt constructor called, data = 0
+||||| OvCoInt constructor called, data = 0
+||||| OvCoInt constructor called, data = 0
+||||| OvCoInt constructor called, data = 0
+||||| OvCoInt constructor called, data = 0
+||||| OvCoInt assignment operator called, rhs = 1
+||||| OvCoInt assignment operator called, rhs = 2
+||||| OvCoInt assignment operator called, rhs = 3
+||||| OvCoInt assignment operator called, rhs = 4
+||||| OvCoInt assignment operator called, rhs = 5
+||||| OvCoInt assignment operator called, rhs = 6
+||||| OvCoInt assignment operator called, rhs = 7
+||||| OvCoInt assignment operator called, rhs = 8
+||||| OvCoInt assignment operator called, rhs = 9
+||||| OvCoInt copy constructor called, other = 10
+||||| OvCoInt assignment operator called, rhs = 10
+||||| OvCoInt destructor called
+||||| OvCoInt copy constructor called, other = 9
+||||| OvCoInt assignment operator called, rhs = 9
+||||| OvCoInt destructor called
+============================
+Copied stack T has: 
+
+***** Llama Stack Dump ******
+LN_SIZE = 9
+# of items in the stack = 8
+# of nodes created = 4
+# of nodes destroyed = 0
+
+This stack has an extra node: 0x194a350.
+
+Stack contents, top to bottom
+----- 0x194a4b0 ----- 
+8
+7
+6
+5
+4
+3
+2
+1
+----- bottom of stack ---- 
+
+*****************************
+============================
+Orginal stack S has: 
+
+***** Llama Stack Dump ******
+LN_SIZE = 9
+# of items in the stack = 10
+# of nodes created = 4
+# of nodes destroyed = 0
+
+This stack does not have an extra node.
+
+Stack contents, top to bottom
+----- 0x194a1d0 ----- 
+10
+----- 0x194a010 ----- 
+9
+8
+7
+6
+5
+4
+3
+2
+1
+----- bottom of stack ---- 
+
+*****************************
+
+Creating new Llama Stack of OvCoInt U
+||||| OvCoInt constructor called, data = 0
+||||| OvCoInt constructor called, data = 0
+||||| OvCoInt constructor called, data = 0
+||||| OvCoInt constructor called, data = 0
+||||| OvCoInt constructor called, data = 0
+||||| OvCoInt constructor called, data = 0
+||||| OvCoInt constructor called, data = 0
+||||| OvCoInt constructor called, data = 0
+||||| OvCoInt constructor called, data = 0
+
+Assigning Llama Stack S to U
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt constructor called, data = 0
+||||| OvCoInt constructor called, data = 0
+||||| OvCoInt constructor called, data = 0
+||||| OvCoInt constructor called, data = 0
+||||| OvCoInt constructor called, data = 0
+||||| OvCoInt constructor called, data = 0
+||||| OvCoInt constructor called, data = 0
+||||| OvCoInt constructor called, data = 0
+||||| OvCoInt constructor called, data = 0
+||||| OvCoInt assignment operator called, rhs = 10
+||||| OvCoInt assignment operator called, rhs = 0
+||||| OvCoInt assignment operator called, rhs = 0
+||||| OvCoInt assignment operator called, rhs = 0
+||||| OvCoInt assignment operator called, rhs = 0
+||||| OvCoInt assignment operator called, rhs = 0
+||||| OvCoInt assignment operator called, rhs = 0
+||||| OvCoInt assignment operator called, rhs = 0
+||||| OvCoInt assignment operator called, rhs = 0
+||||| OvCoInt constructor called, data = 0
+||||| OvCoInt constructor called, data = 0
+||||| OvCoInt constructor called, data = 0
+||||| OvCoInt constructor called, data = 0
+||||| OvCoInt constructor called, data = 0
+||||| OvCoInt constructor called, data = 0
+||||| OvCoInt constructor called, data = 0
+||||| OvCoInt constructor called, data = 0
+||||| OvCoInt constructor called, data = 0
+||||| OvCoInt assignment operator called, rhs = 1
+||||| OvCoInt assignment operator called, rhs = 2
+||||| OvCoInt assignment operator called, rhs = 3
+||||| OvCoInt assignment operator called, rhs = 4
+||||| OvCoInt assignment operator called, rhs = 5
+||||| OvCoInt assignment operator called, rhs = 6
+||||| OvCoInt assignment operator called, rhs = 7
+||||| OvCoInt assignment operator called, rhs = 8
+||||| OvCoInt assignment operator called, rhs = 9
+============================
+Copied stack U has: 
+
+***** Llama Stack Dump ******
+LN_SIZE = 9
+# of items in the stack = 10
+# of nodes created = 7
+# of nodes destroyed = 1
+
+This stack does not have an extra node.
+
+Stack contents, top to bottom
+----- 0x194a650 ----- 
+10
+----- 0x194a7b0 ----- 
+9
+8
+7
+6
+5
+4
+3
+2
+1
+----- bottom of stack ---- 
+
+*****************************
+||||| OvCoInt copy constructor called, other = 10
+||||| OvCoInt destructor called
+Popped 10 from Llama Stack U
+||||| OvCoInt constructor called, data = 11
+||||| OvCoInt assignment operator called, rhs = 11
+||||| OvCoInt destructor called
+============================
+After modifying U, orginal stack S has: 
+
+***** Llama Stack Dump ******
+LN_SIZE = 9
+# of items in the stack = 10
+# of nodes created = 7
+# of nodes destroyed = 1
+
+This stack does not have an extra node.
+
+Stack contents, top to bottom
+----- 0x194a1d0 ----- 
+10
+----- 0x194a010 ----- 
+9
+8
+7
+6
+5
+4
+3
+2
+1
+----- bottom of stack ---- 
+
+*****************************
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called
+||||| OvCoInt destructor called

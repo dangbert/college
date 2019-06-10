@@ -1,0 +1,10 @@
+[    0.000000] Linux version 4.17.19+ (root@dan-VirtualBox) (gcc version 7.3.0 (Ubuntu 7.3.0-16ubuntu3)) #1 SMP Mon Sep 10 17:17:26 EDT 2018
+[    0.000000] This is end1@umbc.edu kernel!
+[    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-4.17.19+ root=UUID=cb09276d-11ec-4be7-93d2-bd175b6620c7 ro quiet splash
+[    0.000000] KERNEL supported cpus:
+[    0.000000]   Intel GenuineIntel
+[    0.000000]   AMD AuthenticAMD
+[    0.000000]   Centaur CentaurHauls
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'

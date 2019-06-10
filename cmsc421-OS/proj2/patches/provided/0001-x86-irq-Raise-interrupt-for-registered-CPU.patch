@@ -1,0 +1,90 @@
+From a9df47049f46f0a73b47708b7f5d77bd3cabea95 Mon Sep 17 00:00:00 2001
+From: Jason Tang <jtang@umbc.edu>
+Date: Sun, 18 Nov 2018 18:10:07 -0500
+Subject: [PATCH] x86,irq: Raise interrupt for registered CPU
+
+Within a SMP environement, the CPU that called trigger_irq()
+is not not necessarily the same CPU to which the interrupt is
+registered. To handle this situation, search through the
+interrupt vector table for all CPUs, then raise the interrupt
+only for the CPU where it will be handled.
+
+Signed-off-by: Jason Tang <jtang@umbc.edu>
+---
+ arch/x86/kernel/irq.c | 51 ++++++++++++++++++++++++-------------------
+ 1 file changed, 29 insertions(+), 22 deletions(-)
+
+diff --git a/arch/x86/kernel/irq.c b/arch/x86/kernel/irq.c
+index 259966e949d7..a08c5183c4e9 100644
+--- a/arch/x86/kernel/irq.c
++++ b/arch/x86/kernel/irq.c
+@@ -262,26 +262,12 @@ __visible unsigned int __irq_entry do_IRQ(struct pt_regs *regs)
+ }
+ 
+ /**
+- * trigger_irq() - invoke interrupt associated with requested IRQ
+- * @irq: target IRQ
+- *
+- * Search the interrupt vector table for the requested IRQ. If found,
+- * invoke INT opcode for that vector number, so that the kernel will
+- * then call the IRQ handler within interrupt context.
+- *
+- * Return: 0 if @irq was found, negative on error
++ * Raise an interrupt for the requested vector
+  */
+-int trigger_irq(unsigned irq) {
+-	unsigned vector;
+-	struct irq_desc *desc;
+-	for (vector = FIRST_EXTERNAL_VECTOR; vector < NR_VECTORS; vector++) {
+-		desc = __this_cpu_read(vector_irq[vector]);
+-		if (!IS_ERR_OR_NULL(desc) && irq == irq_desc_get_irq(desc))
+-			goto found;
+-	}
+-	return -1;
+- found:
+-	switch (vector) {
++static void raise_interrupt(void *info) {
++	unsigned *vector = info;
++	pr_info("Raising hardware interrupt %u\n", *vector);
++	switch (*vector) {
+ 		case 0: { asm("int $0x00\n"); break; }
+ 		case 1: { asm("int $0x01\n"); break; }
+ 		case 2: { asm("int $0x02\n"); break; }
+@@ -538,10 +524,31 @@ int trigger_irq(unsigned irq) {
+ 		case 253: { asm("int $0xfd\n"); break; }
+ 		case 254: { asm("int $0xfe\n"); break; }
+ 		case 255: { asm("int $0xff\n"); break; }
+-	default:
+-		return -1;
+ 	}
+-	return 0;
++}
++
++/**
++ * trigger_irq() - invoke interrupt associated with requested IRQ
++ * @irq: target IRQ
++ *
++ * Search the interrupt vector table for the requested IRQ. If found,
++ * invoke INT opcode for that vector number, so that the kernel will
++ * then call the IRQ handler within interrupt context.
++ *
++ * Return: 0 if @irq was found, negative on error
++ */
++int trigger_irq(unsigned irq) {
++	unsigned vector;
++	struct irq_desc *desc;
++	int cpu;
++	for (vector = FIRST_EXTERNAL_VECTOR; vector < NR_VECTORS; vector++) {
++		for_each_online_cpu(cpu) {
++			desc = per_cpu(vector_irq, cpu)[vector];
++			if (!IS_ERR_OR_NULL(desc) && irq == irq_desc_get_irq(desc))
++				return smp_call_function_single(cpu, raise_interrupt, &vector, 1);
++		}
++	}
++	return -1;
+ }
+ EXPORT_SYMBOL_GPL(trigger_irq);
+ 
+-- 
+2.17.1
+

@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>GIMLI a simple language for CMSC 331</title>
+</head>
+<body>
+<h1>Simple Language for CMSC 331</h1>
+<p>You're being asked to use Lex and YACC to create a parser for the Gimli language. You can use the Java, C, or Python flavors of Lex and YACC. (On Linux you can use flex and bison.)</p>
+<p>I'll provide some skeleton code, which is under construction at this moment.</p>
+<p>Here is a sample Gimli program.</p>
+<pre>
+start
+int x;
+read x;
+print x+3-17;
+if x &gt; 6 then print &quot;greater than 6&quot;
+else &quot;not greater than 6&quot;;
+while x&gt;5
+x=x-1;
+print x;
+end;
+end
+</pre>
+<h2>Grammar for Gimli</h2>
+<p>Here is the grammar for Gimli, written in a form on BNF.  Note that &quot;program&quot; is the start symbol in this grammar.
+<p>program :	startStmt statements endStmt<br>
+statements : statement ( &quot;;&quot; statement) *<br>
+statement : declaration | assignmentStmt | readStmt | printStmt | call_stmt |ifStmt<br>
+startStmt	: &quot;start&quot;<br>
+endStmt : &quot;end&quot;<br>
+ifStmt : &quot;if&quot; expr &quot;then&quot; statements &quot;else&quot; statements<br>
+whileStmt	: &quot;while&quot; expr statements end<br>
+declaration	:	(&quot;function&quot; | &quot;int&quot; | &quot;float&quot;) identifierList<br>
+call_stmt	:	identifier &quot;(&quot; argumentList &quot;)&quot;<br>
+argumentList : argument | (argument &quot;,&quot; argumentList)<br>
+argument	:	expr<br>
+read_stmt	:	&quot;read&quot; (identifier)+<br>
+print_stmt	: &quot;print&quot; (string | expr)+<br>
+assignmentStmt	:	identifier &quot;=&quot;	expr<br>
+expr : expr relOps expr<br>
+expr : expr logicalOps expr <br>
+  expr	:	&quot;(&quot; expr &quot;)&quot;<br>
+  expr : term addop factor<br>
+  expr	: term<br>
+  addop	: &quot;+&quot; | &quot;-&quot;<br>
+  term	:	factor multop term<br>
+  term	: factor<br>
+  multop	: &quot;*&quot; | &quot;/&quot; | &quot;%&quot;<br>
+  relOps : &quot;&lt;&quot; | &quot;==&quot; | &quot;&gt;&quot;<br>
+  logicalOps : &quot;and&quot; | &quot;or&quot; | &quot;not&quot;<br>
+factor :	identifier | constant</p>
+</code>
+<p>in the Lex file, make sure you have rules for </p>
+<p>identifier</p>
+<p>string, e.g. &quot;I am a boring string&quot;</p>
+<p>integer constants</p>
+<p>comment &quot;/* a bunch of text */&quot;, &quot;/*&quot;[a-zA-Z 0-9]*&quot;*/&quot;</p>
+<p>operators and other terminals that appear in the grammar, such as &quot;(&quot; &quot;)&quot; &quot;+&quot; etc.</p>
+<p>&nbsp;</p>
+</body>
+</html>

@@ -1,0 +1,25 @@
+
+
+=====================================================================
+p4test6.cpp:
+Check that Doctor can cure Human bitten by a Zombie
+=====================================================================
+Create: Zombie #1
+Create: Human #2
+Create: Doctor #3
+*** Round 1
+Zombie #1 bites Human #2
+Human #2 does nothing
+*** Round 2
+Doctor #3 cures Human #2
+Human #2 does nothing
+*** Round 3
+*** Round 4
+*** Round 5
+*** Round 6
+
+
+=====================================================================
+
+
+

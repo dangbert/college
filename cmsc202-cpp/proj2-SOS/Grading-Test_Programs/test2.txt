@@ -1,0 +1,72 @@
+These animals are not common pets:
+COMPLEMENT OF:
+hamster
+cat
+dog
+fish
+rabbit
+
+
+These animals are unusual and are not common as pets:
+lion
+tiger
+bear
+
+
+People should not have these pets:
+dog
+rabbit
+
+
+People should have one of these pets:
+hamster
+cat
+fish
+
+Iguanas are not common but also not dangerous.
+
+A[0] = cat
+A[1] = dog
+A[2] = fish
+A[3] = hamster
+A[4] = rabbit
+
+
+A[0] = bear
+A[1] = dog
+A[2] = lion
+A[3] = rabbit
+A[4] = tiger
+
+
+A[0] = cat
+A[1] = dog
+A[2] = fish
+A[3] = hamster
+A[4] = rabbit
+
+
+A[0] = bear
+A[1] = lion
+A[2] = tiger
+
+
+A[0] = dog
+A[1] = rabbit
+
+
+A[0] = cat
+A[1] = fish
+A[2] = hamster
+
+
+A[0] = bear
+A[1] = cat
+A[2] = dog
+A[3] = fish
+A[4] = hamster
+A[5] = lion
+A[6] = rabbit
+A[7] = tiger
+
+

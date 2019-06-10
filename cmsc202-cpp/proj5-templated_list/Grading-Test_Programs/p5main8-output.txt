@@ -1,0 +1,6 @@
+Time for 10000000 sumEvenSquares() calls took 27393 microseconds elapsed
+Time for 20000000 sumEvenSquares() calls took 58147 microseconds elapsed
+Time for 40000000 sumEvenSquares() calls took 110216 microseconds elapsed
+Time for 80000000 sumEvenSquares() calls took 228145 microseconds elapsed
+Done!
+

@@ -1,0 +1,298 @@
+CMSC202 Project 4 Gradesheet 
+-----------------------------------------------------------------
+Student ID: end1
+
+Max grade: 100 
+Raw grade: 91
+Late penalty: 0
+Total grade: 91
+
+(Total grade = Raw grade - Late penalty)
+
+
+General comments:
+Good project.  Few comments and few different results then expected on tests
+lost you some points.  Otherwise, great job.
+
+
+-----------------------------------------------------------------
+I. Critical Errors
+
+   None
+
+   No submission (skip rest) 0
+
+   Program does not compile or does not run, or runs but does not
+      produce output even after minor tweaks.  Grading based on effort
+      and on compiling with mytest.cpp.
+
+      Removing one or two major bugs will fix this project. (40-50)
+      Significant progress made, but major rewrite is necessary. (30-40)
+      Not much progress made. (10-30)
+      Barely started coding. (0-10)
+
+      Score = 
+
+      Rest of grade sheet is skipped.
+
+   Other: 
+
+
+
+-----------------------------------------------------------------
+II. Submission Errors
+
+   Additional tweaking required for compilation  -3
+
+   Other submission errors: (specify)
+
+
+-----------------------------------------------------------------
+III. Correctness
+
+
+   -------------------------------------------------
+
+   Test #1.
+   Check that Human turns into Zombie after being 
+   bitten by a Zombie
+
+X      No errors
+
+      Does not compile (skip rest)         -6
+      Does not run (skip rest)             -6 
+      Seg faults before output (skip rest) -6
+
+      Human does not turn into Zombie      -3
+      Human turns into Zombie early        -1
+      Human turns into Zombie late
+         in Round 4 (OK)                   -0
+      Zombie morphs (should not)           -1
+
+      Memory leak                          -1
+
+   -------------------------------------------------
+
+   Test #2. 
+   Check that Human turns into Vampire after being 
+   bitten by a Vampire
+
+X      No errors
+
+      Does not compile (skip rest)         -6
+      Does not run (skip rest)             -6 
+      Seg faults before output (skip rest) -6
+
+      Human does not turn into Vampire     -3
+      Human turns into Vampire early       -1
+      Human turns into Vampire late
+         in Round 4 (OK)                   -0
+      Vampire morphs (should not)          -1
+
+      Memory leak                          -1
+
+   -------------------------------------------------
+
+   Test #3.
+   Check that Human turns into Werewolf after being 
+   bitten by a Werewolf
+
+X      No errors
+
+      Does not compile (skip rest)         -6
+      Does not run (skip rest)             -6 
+      Seg faults before output (skip rest) -6
+
+      Human does not turn into Werewolf    
+        (does not morph, or turns into
+         Zombie or Vampire)                -5
+
+      Memory leak                          -1
+
+   -------------------------------------------------
+
+   Test #4.
+   Check for memory leak if game ends with Human 
+   bitten by Zombie
+
+X      No errors
+
+      Does not compile (skip rest)         -6
+      Does not run (skip rest)             -6 
+      Seg faults before output (skip rest) -6
+
+      Memory leak                          -5
+
+   -------------------------------------------------
+
+   Test #5.
+   Check that Doctor turns into Vampire after being 
+   bitten by a Vampire
+
+X      No errors
+
+      Does not compile (skip rest)         -6
+      Does not run (skip rest)             -6 
+      Seg faults before output (skip rest) -6
+
+      Doctor does not turn into Vampire    -3
+      Doctor turns into Vampire early      -1
+      Doctor turns into Vampire late
+         in Round 4 (OK)                   -0
+      Vampire morphs (should not)          -1
+
+      Memory leak                          -1
+
+   -------------------------------------------------
+
+   Test #6.
+   Check that Doctor can cure Human bitten by a Zombie
+
+X      No errors
+
+      Does not compile (skip rest)         -6
+      Does not run (skip rest)             -6 
+      Seg faults before output (skip rest) -6
+
+      Human morphs (cured)                 -3
+      Doctor morphs (not bitten)           -1
+      Zombie morphs (should not)           -1
+
+      Memory leak                          -1
+
+   -------------------------------------------------
+
+   Test #7.
+   Check that Doctor can cure a Zombie but not a Vampire
+
+X      No errors
+
+      Does not compile (skip rest)         -6
+      Does not run (skip rest)             -6 
+      Seg faults before output (skip rest) -6
+
+      Zombie does not morph into Human     -3
+      Vampire morphs (should not)          -2
+
+      Memory leak                          -1
+
+   -------------------------------------------------
+
+   Test #8.
+   Check that Zombies and Vampires die after getting 
+   hit 3 times.
+
+X      No errors
+
+      Does not compile (skip rest)         -6
+      Does not run (skip rest)             -6 
+      Seg faults before output (skip rest) -6
+
+      Zombie does not die                  -2
+      Vampire does not die                 -2
+      Buffy morphs (should not)            -1
+
+      Memory leak                          -1
+
+   -------------------------------------------------
+
+   Test #9.
+   Check Redshirts vs Zombies behavior 
+
+X      No errors
+
+      Does not compile (skip rest)         -6
+      Does not run (skip rest)             -6 
+      Seg faults before output (skip rest) -6
+
+      Zombie does not die                  -2
+      Redshirts do not die immediately     -2
+
+      Memory leak                          -1
+
+   -------------------------------------------------
+
+   Test #10.
+   Thirty round game test.
+
+      No errors
+
+      Does not compile (skip rest)         -6
+      Does not run (skip rest)             -6 
+      Seg faults before output (skip rest) -6
+
+X      Result significantly different from 
+         "standard" solution.              -3
+
+      Seg faults before program ends       -2
+
+      Memory leak                          -1
+ 
+   -------------------------------------------------
+
+   Test #11.
+   Fifteen round game test.
+
+      No errors
+
+      Does not compile (skip rest)         -6
+      Does not run (skip rest)             -6 
+      Seg faults before output (skip rest) -6
+
+X      Result significantly different from 
+         "standard" solution.              -3
+
+      Seg faults before program ends       -2
+
+      Memory leak                          -1
+ 
+   -------------------------------------------------
+
+
+-----------------------------------------------------------------
+
+IV. Program Design and Structure
+
+X    Program design and structure are reasonable 
+
+    Overly complicated inheritance hierarchy -1
+
+    No function prototypes for helper functions  -1
+
+    Other design/structure problems -1 to -3
+       Comment:
+
+-----------------------------------------------------------------
+
+VI. Efficiency
+
+X   Program is reasonably efficient
+
+   Other efficiency problems -1 to -3
+      Specify:
+
+
+-----------------------------------------------------------------
+
+VI. Coding Standards
+
+   Program has good indentation, comments and choice of variable names
+
+   Poor/inconsistent indentation scheme  -2
+
+   No/poor comments for additional member functions -3
+      (needs pre- and post-conditions) 
+
+   In-line comments are:
+X      terse and not meaningful -3
+      non-existent -5
+
+   Poor choice of variable names -1
+      Comment:
+
+   Uses "magic numbers" -1
+
+
+-----------------------------------------------------------------
+
+

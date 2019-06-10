@@ -1,0 +1,41 @@
+Script started on Wed 05 Apr 2017 11:55:33 PM EDT
+]0;end1@linux2:~/current/313_proj4/src[?1034h[end1@linux2 src]$ make
+cc -m32 -g -Wall -ansi   -c -o sort_books.o sort_books.c
+nasm -f elf -g -l bookcmp.lst bookcmp.asm -o bookcmp.o
+cc -m32 -g -Wall -ansi sort_books.o bookcmp.o -o sort_books.out
+]0;end1@linux2:~/current/313_proj4/src[end1@linux2 src]$ make run
+./sort_books.out < books.dat
+Dead until Dark, Charlaine Harris, Fantasy, 2001
+Three Weeks with My Brother, Nicholas Sparks, Nonfiction, 2004
+1491, Charles C. Mann, Nonfiction, 2006
+Eclipse, Stephenie Meyer, Romance, 2007
+New Moon, Stephenie Meyer, Romance, 2007
+A Summer Affair, Elin Hilderbrand, Romance, 2008
+Murder on Astor Place, Victoria Thompson, Mystery, 2009
+The Help, Kathryn Stockett, Fiction, 2009
+1225 Christmas Tree Lane, Debbie Macomber, Romance, 2011
+1Q84, Haruki Murakami, Fiction, 2011
+Best Staged Plans, Claire Cook, Fiction, 2011
+Breaking Point, Pamela Clare, Romance, 2011
+Crossed, Ally Condie, Romance, 2011
+Explosive Eighteen, Janet Evanovich, Mystery, 2011
+Good Girls Don't, Victoria Dahl, Romance, 2011
+Heaven is for Real, Todd Burpo, Nonfiction, 2011
+Inheritance, Christopher Paolini, Fantasy, 2011
+The 10 Habits of Happy Mothers, Meg Meeker; M.D., Nonfiction, 2011
+The Affair, Lee Child, Mystery, 2011
+The Gap Year, Sarah Bird, Humor, 2011
+The Girl With the Dragon Tattoo, Stieg Larsson, Mystery, 2011
+The Prague Cemetery, Umberto Eco, Fiction, 2011
+We Need to Talk About Kevin, Lionel Shriver, Fiction, 2011
+15 Seconds, Andrew Gross, Thriller, 2012
+Between the Dark and the Dayligh, Richard Marsh, Mystery, 2012
+Black Dahlia & White Rose, Joyce Carol Oates, Fiction, 2012
+Glad Tidings, Debbie Macomber, Romance, 2012
+Harry Potter and the Chamber of , J.K. Rowling, Fantasy, 2012
+The Affair Next Door, Anna Katherine Green, Mystery, 2012
+The Third Gate, Lincoln Child, Fantasy, 2012
+Vow, Kim Carpenter, Nonfiction, 2012
+]0;end1@linux2:~/current/313_proj4/src[end1@linux2 src]$ exit
+
+Script done on Wed 05 Apr 2017 11:55:49 PM EDT

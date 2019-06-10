@@ -1,0 +1,23 @@
+
+
+=====================================================================
+p4test7.cpp:
+Check that Doctor can cure a Zombie but not a Vampire
+=====================================================================
+Create: Doctor #1
+Create: Doctor #2
+Create: Zombie #3
+Create: Vampire #4
+*** Round 1
+Doctor #1 cures Zombie #3
+Doctor #2 cures Vampire #4
+Zombie #3 bites Vampire #4
+Vampire #4 bites Zombie #3
+Zombie #3 turns into Human #7
+Zombie morphed into: Human #7
+
+
+=====================================================================
+
+
+

@@ -1,0 +1,11 @@
+Project 5 scores have been posted on Blackboard. You can also find your grade sheet in the 00Gradesheets directory as before.
+
+BTW, the test files for Proj4 and Proj5 are in:
+   /afs/umbc.edu/users/c/h/chang/pub/cs202stuff/proj4
+
+
+The Project 4 test files are called p4test1.cpp, ..., p4test9.cpp. The expected results are in ans1.txt, ..., ans9.txt.
+
+Your Project 4 submission was also tested against main.cpp (same as distributed previously) and main2.cpp. The expected results for these tests are ans10.txt and ans11.txt respectively.
+
+Your Project 4 submission was run with valgrind to check for memory leaks and invalid memory access.

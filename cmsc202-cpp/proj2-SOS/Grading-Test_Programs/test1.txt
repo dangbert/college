@@ -1,0 +1,17 @@
+Some common pets:
+hamster
+cat
+dog
+fish
+
+Dogs are common pets
+
+Iguanas are not common pets
+
+
+***Data dump:
+A[0] = cat
+A[1] = dog
+A[2] = fish
+A[3] = hamster
+

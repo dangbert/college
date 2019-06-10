@@ -1,0 +1,168 @@
+CMSC202 Project 1 Gradesheet 
+-----------------------------------------------------------------
+Student ID: end1
+
+Max grade: 100 
+Raw grade: 97
+Late penalty: 0
+Total grade: 97
+
+(Total grade = Raw grade - Late penalty)
+
+
+General comments:
+
+Perhaps too many comments, comments are very helpful but you have almost every line commented.
+
+
+-----------------------------------------------------------------
+I. Critical Errors
+
+  X None
+
+   No submission (skip rest) 0
+
+   Program does not compile or does not run, or runs but does not
+      produce output even after minor tweaks.  Grading based on effort.
+
+      Removing one or two major bugs will fix this project. (40-50)
+      Significant progress made, but major rewrite is necessary. (30-40)
+      Not much progress made. (10-30)
+      Barely started coding. (0-10)
+
+      Score = 
+
+      Rest of grade sheet is skipped.
+
+   Other: 
+
+
+
+-----------------------------------------------------------------
+II. Submission Errors
+
+   No makefile or makefile not written for Project 1  -5
+   Makefile does not work -3
+   Additional tweaking required for compilation  -3
+
+   Other submission errors: (specify)
+
+
+-----------------------------------------------------------------
+III. Correctness
+
+
+   A. Test #1. Running program as submitted
+    X  No errors
+      Program does not run even after tweaking -20  (skip to III.B or Critical Error?)
+      Program requires tweaking to run -5
+      Program reports wrong messages as interesting -3
+      Program reports wrong key for interesting messages -3
+      Program prints messages with garbage characters -3
+      Program does not terminate within reasonable time -3
+
+
+   B. Test #2. Running with original proj1.h
+    X  No errors
+      Program does not compile with original proj1.h -8    (skip to III.C)
+      Program does not run with original proj1.h -5    (skip to III.C)
+      Program does not give same output as in III.A  -3
+         (OK if both are wrong in the same way)
+
+
+   C. Test #3. Running with alternate proj1.h
+
+     X No errors
+
+      Program does not compile even after tweaking -8  (skip to III.D)
+      Program does not run even after tweaking -7  (skip to III.D)
+      Program requires tweaking to run -2
+
+      Program reports wrong messages as interesting -1
+      Program reports wrong key for interesting messages -1
+      Program prints messages with garbage characters -1
+
+      Program does not terminate within reasonable time -2
+
+
+   D. Running with public Google Test
+
+    X  No errors
+
+      Program does not compile even after tweaking -8  (skip to III.E)
+      Program does not run even after tweaking -7  (skip to III.E)
+      Program requires tweaking to run -2
+
+      Failed Proj1Tests.PUBLIC_Decipher_nullMsg -2
+      Failed Proj1Tests.PUBLIC_Decipher_Msgs -2 
+      Failed Proj1Tests.PUBLIC_SolveCipher -4
+
+      Program does not terminate within reasonable time -2
+
+
+   E. Running with new Google Test
+
+    X  No errors
+
+      Program does not compile even after tweaking -8  (skip to IV)
+      Program does not run even after tweaking -7  (skip to IV)
+      Program requires tweaking to run -2
+
+      Failed Proj1Tests.RESERVED_Decipher_Msgs -2
+      Failed Proj1Tests.RESERVED_SolveCipher -4
+      Failed Proj1Tests.RESERVED_SolveCipher_oneWord -2
+
+      Program does not terminate within reasonable time -2
+
+
+   Other errors (specify):
+
+
+
+-----------------------------------------------------------------
+
+IV. Program Design and Structure
+
+    Program design and structure are reasonable 
+
+    Superfluous #includes  -1
+    
+    No function prototypes for helper functions  -1
+
+    Prints output from SolveCipher -2
+
+    Poor loop structure  -1 to -3
+       Comment:
+
+    Declares array inside loops -1
+
+    Unnecessary use of C++ string class -1
+
+    Uses strcpy instead of strncpy, strcmp instead of strncmp, ...  -1
+
+
+-----------------------------------------------------------------
+
+IV. Coding Standards
+
+   Program has good indentation, comments and choice of variable names
+
+   Poor/inconsistent indentation scheme  -2
+
+ X No/poor comments for helper functions (needs pre- and post-conditions)  -3
+      (not needed for Decipher() and SolveCipher())
+
+   In-line comments are:
+      terse and not meaningful -3
+      non-existent -5
+
+   Poor choice of variable names -1
+      Comment:
+
+   Uses "magic numbers" (e.g., 65 instead of 'A', 26 instead of ALPHALEN) 
+      [ WARNING THIS TIME ]
+
+
+-----------------------------------------------------------------
+
+

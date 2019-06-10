@@ -1,0 +1,250 @@
+CMSC202 Project 4 Gradesheet 
+-----------------------------------------------------------------
+Student ID: end1
+
+Max grade: 100 
+Raw grade: 100
+Late penalty: 0
+Total grade: 100
+
+(Total grade = Raw grade - Late penalty)
+
+
+General comments:
+
+
+
+-----------------------------------------------------------------
+I. Critical Errors
+
+X  None
+
+   No submission (skip rest) 0
+
+   Program does not compile or does not run, or runs but does not
+      produce output even after minor tweaks.  Grading based on effort
+      and on compiling with mytest.cpp.
+
+      Removing one or two major bugs will fix this project. (40-50)
+      Significant progress made, but major rewrite is necessary. (30-40)
+      Not much progress made. (10-30)
+      Barely started coding. (0-10)
+
+      Score = 
+
+      Rest of grade sheet is skipped.
+
+   Other: 
+
+
+
+-----------------------------------------------------------------
+II. Submission Errors
+
+   Additional tweaking required for compilation  -3
+
+   Other submission errors: (specify)
+
+
+-----------------------------------------------------------------
+III. Correctness
+
+
+   -------------------------------------------------
+
+   Test #1
+   A very simple test of [] operator.
+
+X     No errors
+
+      Does not compile (skip rest)         -6
+      Does not run (skip rest)             -6 
+      Seg faults before output (skip rest) -6
+
+      Incorrect output using []            -1
+      Incorrect output with print()        -1
+      Incorrect output with print() 2nd    -1
+      Incorrect output with print() 3rd    -1
+
+      Crashes before end of program        -1
+      Memory leak/bad memory access        -1
+
+   -------------------------------------------------
+
+   Test #2
+   Checks copy constructor and assignment operator.
+
+X     No errors
+
+      Does not compile (skip rest)         -6
+      Does not run (skip rest)             -6 
+      Seg faults before output (skip rest) -6
+
+      Cannot print doubles                 -1
+      copy constructor does shallow copy   -2
+      list assignment does not work        -1
+
+      Crashes before end of program        -1
+      Memory leak/bad memory access        -1
+
+   -------------------------------------------------
+
+   Test #3
+   Simple test of remove() and deleteFront(). 
+   Also, checks that cache invalidation works.
+
+X     No errors
+
+      Does not compile (skip rest)         -6
+      Does not run (skip rest)             -6 
+      Seg faults before output (skip rest) -6
+
+      remove() does not work               -1
+      deleteFront() does not work          -1
+      does not invalidate cache            -1
+
+      Crashes before end of program        -1
+      Memory leak/bad memory access        -1
+
+   -------------------------------------------------
+
+   Test #4
+   Testing with list of vectors as 2D array. 
+   A LinkedList of vectors can be used with [][].
+
+X     No errors
+
+      Does not compile (skip rest)         -6
+      Does not run (skip rest)             -6 
+      Seg faults before output (skip rest) -6
+
+      wrong output used as 2D array        -3
+
+      Crashes before end of program        -1
+      Memory leak/bad memory access        -1
+
+   -------------------------------------------------
+
+   Test #5
+   Simple timing run to show that addFront() is O(1) time. 
+
+X     No errors
+
+      Does not compile (skip rest)         -6
+      Does not run (skip rest)             -6 
+      Seg faults before output (skip rest) -6
+
+      addFront() not linear time           -3
+
+      Crashes before end of program        -1
+      Memory leak/bad memory access        -1
+
+   -------------------------------------------------
+
+   Test #6
+   Simple timing run to show that looping thru a LinkedList 
+   using a for loop in increasing order is linear time. 
+
+X     No errors
+
+      Does not compile (skip rest)         -6
+      Does not run (skip rest)             -6 
+      Seg faults before output (skip rest) -6
+
+      for loop + [] not linear time        -3
+
+      Crashes before end of program        -1
+      Memory leak/bad memory access        -1
+
+   -------------------------------------------------
+
+   Test #7
+   Simple timing run to show that looping thru a LinkedList
+   in reverse order takes quadratic time.
+
+X     No errors
+
+      Does not compile (skip rest)         -6
+      Does not run (skip rest)             -6 
+      Seg faults before output (skip rest) -6
+
+      reversed for loop + [] runs too fast ???  -0
+      reversed for loop + [] slower than n^2    -3
+
+      Crashes before end of program        -1
+      Memory leak/bad memory access        -1
+
+   -------------------------------------------------
+
+   Test #8
+   Checks that caching still works when the indices go up 
+   by a factor of 2 instead of increasing by +1. 
+   Also uses very large linked lists.
+
+X     No errors
+
+      Does not compile (skip rest)         -6
+      Does not run (skip rest)             -6 
+      Seg faults before output (skip rest) -6
+
+      skipped access + [] not linear time  -3
+
+      Crashes before end of program        -1
+      Memory leak/bad memory access        -1
+
+   -------------------------------------------------
+
+   Test #9
+   Check the correctness of addFront(), deleteFront() and remove()
+   using the Sieve of Eratosthenes.
+
+X     No errors
+
+      Does not compile (skip rest)         -6
+      Does not run (skip rest)             -6 
+      Seg faults before output (skip rest) -6
+
+      Error removing 0 & 1                 -1
+      Incorrect values for primes <100     -1
+      List size error                      -1
+      Fails final item-by-item check       -1
+
+      Crashes before end of program        -1
+      Memory leak/bad memory access        -1
+
+-----------------------------------------------------------------
+
+IV. Program Design and Structure
+
+X   Program design and structure are reasonable 
+
+    No function prototypes for helper functions  -1
+
+    Other design/structure problems -1 to -3
+       Comment:
+
+
+-----------------------------------------------------------------
+
+
+V. Coding Standards
+
+X  Program has good indentation, comments and choice of variable names
+
+   Poor/inconsistent indentation scheme  -2
+
+   No/poor comments for additional member functions -3
+      (needs pre- and post-conditions) 
+
+   In-line comments are:
+      terse and not meaningful -3
+      non-existent -5
+
+   Poor choice of variable names -1
+      Comment:
+
+   Uses "magic numbers" -1
+
+
+-----------------------------------------------------------------
+

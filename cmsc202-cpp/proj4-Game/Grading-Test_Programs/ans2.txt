@@ -1,0 +1,21 @@
+
+
+=====================================================================
+p4test2.cpp:
+Check that Human turns into Vampire after being bitten by a Vampire
+=====================================================================
+Create: Vampire #1
+Create: Human #2
+*** Round 1
+Vampire #1 bites Human #2
+Human #2 does nothing
+*** Round 2
+*** Round 3
+Human #2 turns into Vampire #3
+Human morphed into: Vampire #3
+
+
+=====================================================================
+
+
+

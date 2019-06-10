@@ -1,0 +1,43 @@
+Invoking methods for object 0 (class Lion):
+Lion:Nala roars "GRRRR".
+Lion:Nala chomps impala.
+Lion:Nala:
+weight: 1000
+sound: GRRRR
+is alpha male: false
+------------------------
+
+Invoking methods for object 1 (class Fish):
+Fish:Nemo burbles "blub".
+Fish:Nemo nibbles worms.
+Fish:Nemo:
+weight: 1
+sound: blub
+fin type: round
+------------------------
+
+Invoking methods for object 2 (class Animal):
+Animal:JaneDoe says "mmph".
+Animal:JaneDoe eats paste.
+Animal:JaneDoe:
+weight: 10
+sound: mmph
+------------------------
+
+Invoking methods for object 3 (class Fish):
+Fish:Dory burbles "blub".
+Fish:Dory nibbles squid.
+Fish:Dory:
+weight: 5
+sound: blub
+fin type: pointed
+------------------------
+
+Invoking methods for object 4 (class Lion):
+Lion:Simba roars "GROWL".
+Lion:Simba chomps mice.
+Lion:Simba:
+weight: 1001
+sound: GROWL
+is alpha male: true
+------------------------

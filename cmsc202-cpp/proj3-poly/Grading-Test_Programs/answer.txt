@@ -1,0 +1,102 @@
+
+*** Tests of evaluate() and degree()
+
+p(x) = 13 x^5 + 7 x^2 + 1
+
+  p has degree 5
+  p(0) = 1
+  p(-3) = -3095
+  p(2) = 445
+
+q(x) = 2 x^7 - 5 x^2 + 1
+
+  q has degree 7
+  q(0) = 1
+  p(-3) = -4418
+  p(0) = 1
+
+r(x) = x^2 - 3 x + 2
+
+  r has degree 2
+  r(0) = 2
+  r(1) = 0
+  r(2) = 0
+
+zero(x) = 0
+
+  zero(1) = 0 (should be 0)
+  Degree of zero() is -1
+  Degree of zero polynomial is technically -infinity;
+  Should return something sensible, e.g. zero or negative.
+
+three(x) = 3
+
+  three(0) = 3 (should be 3)
+  Degree of constant 3 is 0
+  Degree of a non-zero constant should be zero.
+
+*** Tests of add() and subtract()
+
+p(x) = 13 x^5 + 7 x^2 + 1
+
+q(x) = 2 x^7 - 5 x^2 + 1
+
+a(x) = x^17 + 141 x^12 + 3 x^10
+
+  p(x) + q(x) = 2 x^7 + 13 x^5 + 2 x^2 + 2
+  The sum has degree 7
+
+  q(x) + p(x) = 2 x^7 + 13 x^5 + 2 x^2 + 2
+  The sum has degree 7
+
+  a(x) + p(x) = x^17 + 141 x^12 + 3 x^10 + 13 x^5 + 7 x^2 + 1
+  The sum has degree 17
+
+  p(x) - q(x) = -2 x^7 + 13 x^5 + 12 x^2
+  The difference has degree 7
+
+  q(x) - p(x) = 2 x^7 - 13 x^5 - 12 x^2
+  The difference has degree 7
+
+  p(x) + 0 = 13 x^5 + 7 x^2 + 1
+  0 + p(x) = 13 x^5 + 7 x^2 + 1
+  p(x) - 0 = 13 x^5 + 7 x^2 + 1
+  0 - p(x) = -13 x^5 - 7 x^2 - 1
+
+Creating two degree 10000, dense polynomials c and d...
+  Degree of c(x) is 10000, degree of d(x) is 10000
+  Adding c to d.  Should complete in under a second...done (0.2 sec)
+  Subtracting d from c.  Should complete in under a second...done (0.2 sec)
+
+*** Tests of multiply()
+
+p(x) = 13 x^5 + 7 x^2 + 1
+
+q(x) = 2 x^7 - 5 x^2 + 1
+
+a(x) = x^17 + 141 x^12 + 3 x^10
+
+  p(x)q(x) = 26 x^12 + 14 x^9 - 63 x^7 + 13 x^5 - 35 x^4 + 2 x^2 + 1
+  The product has degree 12
+
+  q(x)p(x) = 26 x^12 + 14 x^9 - 63 x^7 + 13 x^5 - 35 x^4 + 2 x^2 + 1
+  The product has degree 12
+
+  a(x)p(x) = 13 x^22 + 7 x^19 + 1834 x^17 + 39 x^15 + 987 x^14 + 162 x^12 + 3 x^10
+  a(x)q(x) = 2 x^24 + 277 x^19 + 7 x^17 - 705 x^14 + 126 x^12 + 3 x^10
+
+  3*p(x) = 39 x^5 + 21 x^2 + 3
+
+  0*p(x) = 0
+
+Creating a degree 100, dense polynomial b1...
+  Degree of b1(x) is 100
+  Squaring b1.  Should complete in under a second...done (0.01 sec)
+  Degree of b1(x) * b1(x) is 200
+
+Creating a degree 500, dense polynomial b2...
+  Degree of b2(x) is 500
+  Squaring b2.  Should complete in a second or two...done (0.91 sec)
+  Degree of b2(x) * b2(x) is 1000
+
+

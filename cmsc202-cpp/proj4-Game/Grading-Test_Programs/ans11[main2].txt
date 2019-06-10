@@ -1,0 +1,912 @@
+In Room #0
+RedShirt #13
+
+In Room #1
+
+In Room #2
+RedShirt #14
+
+In Room #3
+
+In Room #4
+Human #8
+Human #7
+Human #6
+Human #5
+Zombie #4
+Zombie #3
+Zombie #2
+Zombie #1
+
+In Room #5
+
+In Room #6
+Buffy #11
+
+In Room #7
+Doctor #10
+Doctor #9
+
+In Room #8
+Vampire #12
+
+***********************************
+Begin Round #0:
+***********************************
+Zombie #1 bites Zombie #2
+Zombie #2 bites Human #7
+Zombie #3 bites Human #5
+Zombie #4 bites Zombie #2
+Human #5 does nothing
+Human #6 does nothing
+Human #7 does nothing
+Human #8 does nothing
+Doctor #9 cures Doctor #10
+Doctor #10 cures Doctor #9
+Moving Zombie #1 from Room #4 to Room #5
+Moving Zombie #2 from Room #4 to Room #3
+Moving Zombie #3 from Room #4 to Room #3
+Moving Zombie #4 from Room #4 to Room #5
+Moving Human #5 from Room #4 to Room #1
+Moving Human #6 from Room #4 to Room #1
+Moving Human #7 from Room #4 to Room #3
+Moving Human #8 from Room #4 to Room #7
+Moving Buffy #11 from Room #6 to Room #3
+Moving Doctor #9 from Room #7 to Room #8
+Moving Doctor #10 from Room #7 to Room #6
+Moving Vampire #12 from Room #8 to Room #7
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+RedShirt #13
+
+In Room #1
+Human #5
+Human #6
+
+In Room #2
+RedShirt #14
+
+In Room #3
+Zombie #2
+Zombie #3
+Human #7
+Buffy #11
+
+In Room #4
+
+In Room #5
+Zombie #1
+Zombie #4
+
+In Room #6
+Doctor #10
+
+In Room #7
+Human #8
+Vampire #12
+
+In Room #8
+Doctor #9
+
+----------------------------------
+***********************************
+Begin Round #1:
+***********************************
+Human #6 does nothing
+Human #5 does nothing
+Buffy #11 hits Zombie #3
+Human #7 does nothing
+Zombie #3 bites Human #7
+Zombie #2 bites Buffy #11
+Missed me!
+Zombie #4 bites Zombie #1
+Zombie #1 bites Zombie #4
+Vampire #12 bites Human #8
+Human #8 does nothing
+Moving Human #6 from Room #1 to Room #0
+Moving Human #5 from Room #1 to Room #2
+Moving Buffy #11 from Room #3 to Room #6
+Moving Human #7 from Room #3 to Room #4
+Moving Zombie #3 from Room #3 to Room #4
+Moving Zombie #2 from Room #3 to Room #6
+Moving Zombie #4 from Room #5 to Room #2
+Moving Zombie #1 from Room #5 to Room #8
+Moving Doctor #10 from Room #6 to Room #7
+Moving Vampire #12 from Room #7 to Room #4
+Moving Human #8 from Room #7 to Room #6
+Moving Doctor #9 from Room #8 to Room #7
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+RedShirt #13
+Human #6
+
+In Room #1
+
+In Room #2
+Human #5
+RedShirt #14
+Zombie #4
+
+In Room #3
+
+In Room #4
+Human #7
+Zombie #3
+Vampire #12
+
+In Room #5
+
+In Room #6
+Buffy #11
+Zombie #2
+Human #8
+
+In Room #7
+Doctor #10
+Doctor #9
+
+In Room #8
+Zombie #1
+
+----------------------------------
+***********************************
+Begin Round #2:
+***********************************
+Human #6 does nothing
+RedShirt #13 hits Human #6
+Zombie #4 bites Human #5
+RedShirt #14 hits Zombie #4
+Human #5 does nothing
+Vampire #12 bites Human #7
+Zombie #3 bites Vampire #12
+Human #7 does nothing
+Human #8 does nothing
+Zombie #2 bites Human #8
+Buffy #11 hits Human #8
+Doctor #9 cures Doctor #10
+Doctor #10 cures Doctor #9
+Moving Human #6 from Room #0 to Room #1
+Moving Zombie #4 from Room #2 to Room #5
+Moving Human #5 from Room #2 to Room #5
+Moving Vampire #12 from Room #4 to Room #5
+Moving Zombie #3 from Room #4 to Room #3
+Moving Human #7 from Room #4 to Room #1
+Moving Human #8 from Room #6 to Room #3
+Moving Zombie #2 from Room #6 to Room #3
+Moving Buffy #11 from Room #6 to Room #3
+Moving Doctor #9 from Room #7 to Room #8
+Moving Doctor #10 from Room #7 to Room #8
+Moving Zombie #1 from Room #8 to Room #5
+Human #7 turns into Zombie #16
+Human #5 turns into Zombie #17
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+RedShirt #13
+
+In Room #1
+Human #6
+Zombie #16
+
+In Room #2
+RedShirt #14
+
+In Room #3
+Zombie #3
+Human #8
+Zombie #2
+Buffy #11
+
+In Room #4
+
+In Room #5
+Zombie #4
+Zombie #17
+Vampire #12
+Zombie #1
+
+In Room #6
+
+In Room #7
+
+In Room #8
+Doctor #9
+Doctor #10
+
+----------------------------------
+***********************************
+Begin Round #3:
+***********************************
+Zombie #16 bites Human #6
+Human #6 does nothing
+Buffy #11 hits Zombie #2
+Zombie #2 bites Human #8
+Human #8 does nothing
+Zombie #3 bites Zombie #2
+Zombie #1 bites Vampire #12
+Vampire #12 bites Zombie #17
+Zombie #17 bites Zombie #4
+Zombie #4 bites Zombie #17
+Doctor #10 cures Doctor #9
+Doctor #9 cures Doctor #10
+Moving Zombie #16 from Room #1 to Room #0
+Moving Human #6 from Room #1 to Room #0
+Moving Buffy #11 from Room #3 to Room #6
+Moving Zombie #2 from Room #3 to Room #4
+Moving Human #8 from Room #3 to Room #6
+Moving Zombie #3 from Room #3 to Room #6
+Moving Zombie #1 from Room #5 to Room #4
+Moving Vampire #12 from Room #5 to Room #8
+Moving Zombie #17 from Room #5 to Room #2
+Moving Zombie #4 from Room #5 to Room #4
+Moving Doctor #10 from Room #8 to Room #7
+Moving Doctor #9 from Room #8 to Room #5
+Human #8 turns into Vampire #23
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+RedShirt #13
+Zombie #16
+Human #6
+
+In Room #1
+
+In Room #2
+RedShirt #14
+Zombie #17
+
+In Room #3
+
+In Room #4
+Zombie #2
+Zombie #1
+Zombie #4
+
+In Room #5
+Doctor #9
+
+In Room #6
+Buffy #11
+Vampire #23
+Zombie #3
+
+In Room #7
+Doctor #10
+
+In Room #8
+Vampire #12
+
+----------------------------------
+***********************************
+Begin Round #4:
+***********************************
+Human #6 does nothing
+Zombie #16 bites Human #6
+RedShirt #13 hits Zombie #16
+Zombie #17 bites RedShirt #14
+Zombie #4 bites Zombie #2
+Zombie #1 bites Zombie #4
+Zombie #2 bites Zombie #4
+Zombie #3 bites Buffy #11
+Missed me!
+Vampire #23 bites Buffy #11
+Missed me!
+Buffy #11 hits Zombie #3
+Moving Human #6 from Room #0 to Room #3
+Moving Zombie #16 from Room #0 to Room #3
+Moving Zombie #17 from Room #2 to Room #5
+Moving Zombie #4 from Room #4 to Room #1
+Moving Zombie #1 from Room #4 to Room #3
+Moving Zombie #2 from Room #4 to Room #3
+Moving Doctor #9 from Room #5 to Room #2
+Moving Zombie #3 from Room #6 to Room #3
+Moving Vampire #23 from Room #6 to Room #3
+Moving Buffy #11 from Room #6 to Room #7
+Moving Doctor #10 from Room #7 to Room #4
+Moving Vampire #12 from Room #8 to Room #7
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+RedShirt #13
+
+In Room #1
+Zombie #4
+
+In Room #2
+RedShirt #14
+Doctor #9
+
+In Room #3
+Human #6
+Zombie #16
+Zombie #1
+Zombie #2
+Zombie #3
+Vampire #23
+
+In Room #4
+Doctor #10
+
+In Room #5
+Zombie #17
+
+In Room #6
+
+In Room #7
+Buffy #11
+Vampire #12
+
+In Room #8
+
+----------------------------------
+***********************************
+Begin Round #5:
+***********************************
+Removing RedShirt #14 (dead)
+Vampire #23 bites Zombie #16
+Zombie #3 bites Human #6
+Zombie #2 bites Zombie #1
+Zombie #1 bites Zombie #3
+Zombie #16 bites Vampire #23
+Human #6 does nothing
+Vampire #12 bites Buffy #11
+Missed me!
+Buffy #11 hits Vampire #12
+Moving Zombie #4 from Room #1 to Room #0
+Moving Doctor #9 from Room #2 to Room #1
+Moving Vampire #23 from Room #3 to Room #4
+Moving Zombie #3 from Room #3 to Room #0
+Moving Zombie #2 from Room #3 to Room #0
+Moving Zombie #1 from Room #3 to Room #0
+Moving Zombie #16 from Room #3 to Room #0
+Moving Human #6 from Room #3 to Room #4
+Moving Doctor #10 from Room #4 to Room #3
+Moving Zombie #17 from Room #5 to Room #4
+Moving Vampire #12 from Room #7 to Room #8
+Moving Buffy #11 from Room #7 to Room #8
+Human #6 turns into Zombie #28
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+RedShirt #13
+Zombie #4
+Zombie #3
+Zombie #2
+Zombie #1
+Zombie #16
+
+In Room #1
+Doctor #9
+
+In Room #2
+
+In Room #3
+Doctor #10
+
+In Room #4
+Vampire #23
+Zombie #28
+Zombie #17
+
+In Room #5
+
+In Room #6
+
+In Room #7
+
+In Room #8
+Vampire #12
+Buffy #11
+
+----------------------------------
+***********************************
+Begin Round #6:
+***********************************
+Zombie #16 bites Zombie #3
+Zombie #1 bites Zombie #3
+Zombie #2 bites Zombie #4
+Zombie #3 bites Zombie #2
+Zombie #4 bites RedShirt #13
+Zombie #17 bites Zombie #28
+Zombie #28 bites Vampire #23
+Vampire #23 bites Zombie #17
+Buffy #11 hits Vampire #12
+Vampire #12 bites Buffy #11
+Missed me!
+Moving Zombie #16 from Room #0 to Room #3
+Moving Zombie #1 from Room #0 to Room #3
+Moving Zombie #2 from Room #0 to Room #1
+Moving Zombie #3 from Room #0 to Room #1
+Moving Zombie #4 from Room #0 to Room #3
+Moving Doctor #9 from Room #1 to Room #2
+Moving Doctor #10 from Room #3 to Room #6
+Moving Zombie #17 from Room #4 to Room #7
+Moving Zombie #28 from Room #4 to Room #5
+Moving Vampire #23 from Room #4 to Room #7
+Moving Buffy #11 from Room #8 to Room #7
+Moving Vampire #12 from Room #8 to Room #7
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+RedShirt #13
+
+In Room #1
+Zombie #2
+Zombie #3
+
+In Room #2
+Doctor #9
+
+In Room #3
+Zombie #16
+Zombie #1
+Zombie #4
+
+In Room #4
+
+In Room #5
+Zombie #28
+
+In Room #6
+Doctor #10
+
+In Room #7
+Zombie #17
+Vampire #23
+Buffy #11
+Vampire #12
+
+In Room #8
+
+----------------------------------
+***********************************
+Begin Round #7:
+***********************************
+Removing RedShirt #13 (dead)
+Zombie #3 bites Zombie #2
+Zombie #2 bites Zombie #3
+Zombie #4 bites Zombie #1
+Zombie #1 bites Zombie #4
+Zombie #16 bites Zombie #1
+Vampire #12 bites Buffy #11
+Missed me!
+Buffy #11 hits Vampire #23
+Vampire #23 bites Buffy #11
+Missed me!
+Zombie #17 bites Buffy #11
+Missed me!
+Moving Zombie #3 from Room #1 to Room #2
+Moving Zombie #2 from Room #1 to Room #0
+Moving Doctor #9 from Room #2 to Room #1
+Moving Zombie #4 from Room #3 to Room #6
+Moving Zombie #1 from Room #3 to Room #4
+Moving Zombie #16 from Room #3 to Room #4
+Moving Zombie #28 from Room #5 to Room #4
+Moving Doctor #10 from Room #6 to Room #3
+Moving Vampire #12 from Room #7 to Room #8
+Moving Buffy #11 from Room #7 to Room #8
+Moving Vampire #23 from Room #7 to Room #6
+Moving Zombie #17 from Room #7 to Room #6
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+Zombie #2
+
+In Room #1
+Doctor #9
+
+In Room #2
+Zombie #3
+
+In Room #3
+Doctor #10
+
+In Room #4
+Zombie #1
+Zombie #16
+Zombie #28
+
+In Room #5
+
+In Room #6
+Zombie #4
+Vampire #23
+Zombie #17
+
+In Room #7
+
+In Room #8
+Vampire #12
+Buffy #11
+
+----------------------------------
+***********************************
+Begin Round #8:
+***********************************
+Zombie #28 bites Zombie #1
+Zombie #16 bites Zombie #1
+Zombie #1 bites Zombie #16
+Zombie #17 bites Vampire #23
+Vampire #23 bites Zombie #4
+Zombie #4 bites Zombie #17
+Buffy #11 hits Vampire #12
+Moving Zombie #2 from Room #0 to Room #1
+Moving Doctor #9 from Room #1 to Room #4
+Moving Zombie #3 from Room #2 to Room #5
+Moving Doctor #10 from Room #3 to Room #4
+Moving Zombie #28 from Room #4 to Room #1
+Moving Zombie #16 from Room #4 to Room #3
+Moving Zombie #1 from Room #4 to Room #7
+Moving Zombie #17 from Room #6 to Room #7
+Moving Vampire #23 from Room #6 to Room #7
+Moving Zombie #4 from Room #6 to Room #7
+Moving Buffy #11 from Room #8 to Room #5
+Moving Vampire #12 from Room #8 to Room #5
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+
+In Room #1
+Zombie #2
+Zombie #28
+
+In Room #2
+
+In Room #3
+Zombie #16
+
+In Room #4
+Doctor #9
+Doctor #10
+
+In Room #5
+Zombie #3
+Buffy #11
+Vampire #12
+
+In Room #6
+
+In Room #7
+Zombie #1
+Zombie #17
+Vampire #23
+Zombie #4
+
+In Room #8
+
+----------------------------------
+***********************************
+Begin Round #9:
+***********************************
+Removing Vampire #12 (dead)
+Zombie #28 bites Zombie #2
+Zombie #2 bites Zombie #28
+Doctor #10 cures Doctor #9
+Doctor #9 cures Doctor #10
+Buffy #11 hits Zombie #3
+Zombie #4 bites Vampire #23
+Vampire #23 bites Zombie #4
+Zombie #17 bites Zombie #1
+Zombie #1 bites Zombie #17
+Moving Zombie #28 from Room #1 to Room #2
+Moving Zombie #2 from Room #1 to Room #2
+Moving Zombie #16 from Room #3 to Room #4
+Moving Doctor #10 from Room #4 to Room #7
+Moving Doctor #9 from Room #4 to Room #5
+Moving Buffy #11 from Room #5 to Room #4
+Moving Zombie #3 from Room #5 to Room #8
+Moving Zombie #4 from Room #7 to Room #4
+Moving Vampire #23 from Room #7 to Room #4
+Moving Zombie #17 from Room #7 to Room #8
+Moving Zombie #1 from Room #7 to Room #4
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+
+In Room #1
+
+In Room #2
+Zombie #28
+Zombie #2
+
+In Room #3
+
+In Room #4
+Zombie #16
+Buffy #11
+Zombie #4
+Vampire #23
+Zombie #1
+
+In Room #5
+Doctor #9
+
+In Room #6
+
+In Room #7
+Doctor #10
+
+In Room #8
+Zombie #3
+Zombie #17
+
+----------------------------------
+***********************************
+Begin Round #10:
+***********************************
+Removing Zombie #3 (dead)
+Zombie #2 bites Zombie #28
+Zombie #28 bites Zombie #2
+Zombie #1 bites Zombie #4
+Vampire #23 bites Zombie #16
+Zombie #4 bites Buffy #11
+Missed me!
+Buffy #11 hits Zombie #16
+Zombie #16 bites Zombie #4
+Moving Zombie #2 from Room #2 to Room #5
+Moving Zombie #28 from Room #2 to Room #1
+Moving Zombie #1 from Room #4 to Room #3
+Moving Vampire #23 from Room #4 to Room #1
+Moving Zombie #4 from Room #4 to Room #3
+Moving Buffy #11 from Room #4 to Room #5
+Moving Zombie #16 from Room #4 to Room #7
+Moving Doctor #9 from Room #5 to Room #2
+Moving Doctor #10 from Room #7 to Room #4
+Moving Zombie #17 from Room #8 to Room #7
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+
+In Room #1
+Zombie #28
+Vampire #23
+
+In Room #2
+Doctor #9
+
+In Room #3
+Zombie #1
+Zombie #4
+
+In Room #4
+Doctor #10
+
+In Room #5
+Zombie #2
+Buffy #11
+
+In Room #6
+
+In Room #7
+Zombie #16
+Zombie #17
+
+In Room #8
+
+----------------------------------
+***********************************
+Begin Round #11:
+***********************************
+Vampire #23 bites Zombie #28
+Zombie #28 bites Vampire #23
+Zombie #4 bites Zombie #1
+Zombie #1 bites Zombie #4
+Buffy #11 hits Zombie #2
+Zombie #2 bites Buffy #11
+Missed me!
+Zombie #17 bites Zombie #16
+Zombie #16 bites Zombie #17
+Moving Vampire #23 from Room #1 to Room #2
+Moving Zombie #28 from Room #1 to Room #4
+Moving Doctor #9 from Room #2 to Room #1
+Moving Zombie #4 from Room #3 to Room #4
+Moving Zombie #1 from Room #3 to Room #4
+Moving Doctor #10 from Room #4 to Room #7
+Moving Buffy #11 from Room #5 to Room #4
+Moving Zombie #2 from Room #5 to Room #8
+Moving Zombie #17 from Room #7 to Room #4
+Moving Zombie #16 from Room #7 to Room #4
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+
+In Room #1
+Doctor #9
+
+In Room #2
+Vampire #23
+
+In Room #3
+
+In Room #4
+Zombie #28
+Zombie #4
+Zombie #1
+Buffy #11
+Zombie #17
+Zombie #16
+
+In Room #5
+
+In Room #6
+
+In Room #7
+Doctor #10
+
+In Room #8
+Zombie #2
+
+----------------------------------
+***********************************
+Begin Round #12:
+***********************************
+Zombie #16 bites Zombie #1
+Zombie #17 bites Buffy #11
+Missed me!
+Buffy #11 hits Zombie #28
+Zombie #1 bites Zombie #16
+Zombie #4 bites Zombie #28
+Zombie #28 bites Zombie #1
+Moving Doctor #9 from Room #1 to Room #0
+Moving Vampire #23 from Room #2 to Room #5
+Moving Zombie #16 from Room #4 to Room #5
+Moving Zombie #17 from Room #4 to Room #7
+Moving Buffy #11 from Room #4 to Room #3
+Moving Zombie #1 from Room #4 to Room #7
+Moving Zombie #4 from Room #4 to Room #7
+Moving Zombie #28 from Room #4 to Room #1
+Moving Doctor #10 from Room #7 to Room #6
+Moving Zombie #2 from Room #8 to Room #7
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+Doctor #9
+
+In Room #1
+Zombie #28
+
+In Room #2
+
+In Room #3
+Buffy #11
+
+In Room #4
+
+In Room #5
+Vampire #23
+Zombie #16
+
+In Room #6
+Doctor #10
+
+In Room #7
+Zombie #17
+Zombie #1
+Zombie #4
+Zombie #2
+
+In Room #8
+
+----------------------------------
+***********************************
+Begin Round #13:
+***********************************
+Zombie #16 bites Vampire #23
+Vampire #23 bites Zombie #16
+Zombie #2 bites Zombie #17
+Zombie #4 bites Zombie #2
+Zombie #1 bites Zombie #2
+Zombie #17 bites Zombie #4
+Moving Doctor #9 from Room #0 to Room #3
+Moving Zombie #28 from Room #1 to Room #4
+Moving Buffy #11 from Room #3 to Room #0
+Moving Zombie #16 from Room #5 to Room #4
+Moving Vampire #23 from Room #5 to Room #8
+Moving Doctor #10 from Room #6 to Room #3
+Moving Zombie #2 from Room #7 to Room #8
+Moving Zombie #4 from Room #7 to Room #8
+Moving Zombie #1 from Room #7 to Room #8
+Moving Zombie #17 from Room #7 to Room #8
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+Buffy #11
+
+In Room #1
+
+In Room #2
+
+In Room #3
+Doctor #9
+Doctor #10
+
+In Room #4
+Zombie #28
+Zombie #16
+
+In Room #5
+
+In Room #6
+
+In Room #7
+
+In Room #8
+Vampire #23
+Zombie #2
+Zombie #4
+Zombie #1
+Zombie #17
+
+----------------------------------
+***********************************
+Begin Round #14:
+***********************************
+Doctor #10 cures Doctor #9
+Doctor #9 cures Doctor #10
+Zombie #16 bites Zombie #28
+Zombie #28 bites Zombie #16
+Zombie #17 bites Zombie #4
+Zombie #1 bites Zombie #17
+Zombie #4 bites Zombie #2
+Zombie #2 bites Vampire #23
+Vampire #23 bites Zombie #4
+Moving Buffy #11 from Room #0 to Room #3
+Moving Doctor #10 from Room #3 to Room #6
+Moving Doctor #9 from Room #3 to Room #6
+Moving Zombie #16 from Room #4 to Room #3
+Moving Zombie #28 from Room #4 to Room #3
+Moving Zombie #17 from Room #8 to Room #5
+Moving Zombie #1 from Room #8 to Room #7
+Moving Zombie #4 from Room #8 to Room #7
+Moving Zombie #2 from Room #8 to Room #7
+Moving Vampire #23 from Room #8 to Room #7
+----------------------------------
+Characters in each room:
+----------------------------------
+In Room #0
+
+In Room #1
+
+In Room #2
+
+In Room #3
+Buffy #11
+Zombie #16
+Zombie #28
+
+In Room #4
+
+In Room #5
+Zombie #17
+
+In Room #6
+Doctor #10
+Doctor #9
+
+In Room #7
+Zombie #1
+Zombie #4
+Zombie #2
+Vampire #23
+
+In Room #8
+
+----------------------------------
+Goodbye!
+

@@ -1,0 +1,89 @@
+From fd439cfa6fe542cd71a2f664fb01b62ad3a9d566 Mon Sep 17 00:00:00 2001
+From: Jason Tang <jtang@umbc.edu>
+Date: Sat, 18 Aug 2018 19:12:41 -0400
+Subject: [PATCH 3/3] x86: Add handler for CS421 HW1
+
+This creates a new platform driver with an IRQ handler. It does nothing else.
+
+Signed-off-by: Jason Tang <jtang@umbc.edu>
+---
+ drivers/platform/x86/Kconfig     |  8 ++++++++
+ drivers/platform/x86/Makefile    |  1 +
+ drivers/platform/x86/cs421_hw1.c | 34 ++++++++++++++++++++++++++++++++
+ 3 files changed, 43 insertions(+)
+ create mode 100644 drivers/platform/x86/cs421_hw1.c
+
+diff --git a/drivers/platform/x86/Kconfig b/drivers/platform/x86/Kconfig
+index 566644bb496a..874b7c96fe43 100644
+--- a/drivers/platform/x86/Kconfig
++++ b/drivers/platform/x86/Kconfig
+@@ -15,6 +15,14 @@ menuconfig X86_PLATFORM_DEVICES
+ 
+ if X86_PLATFORM_DEVICES
+ 
++config CS421_HW1
++	tristate "CS421 Homework 1 Interrupt Handler"
++	default y
++	---help---
++	  This driver adds a new interrupt handler to the kernel. When this
++	  driver is installed, note the new line added to /proc/interrupts. In
++	  your Part 4 response, say which IRQ corresponds to that new line.
++
+ config ACER_WMI
+ 	tristate "Acer WMI Laptop Extras"
+ 	depends on ACPI
+diff --git a/drivers/platform/x86/Makefile b/drivers/platform/x86/Makefile
+index 2ba6cb795338..d4d332610942 100644
+--- a/drivers/platform/x86/Makefile
++++ b/drivers/platform/x86/Makefile
+@@ -3,6 +3,7 @@
+ # Makefile for linux/drivers/platform/x86
+ # x86 Platform-Specific Drivers
+ #
++obj-$(CONFIG_CS421_HW1)		+= cs421_hw1.o
+ obj-$(CONFIG_ASUS_LAPTOP)	+= asus-laptop.o
+ obj-$(CONFIG_ASUS_WMI)		+= asus-wmi.o
+ obj-$(CONFIG_ASUS_NB_WMI)	+= asus-nb-wmi.o
+diff --git a/drivers/platform/x86/cs421_hw1.c b/drivers/platform/x86/cs421_hw1.c
+new file mode 100644
+index 000000000000..b5a4d4e44453
+--- /dev/null
++++ b/drivers/platform/x86/cs421_hw1.c
+@@ -0,0 +1,34 @@
++/*
++ * Copyright(c) 2016 Jason Tang <jtang@umbc.edu>
++ *
++ *  This program is free software; you can redistribute it and/or modify
++ *  it under the terms of the GNU General Public License version 2 as
++ *  published by the Free Software Foundation.
++ */
++
++#include <linux/init.h>
++#include <linux/interrupt.h>
++#include <linux/module.h>
++
++#define HW1_IRQ 3
++
++static irqreturn_t hw1_handler(int irq, void *dev)
++{
++	return IRQ_HANDLED;
++}
++
++static int __init hw1_init(void)
++{
++	return request_irq(HW1_IRQ, hw1_handler, 0, "CS421 HW1", NULL);
++}
++
++static void __exit hw1_exit(void)
++{
++	free_irq(HW1_IRQ, NULL);
++}
++
++module_init(hw1_init);
++module_exit(hw1_exit);
++
++MODULE_DESCRIPTION("CS421 HW1");
++MODULE_LICENSE("GPL");
+-- 
+2.17.1
+

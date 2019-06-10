@@ -1,0 +1,134 @@
+Katherine Hirsch, Section 07
+---------- Draw Pile ----------
+---------- CARD ----------
+Marble to London for 31
+Iron to Munchen for 26
+Wine to Szczecin for 12
+--------------------------
+---------- CARD ----------
+Oranges to Ruhr for 33
+Imports to Stockholm for 28
+Wood to Venezia for 15
+--------------------------
+---------- CARD ----------
+Flowers to Wein for 18
+Oil to Torino for 24
+Sheep to Sarajevo for 44
+--------------------------
+---------- CARD ----------
+Tobacco to Ruhr for 31
+Marble to Stockholm for 55
+Tourists to Cork for 17
+--------------------------
+---------- CARD ----------
+China to Ruhr for 7
+Wheat to Lisboa for 26
+Cork to Wroclaw for 59
+--------------------------
+---------- CARD ----------
+Hops to Holland for 16
+Fish to Warszawa for 38
+Sheep to Stuttgart for 30
+--------------------------
+---------- CARD ----------
+Copper to London for 25
+Ham to Praha for 13
+Flowers to Valencia for 34
+--------------------------
+---------- CARD ----------
+Machinery to Milano for 20
+Oranges to Praha for 43
+Beer to Valencia for 35
+--------------------------
+---------- CARD ----------
+Chocolate to Berlin for 13
+Ham to Roma for 35
+Flowers to Cork for 24
+--------------------------
+---------- CARD ----------
+Wood to Lodz for 22
+Cars to Roma for 13
+Bauxite to Kobenhavn for 30
+--------------------------
+---------- CARD ----------
+Coal to Paris for 13
+Fish to Munchen for 38
+Flowers to Kaliningrad for 25
+--------------------------
+---------- CARD ----------
+Marble to Wein for 16
+Cork to Napoli for 52
+Steel to Krakow for 20
+--------------------------
+---------- CARD ----------
+Machinery to Manchester for 18
+Wheat to Stockholm for 46
+Oil to Kikiningrad for 27
+--------------------------
+---------- CARD ----------
+Potatoes to Ruhr for 11
+Cork to Budapest for 60
+China to Goteborg for 25
+--------------------------
+---------- CARD ----------
+Beer to Holland for 7
+Wine to Birmingham for 19
+Fish to Leipzig for 30
+--------------------------
+---------- CARD ----------
+Wine to Warszawa for 12
+Tobacco to Bern for 23
+Steel to Porto for 37
+--------------------------
+---------- CARD ----------
+Tobacco to Marseilles for 21
+Bauxite to Warszawa for 14
+Cork to Aberdeen for 63
+--------------------------
+---------- CARD ----------
+Cars to Bruxelles for 12
+Imports to Marseille for 20
+Machinery to Cork for 30
+--------------------------
+---------- CARD ----------
+Cars to Lisboa for 30
+Tobacco to Warszawa for 39
+Marble to Leipzig for 22
+--------------------------
+---------- CARD ----------
+Oranges to Birmingham for 38
+Bauxite to Lodz for 12
+Tourists to Nantes for 17
+--------------------------
+---------- RESULTS ----------
+--------Player 1------------
+Wine to Szczecin for 12
+Cork to Wroclaw for 59
+Ham to Roma for 35
+Wheat to Stockholm for 46
+Cork to Aberdeen for 63
+Score: 215
+--------Player 2------------
+Oranges to Ruhr for 33
+Fish to Warszawa for 38
+Bauxite to Kobenhavn for 30
+Cork to Budapest for 60
+Machinery to Cork for 30
+Score: 191
+--------Player 3------------
+Sheep to Sarajevo for 44
+Ham to Praha for 13
+Fish to Munchen for 38
+Wine to Birmingham for 19
+Tobacco to Warszawa for 39
+Score: 153
+--------Player 4------------
+Marble to Stockholm for 55
+Beer to Valencia for 35
+Cork to Napoli for 52
+Wine to Warszawa for 12
+Oranges to Birmingham for 38
+Score: 192
+--------------------------
+--------------------------
+Winner: Player 1 Score: 215

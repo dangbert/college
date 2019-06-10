@@ -1,0 +1,33 @@
+---------- Experiment1 ----------
+first sample:
+	mean = 2.634949
+	standard deviation = 2.022539
+
+Experiment Distribution Results:
+	mean = 2.984213
+	standard deviation = 0.220920
+
+
+
+---------- Experiment2 ----------
+first sample:
+	mean = 1.700000
+	standard deviation = 1.159502
+
+Experiment Distribution Results:
+	mean = 2.249700
+	standard deviation = 0.326847
+
+
+
+---------- Experiment3 ----------
+first sample:
+	mean = 17.700000
+	standard deviation = 3.591657
+
+Experiment Distribution Results:
+	mean = 17.984300
+	standard deviation = 0.914316
+
+
+

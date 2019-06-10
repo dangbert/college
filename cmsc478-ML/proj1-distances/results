@@ -1,0 +1,91 @@
+before (predicting R directly) using set 1 as training data
+
+set 2 mse:
+    14.1
+
+3:
+    14.2
+
+4:
+    60.6
+
+5:
+    29.5
+
+6:
+    153.7
+
+7:
+    74.7
+
+
+# tried making separate models for x and for y
+# and using their predictions to calculate r
+# but it performed terribly (seems to be better to predict r directly from 1 model)
+
+# also tried to make the model use I(S1)^2 + I(S2)^2 + ...
+# but this performed much worse than when it was linear
+
+# combinded data set into all_data.csv
+    file1: ids 1-50
+
+
+# variable testing:
+    using 70% of the data for training
+    (TODO: use less of the data)
+    and getting the avg mse of 1000 trials (shuffling data each time)
+
+    variables in model:
+        all: 4.97
+
+        -S1: 5.60     (everything but S1)
+        -S2: 5.23
+        -S3: 5.28
+        -S4: 5.15
+        -S5: 5.00  ***
+        -S6: 4.95  ***
+        -S7: 5.22
+        -S8: 5.73
+        -S9: 5.34
+       -S10: 6.00 
+       -S11: 5.60
+       -S12: 4.96  ***
+       -S13: 5.55
+
+        removing S6 and S12: 4.88 - 4.9
+
+        also create a true false variable for each sensor e.g. T1, T2, ...
+            set to 1 if the sensor can see the point (isn't NA)
+            set to 0 if the sensor can't see the pint (is NA)
+
+        then try building the model with all 26 variables
+
+        use cross validation
+
+        also try lasso or ridge
+
+        -----------------------------------------
+        after adding dummy variables
+            model with all the variables has average mse: 2.45 (10,000 trials)
+
+
+only need to turn in commented code for now
+
+average of 75 10-fold tests (average MSE)
+
+    variables in model:
+        all: 2.34
+
+        -S1: 2.48     (everything but S1 and T1)
+        -S2: 2.49
+        -S3: 2.55
+        -S4: 2.44
+        -S5: 2.62  
+        -S6: 2.58  
+        -S7: 2.51
+        -S8: 2.56
+        -S9: 2.49
+       -S10: 2.51
+       -S11: 2.78
+       -S12: 2.34  (2.3393 over 1000 tests)
+       -S13: 2.72

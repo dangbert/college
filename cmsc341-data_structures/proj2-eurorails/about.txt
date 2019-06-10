@@ -1,0 +1,18 @@
+ 
+EuroRail Project Overview Video: https://www.youtube.com/watch?v=HN5RqyPVkzY
+EuroRail C++ Stuff Video: https://youtu.be/RNTFqIwqTPk
+
+Enumerators: http://www.learncpp.com/cpp-tutorial/45-enumerated-types/
+
+
+
+
+make run CARDS=cards.txt COMMODITIES=commodities.txt PLAYERS=4 STRATEGY=3
+
+
+./Driver.out cards.txt commodities.txt 4 3
+0: ./Driver.out
+1: cards.txt
+2: commodities.txt
+3: 4
+4: 3

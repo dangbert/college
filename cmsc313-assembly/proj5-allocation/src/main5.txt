@@ -1,0 +1,50 @@
+-2/3 plus 1/4 = -5/12
+
+**** BEGIN HEAP DUMP ****
+first_free = 3
+
+  0: -1  2  3
+  1: 1  1  4
+  2: -1  5  12
+  3: 0  0  4
+  4: 0  0  5
+  5: 0  0  6
+  6: 0  0  7
+  ... [BUNCH OF LINES DELETED HERE]
+  17: 0  0  18
+  18: 0  0  19
+  19: 0  0  ## [REDACTED--YOU MUST CHOOSE]
+**** END HEAP DUMP ****
+
+**** BEGIN HEAP DUMP ****
+first_free = 1
+
+  0: -1  2  3
+  1: 0  0  3
+  2: -1  5  12
+  3: 0  0  4
+  4: 0  0  5
+  5: 0  0  6
+  6: 0  0  7
+  ... [BUNCH OF LINES DELETED HERE]
+  17: 0  0  18
+  18: 0  0  19
+  19: 0  0  ##
+**** END HEAP DUMP ****
+
+**** BEGIN HEAP DUMP ****
+first_free = 5
+
+  0: -1  2  3
+  1: 1  8  42
+  2: -1  5  12
+  3: 1  17  96
+  4: 1  247  672
+  5: 0  0  6
+  6: 0  0  7
+  ... [BUNCH OF LINES DELETED HERE]
+  17: 0  0  18
+  18: 0  0  19
+  19: 0  0  ##
+**** END HEAP DUMP ****
+

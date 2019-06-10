@@ -1,0 +1,21 @@
+
+
+=====================================================================
+p4test3.cpp:
+Check that Human turns into Werewolf after being bitten by a Werewolf
+=====================================================================
+Create: Werewolf #1
+Create: Human #2
+*** Round 1
+Werewolf #1 bites Human #2
+Human #2 does nothing
+*** Round 2
+*** Round 3
+Human #2 turns into Werewolf #3
+Human morphed into: Werewolf #3
+
+
+=====================================================================
+
+
+

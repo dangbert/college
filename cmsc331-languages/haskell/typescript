@@ -1,0 +1,188 @@
+Script started on Tue 13 Dec 2016 02:12:43 PM EST
+]777;notify;Command completed;make run]0;dan@rhodium:~/projects/haskell/src]7;file://rhodium/home/dan/projects/haskell/src[dan@rhodium src]$ cat -n code.hs 
+     1	{-
+     2	Notes on Haskell.
+     3	To load into ghci:
+     4	
+     5	ghci
+     6	:load code
+     7	main (to run the main function)
+     8	
+     9	:r   (to reload the code)
+    10	:?   (for help)
+    11	:t   (to see the type of an object)
+    12	:q   (to quit)
+    13	
+    14	-- NOTES:
+    15	-- http://yannesposito.com/Scratch/en/blog/Haskell-the-Hard-Way/
+    16	-- https://www.youtube.com/watch?v=02_H3LjqMr8
+    17	--
+    18	-- once a value is set it can't be changed (immutable)
+    19	--
+    20	-- head returns the first element of a list
+    21	-- tail returns all elements in a list except the first
+    22	--
+    23	-- http://learnyouahaskell.com/types-and-typeclasses
+    24	-- Function parameters are separated with -> and there's no special distinction
+    25	-- between the parameters and the return type. (The return type is the last item
+    26	-- in the declaration)
+    27	-}
+    28	
+    29	import qualified Data.Char as Char
+    30	import Data.Ratio      -- let's you use rational numbers
+    31	import Data.List       -- let's us invoke sort later
+    32	
+    33	
+    34	{-
+    35	-- Decides if a value is an element of the list (without using elem function).
+    36	-- everything before the => is called a class constraint.
+    37	-- The class constraint (Eq a) ensures that the elements of type a belong to
+    38	-- the eq class (and thus can be tested for equality)
+    39	--
+    40	-- a and [a] are the function parameters and Bool is the return type
+    41	-- the first parameter is the value were looking for
+    42	-- the second parameter is the array we're looking in
+    43	-}
+    44	myElm :: Eq a => a -> [a] -> Bool
+    45	myElm _ [] = False     -- underscore means the first parameter can be any value
+    46	                       -- so it matches to any value followed by an empty array.
+    47	myElm target (x:xs) =  -- Binds the head of the list to x, and the rest to xs
+    48	    if x == target then True -- check if the head of the list is what we're searching for
+    49	    else myElm target xs     -- recursively continue searching the rest of the list
+    50	
+    51	
+    52	{-
+    53	-- Produces a list of identical elements.
+    54	--
+    55	-- TODO: use a higher order function instead
+    56	-- (a high order function is one that takes functions as parameters and/or
+    57	-- returns functions as return values)
+    58	-- like list comprehension
+    59	-}
+    60	myReplicate :: Int -> a -> [a]
+    61	myReplicate num value =
+    62	    take num (repeat value)
+    63	    -- replicate num value -- also does the same thing
+    64	
+    65	
+    66	{-
+    67	-- Splits an array into two halves.
+    68	-- returns a tuple of the two halves
+    69	-- if the array has an odd number of elements, then the first half with be 1 longer
+    70	-}
+    71	halve :: [a] -> ([ a], [a])
+    72	halve arr =
+    73	    -- define local variables
+    74	    let len = length arr
+    75	        -- integer quotient of len and 2 truncated towards 0,
+    76	        -- then 1 is added if the array has an odd number of elements
+    77	        middle = (quot len 2) + mod len 2
+    78	    -- use the variables in an expression (in is not needed when the let is in a do block)
+    79	    in splitAt middle arr -- splits arr in half and returns a tuple of the two halves
+    80	
+    81	
+    82	{-
+    83	-- returns the list of all pythagorean triples whose components are at most a given limit
+    84	-- for example: pyths 10 => [(3,4,5),(4,3,5),(6,8,10),(8,6,10)]
+    85	-- https://youtu.be/02_H3LjqMr8?t=1260
+    86	-}
+    87	pyths :: Int -> [(Int, Int, Int)]
+    88	pyths n =
+    89	    -- create an array of 3-tuples such that each value is between 1 and n
+    90	    -- (inclusive) and a^2 + b^2 == c^2 (they're pythagorean triples)
+    91	    [(a,b,c) | a <- [1..n], b <- [1..n], c <- [1..n], a^2 + b^2 == c^2]
+    92	
+    93	
+    94	{-
+    95	-- Recursively merges two sorted lists to give a single sorted list.
+    96	-}
+    97	merge :: Ord a => [a] -> [a] -> [a]
+    98	merge list1 [] = list1
+    99	merge [] list2 = list2
+   100	
+   101	-- the @ symbol is read as "as". It binds the first list to list1,
+   102	-- and the first element of list1 to x, and the rest of list1 to xs
+   103	merge list1@(x:xs) list2@(y:ys) | x <= y  =
+   104	    x : merge xs list2
+   105	merge list1@(x:xs) list2@(y:ys) | x > y  =
+   106	    y : merge list1 ys
+   107	
+   108	
+   109	{-
+   110	-- Implements the merge sort algorithm.
+   111	-- in mergesort, the empty list and singleton lists are already sorted, and any
+   112	-- other list is sorted by merging together the two lists that result from
+   113	-- applying mergesort to the two halves of the list separately.
+   114	-}
+   115	msort :: Ord a => [a] -> [a]
+   116	msort [] = []
+   117	msort arr | length arr == 1  = arr
+   118	
+   119	-- everything after the $ operator takes precedence over anything that comes before
+   120	-- the . operator chains functions: f . g x <=> f (g x)
+   121	-- fst gets the first element of a tuple, and snd gets the second
+   122	msort arr = merge (msort . fst $ halve arr) (msort . snd $ halve arr)
+   123	
+   124	
+   125	{-
+   126	-- Test all the functions above.
+   127	-- must be all IO actions
+   128	-}
+   129	main = do
+   130	    putStrLn ("myElm 7 [0,1,2,3,4,6,8,9,10,77] => " ++ show(myElm 7 [0,1,2,3,4,6,8,9,10,77]))
+   131	    putStrLn ("myElm 6 [0,1,2,3,4,6,8,9,10,77] => " ++ show(myElm 6 [0,1,2,3,4,6,8,9,10,77]))
+   132	    putStrLn("")
+   133	
+   134	    putStrLn ("myReplicate 9 7 => " ++ show(myReplicate 9 7))
+   135	    putStrLn ("myReplicate 4 'a' => " ++ show(myReplicate 4 'a'))
+   136	    putStrLn("")
+   137	
+   138	    putStrLn ("halve [5] => " ++ show(halve [5]))
+   139	    putStrLn ("halve [1,2,3,4,5,6,7,8,9,10] => " ++ show(halve [1,2,3,4,5,6,7,8,9,10]))
+   140	    putStrLn ("halve [0,44,6,9,0,12,55] => " ++ show(halve [0,44,6,9,0,12,55]))
+   141	    putStrLn("")
+   142	
+   143	    putStrLn ("pyths 4 => " ++ show(pyths 4))
+   144	    putStrLn ("pyths 12 => " ++ show(pyths 12))
+   145	    putStrLn ("pyths 15 => " ++ show(pyths 15))
+   146	    putStrLn("")
+   147	
+   148	    putStrLn ("merge ['g','i','o','z'] ['f','h','k','p'] => " ++ show(merge ['g','i','o','z'] ['f','h','k','p']))
+   149	    putStrLn ("merge [0,2,5,8,15,18,22] [-2,3,4,7,16,25,33,100] => " ++ show(merge [0,2,5,8,15,18,22] [-2,3,4,7,16,25,33,100]))
+   150	    putStrLn("")
+   151	
+   152	
+   153	    putStrLn ("msort [7,5,1,6,2,3] => " ++ show(msort [7,5,1,6,2,3]))
+   154	    putStrLn ("msort [-3,5,-4,7,-12,89] => " ++ show(msort [-3,5,-4,7,-12,89]))
+   155	    putStrLn ("msort ['y','i','o','z', 'p'] => " ++ show(msort ['y','i','o','z', 'p']))
+   156	    putStrLn("")
+]777;notify;Command completed;cat -n code.hs ]0;dan@rhodium:~/projects/haskell/src]7;file://rhodium/home/dan/projects/haskell/src[dan@rhodium src]$ make
+ghc code.hs
+[1 of 1] Compiling Main             ( code.hs, code.o )
+Linking code ...
+]777;notify;Command completed;make]0;dan@rhodium:~/projects/haskell/src]7;file://rhodium/home/dan/projects/haskell/src[dan@rhodium src]$ make run
+./code
+myElm 7 [0,1,2,3,4,6,8,9,10,77] => False
+myElm 6 [0,1,2,3,4,6,8,9,10,77] => True
+
+myReplicate 9 7 => [7,7,7,7,7,7,7,7,7]
+myReplicate 4 'a' => "aaaa"
+
+halve [5] => ([5],[])
+halve [1,2,3,4,5,6,7,8,9,10] => ([1,2,3,4,5],[6,7,8,9,10])
+halve [0,44,6,9,0,12,55] => ([0,44,6,9],[0,12,55])
+
+pyths 4 => []
+pyths 12 => [(3,4,5),(4,3,5),(6,8,10),(8,6,10)]
+pyths 15 => [(3,4,5),(4,3,5),(5,12,13),(6,8,10),(8,6,10),(9,12,15),(12,5,13),(12,9,15)]
+
+merge ['g','i','o','z'] ['f','h','k','p'] => "fghikopz"
+merge [0,2,5,8,15,18,22] [-2,3,4,7,16,25,33,100] => [-2,0,2,3,4,5,7,8,15,16,18,22,25,33,100]
+
+msort [7,5,1,6,2,3] => [1,2,3,5,6,7]
+msort [-3,5,-4,7,-12,89] => [-12,-4,-3,5,7,89]
+msort ['y','i','o','z', 'p'] => "iopyz"
+
+]777;notify;Command completed;make run]0;dan@rhodium:~/projects/haskell/src]7;file://rhodium/home/dan/projects/haskell/src[dan@rhodium src]$ exit
+
+Script done on Tue 13 Dec 2016 02:12:54 PM EST

@@ -1,0 +1,17 @@
+>make run INPUT=input1.txt RANGE=range1.txt
+./driver.out input1.txt range1.txt
+
+==============
+PRINTING TREES
+==============
+q  u  i  e  n     e  s     s  o  m  b  r  a  ?  
+may  the  force  be  equal  to  mass  times  acceleration  
+roses are red. violets are blue. this poem doesn't rhyme. mom's spaghetti. 
+L O U D   N O I S E S ! 
+woman stabs husband with squirrel for not buying beer on Christmas Eve 
+
+===============
+PRINTING RANGES
+===============
+woman stabs husband with 
+mom's spaghetti. 
