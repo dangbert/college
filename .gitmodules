@@ -1,0 +1,12 @@
+[submodule "cmsc471-AI"]
+	path = cmsc471-AI
+	url = git@github.com:dangbert/AI.git
+[submodule "cmsc447-soft_eng"]
+	path = cmsc447-soft_eng
+	url = git@github.com:dangbert/where-to-live.git
+[submodule "cmsc435-graphics"]
+	path = cmsc435-graphics
+	url = git@github.com:dangbert/raytracer.git
+[submodule "enes101"]
+	path = enes101
+	url = git@github.com:dangbert/vex-robot.git
