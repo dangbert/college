@@ -1,0 +1,13 @@
+abstract should motivate
+    first sentence should get to point about the paper
+    (summary of the important part of the paper)
+
+introduction:
+    background and explanation of the problem
+
+overall sharp focus on the new and significant results
+discussion and conclusion are very important
+    dicussion could also include future work thoughts
+    conclusion: what does it all mean (significance -> intellectual merit and broader impact)
+    (what is significant about what you've done)
+    recommendations in the conclusion

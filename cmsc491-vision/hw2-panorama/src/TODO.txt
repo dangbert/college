@@ -1,0 +1,3 @@
+--1. Get working quickly with other provided images (pier, etc)
+--2. Quick PDF Report (embed images, quick explanation)
+3. Get RANSAC to run (recursively) one more time using just the inliners as the set of pairs
