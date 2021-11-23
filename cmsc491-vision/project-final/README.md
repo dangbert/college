@@ -1,3 +1,7 @@
+[View the final report for this project here](https://raw.githubusercontent.com/dangbert/college/master/cmsc491-vision/project-final/paper/report.pdf)
+
+---
+
 For this project I went through like 3 iterations of different strategies for tackling traffic light detection.  So these notes below are a mess.
 
 But it should be noted that I based a good portion of my project off of:
