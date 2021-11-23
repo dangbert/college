@@ -1,5 +1,5 @@
 # Lab 6: Subset Selection
-# https://www.csee.umbc.edu/~cmarron/cmsc478/labs/lab6/lab06.shtml
+# https://www.csee.umbc.edu/~cmarron/cmsc478/labs/lab8/lab08.shtml
 # CMSC 478 Fall 2017
 
 options(warn=1)
