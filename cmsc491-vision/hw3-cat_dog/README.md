@@ -1,3 +1,5 @@
+[See my report on this project here](https://raw.githubusercontent.com/dangbert/college/master/cmsc491-vision/hw3-cat_dog/paper/report.pdf)
+
 ### Tinyimage
 * ./main.py -d ../data/ -f tinyimage --tinyimage-patchdim 7 -c knn -k 5
 * ./main.py -d ../data/ -f tinyimage --tinyimage-patchdim 6 -c svm -l 1.0
