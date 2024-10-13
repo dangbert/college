@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "panorama"
+version = "0.1.0"
+description = "hw2-panorama"
+authors = ["Daniel Engbert <end1@umbc.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+numpy = "v1.14"
+matplotlib = "v2.2"
+pillow = "5.0"
+opencv-python = "3.4.0.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

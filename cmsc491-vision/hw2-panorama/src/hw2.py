@@ -13,8 +13,12 @@ import cv2                                      # (pip3 install opencv-python)
 import sys
 from matplotlib import pyplot as plt
 import random
+import glob
 
 def main():
+    mario()
+    exit(0)
+
     # tower panorma:
     print("creating tower panorama:")
     result = createPano(cv2.imread('data/tower/1.JPG'), cv2.imread('data/tower/2.JPG'))
@@ -30,6 +34,17 @@ def main():
         result = createPano(result, cv2.imread('data/' + fname + '/3.JPG'))
         showImage(result)
         cv2.imwrite('pano-' + fname + '.jpg', result)
+
+
+def mario():
+    pattern="mario2/*.JPG"
+    pics = glob.glob(pattern)
+    print(f"reading {len(pics)} files")
+
+    result = createPano(cv2.imread(pics[0]), cv2.imread(pics[1]))
+    for pic in pics[2:]:
+        result = createPano(result, cv2.imread(pic))
+    cv2.imwrite("mario.jpg", result)
 
 
 # returns a panorma of img1 and img2
