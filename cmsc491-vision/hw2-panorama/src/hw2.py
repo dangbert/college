@@ -38,13 +38,19 @@ def main():
 
 def mario():
     pattern="mario2/*.JPG"
-    pics = glob.glob(pattern)
+    pics = sorted(glob.glob(pattern))
     print(f"reading {len(pics)} files")
 
+    print("\n".join(pics))
     result = createPano(cv2.imread(pics[0]), cv2.imread(pics[1]))
+    fname = "mario.jpg"
     for pic in pics[2:]:
+        cv2.imwrite(fname, result)
+        print(f"\n\nconsidering {fname}")
+        print(f"wrote {fname}")
         result = createPano(result, cv2.imread(pic))
-    cv2.imwrite("mario.jpg", result)
+    cv2.imwrite(fname, result)
+    print(f"wrote final {fname}")
 
 
 # returns a panorma of img1 and img2
@@ -195,7 +201,7 @@ def ransac(img1, img2, pairs):
     f, axarr = plt.subplots(1,2)
     axarr[0].imshow(cv2.cvtColor(np.copy(icopy1), cv2.COLOR_BGR2RGB))
     axarr[1].imshow(cv2.cvtColor(np.copy(icopy2), cv2.COLOR_BGR2RGB))
-    plt.show()
+    #plt.show()
     return H
 
 
@@ -285,7 +291,7 @@ def getDescriptorPairs(img1, img2):
     f, axarr = plt.subplots(1,2)
     axarr[0].imshow(cv2.cvtColor(np.copy(icopy1), cv2.COLOR_BGR2RGB))
     axarr[1].imshow(cv2.cvtColor(np.copy(icopy2), cv2.COLOR_BGR2RGB))
-    plt.show()
+    #plt.show()
     return sort
 
 
@@ -307,6 +313,7 @@ def neighborVector(img, loc, r):
     return img[loc[1]-r:loc[1]+r+1,  loc[0]-r:loc[0]+r+1].flatten()
 
 def showImage(img):
+    return
     # cv2 stores pixel colors in reverse order so convert:
     plt.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
     plt.show()
